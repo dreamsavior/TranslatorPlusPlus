@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>js/addon.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://dreamsavior.net" target="_blank" class="menu-item" id="website_link" >Project Website</a></h2><h2><a href="https://discord.gg/6Dv97C87xt" target="_blank" class="menu-item" id="forum_link" >Discord</a></h2><h2><a href="https://dreamsavior.net/docs/translator-developers-guide/" target="_blank" class="menu-item" id="website_link" >Developer Guide</a></h2><h2><a href="https://dreamsavior.net/files/docs/tpp/fontello-f7017850/demo.html" target="_blank" class="menu-item" id="website_link" >Icon reference</a></h2><h3>Namespaces</h3><ul><li><a href="global.common.html">global.common</a></li><li><a href="global.html#trans">trans</a></li><li></li><li><a href="ui.html">ui</a><ul class='methods'><li data-type='method' style='display: none;'><a href="ui.html#.bumpGridScroll">bumpGridScroll</a></li><li data-type='method' style='display: none;'><a href="ui.html#.disableButtons">disableButtons</a></li><li data-type='method' style='display: none;'><a href="ui.html#.drawWordWrapByTagField">drawWordWrapByTagField</a></li><li data-type='method' style='display: none;'><a href="ui.html#.log">log</a></li><li data-type='method' style='display: none;'><a href="ui.html#.off">off</a></li><li data-type='method' style='display: none;'><a href="ui.html#.on">on</a></li><li data-type='method' style='display: none;'><a href="ui.html#.onDOMReady">onDOMReady</a></li><li data-type='method' style='display: none;'><a href="ui.html#.onReady">onReady</a></li><li data-type='method' style='display: none;'><a href="ui.html#.one">one</a></li><li data-type='method' style='display: none;'><a href="ui.html#.openImportTrans">openImportTrans</a></li><li data-type='method' style='display: none;'><a href="ui.html#.openOptionsWindow">openOptionsWindow</a></li><li data-type='method' style='display: none;'><a href="ui.html#.renderExternalLinks">renderExternalLinks</a></li><li data-type='method' style='display: none;'><a href="ui.html#.saveAs">saveAs</a></li><li data-type='method' style='display: none;'><a href="ui.html#.saveAsTPP">saveAsTPP</a></li><li data-type='method' style='display: none;'><a href="ui.html#.setCurrentCellText">setCurrentCellText</a></li><li data-type='method' style='display: none;'><a href="ui.html#.trigger">trigger</a></li></ul></li></ul><h3>Classes</h3><ul><li><a href="Addon.html">Addon</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Addon.html#.getPathRelativeToRoot#getPathRelativeToRoot">getPathRelativeToRoot</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.getRelativePath#getRelativePath">getRelativePath</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.globalizeNodeModules#globalizeNodeModules">globalizeNodeModules</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.require#require">require</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.resolvePath#resolvePath">resolvePath</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.isExternalScript">isExternalScript</a></li></ul></li><li><a href="AddonLoader.html">AddonLoader</a><ul class='methods'><li data-type='method' style='display: none;'><a href="AddonLoader.html#.getAddon#getAddon">getAddon</a></li><li data-type='method' style='display: none;'><a href="AddonLoader.html#.getAddonByName#getAddonByName">getAddonByName</a></li><li data-type='method' style='display: none;'><a href="AddonLoader.html#.isActive#isActive">isActive</a></li><li data-type='method' style='display: none;'><a href="AddonLoader.html#.waitFor#waitFor">waitFor</a></li></ul></li><li><a href="AddonUtils.html">AddonUtils</a><ul class='methods'><li data-type='method' style='display: none;'><a href="AddonUtils.html#.createProject">createProject</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.createTransData">createTransData</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.exportAsZip">exportAsZip</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.exportToFolder">exportToFolder</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.getTransData">getTransData</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.handleExport">handleExport</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.writeFile">writeFile</a></li></ul></li><li><a href="Attachment.html">Attachment</a></li><li><a href="BC.html">BC</a></li><li><a href="BasicEventHandler.html">BasicEventHandler</a><ul class='methods'><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.processWith#processWith">processWith</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.processWith#processWith">processWith</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.rejectState#rejectState">rejectState</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.rejectState#rejectState">rejectState</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.resolveState#resolveState">resolveState</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.resolveState#resolveState">resolveState</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.until#until">until</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.until#until">until</a></li></ul></li><li></li><li></li><li><a href="BatchTranslate.html">BatchTranslate</a><ul class='members'><li data-type='member' style='display: none;'><a href="BatchTranslate.html#.procedures">procedures</a></li></ul><ul class='methods'><li data-type='method' style='display: none;'><a href="BatchTranslate.html#.getTranslationBatchData#getTranslationBatchData">getTranslationBatchData</a></li><li data-type='method' style='display: none;'><a href="BatchTranslate.html#.runProcedure#runProcedure">runProcedure</a></li><li data-type='method' style='display: none;'><a href="BatchTranslate.html#.translate#translate">translate</a></li><li data-type='method' style='display: none;'><a href="BatchTranslate.html#.defineProcedure">defineProcedure</a></li><li data-type='method' style='display: none;'><a href="BatchTranslate.html#.getActorGlossaryData">getActorGlossaryData</a></li></ul></li><li><a href="CodeEscape.html">CodeEscape</a><ul class='methods'><li data-type='method' style='display: none;'><a href="CodeEscape.html#.afterTranslation#afterTranslation">afterTranslation</a></li><li data-type='method' style='display: none;'><a href="CodeEscape.html#.processMatchRule#processMatchRule">processMatchRule</a></li></ul></li><li><a href="CustomFields.html">CustomFields</a><ul class='methods'><li data-type='method' style='display: none;'><a href="CustomFields.html#.addHTML#addHTML">addHTML</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.addJSONForm#addJSONForm">addJSONForm</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.getFormValues#getFormValues">getFormValues</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.getJsonFormTree#getJsonFormTree">getJsonFormTree</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.getValues#getValues">getValues</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.setValueByName#setValueByName">setValueByName</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.setValues#setValues">setValues</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.validate#validate">validate</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.isJsonForm">isJsonForm</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.sanitize">sanitize</a></li></ul></li><li><a href="CustomParser.html">CustomParser</a><ul class='methods'><li data-type='method' style='display: none;'><a href="CustomParser.html#.assignTranslationPair#assignTranslationPair">assignTranslationPair</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.contextEnd#contextEnd">contextEnd</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.contextEnter#contextEnter">contextEnter</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.editLastWritableData#editLastWritableData">editLastWritableData</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.filterText#filterText">filterText</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.generateFileInfo#generateFileInfo">generateFileInfo</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.getModel#getModel">getModel</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.getText#getText">getText</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.importTransData#importTransData">importTransData</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.parse#parse">parse</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.parseCaptureGroup#parseCaptureGroup">parseCaptureGroup</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.processThispath#processThispath">processThispath</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.register#register">register</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.registerString#registerString">registerString</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.replaceLineBreak#replaceLineBreak">replaceLineBreak</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.setModel#setModel">setModel</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.setTranslationPair#setTranslationPair">setTranslationPair</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.toString#toString">toString</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.toTrans#toTrans">toTrans</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.translate#translate">translate</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.unfilterText#unfilterText">unfilterText</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.isValidModel">isValidModel</a></li></ul></li><li><a href="DropFileToWindow.html">DropFileToWindow</a><ul class='methods'><li data-type='method' style='display: none;'><a href="DropFileToWindow.html#.addCss#addCss">addCss</a></li><li data-type='method' style='display: none;'><a href="DropFileToWindow.html#.preventDefault#preventDefault">preventDefault</a></li></ul></li><li><a href="Engine.html">Engine</a></li><li><a href="Engines.html">Engines</a></li><li><a href="LangTools.html">LangTools</a><ul class='methods'><li data-type='method' style='display: none;'><a href="LangTools.html#.compareWithDB#compareWithDB">compareWithDB</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.generateLangPairs#generateLangPairs">generateLangPairs</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.getDisplayName#getDisplayName">getDisplayName</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.getFullName#getFullName">getFullName</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.getLanguage#getLanguage">getLanguage</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.getLanguageList#getLanguageList">getLanguageList</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.getName#getName">getName</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.isCJK#isCJK">isCJK</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.lookupAlias#lookupAlias">lookupAlias</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.lookupDB#lookupDB">lookupDB</a></li></ul></li><li><a href="Logger.html">Logger</a></li><li><a href="ParserBase.html">ParserBase</a><ul class='methods'><li data-type='method' style='display: none;'><a href="ParserBase.html#.assignTranslationPair#assignTranslationPair">assignTranslationPair</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.contextEnd#contextEnd">contextEnd</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.contextEnter#contextEnter">contextEnter</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.editLastWritableData#editLastWritableData">editLastWritableData</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.filterText#filterText">filterText</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.generateFileInfo#generateFileInfo">generateFileInfo</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.getText#getText">getText</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.importTransData#importTransData">importTransData</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.parse#parse">parse</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.processThispath#processThispath">processThispath</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.register#register">register</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.registerString#registerString">registerString</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.replaceLineBreak#replaceLineBreak">replaceLineBreak</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.setTranslationPair#setTranslationPair">setTranslationPair</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.toString#toString">toString</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.toTrans#toTrans">toTrans</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.translate#translate">translate</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.unfilterText#unfilterText">unfilterText</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.appendTransData">appendTransData</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.detectEncoding">detectEncoding</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.generateFileInfo">generateFileInfo</a></li></ul></li><li><a href="ParserFile.html">ParserFile</a><ul class='methods'><li data-type='method' style='display: none;'><a href="ParserFile.html#.readFile#readFile">readFile</a></li><li data-type='method' style='display: none;'><a href="ParserFile.html#.readTextFromFile#readTextFromFile">readTextFromFile</a></li><li data-type='method' style='display: none;'><a href="ParserFile.html#.write#write">write</a></li><li data-type='method' style='display: none;'><a href="ParserFile.html#.detectEncoding">detectEncoding</a></li></ul></li><li><a href="Python.html">Python</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Python.html#.checkAvailablePackageVersion#checkAvailablePackageVersion">checkAvailablePackageVersion</a></li><li data-type='method' style='display: none;'><a href="Python.html#.checkLatestPackageVersion#checkLatestPackageVersion">checkLatestPackageVersion</a></li><li data-type='method' style='display: none;'><a href="Python.html#.getConfig#getConfig">getConfig</a></li><li data-type='method' style='display: none;'><a href="Python.html#.getPackageInfo#getPackageInfo">getPackageInfo</a></li><li data-type='method' style='display: none;'><a href="Python.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="Python.html#.installPackage#installPackage">installPackage</a></li><li data-type='method' style='display: none;'><a href="Python.html#.installPython#installPython">installPython</a></li><li data-type='method' style='display: none;'><a href="Python.html#.installRequirements#installRequirements">installRequirements</a></li><li data-type='method' style='display: none;'><a href="Python.html#.isPackage#isPackage">isPackage</a></li><li data-type='method' style='display: none;'><a href="Python.html#.isScript#isScript">isScript</a></li><li data-type='method' style='display: none;'><a href="Python.html#.listPackages#listPackages">listPackages</a></li><li data-type='method' style='display: none;'><a href="Python.html#.loadConfig#loadConfig">loadConfig</a></li><li data-type='method' style='display: none;'><a href="Python.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="Python.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="Python.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="Python.html#.processWith#processWith">processWith</a></li><li data-type='method' style='display: none;'><a href="Python.html#.rejectState#rejectState">rejectState</a></li><li data-type='method' style='display: none;'><a href="Python.html#.requirementIsInstalled#requirementIsInstalled">requirementIsInstalled</a></li><li data-type='method' style='display: none;'><a href="Python.html#.resolveState#resolveState">resolveState</a></li><li data-type='method' style='display: none;'><a href="Python.html#.runPy#runPy">runPy</a></li><li data-type='method' style='display: none;'><a href="Python.html#.runPyDetached#runPyDetached">runPyDetached</a></li><li data-type='method' style='display: none;'><a href="Python.html#.saveConfig#saveConfig">saveConfig</a></li><li data-type='method' style='display: none;'><a href="Python.html#.setConfig#setConfig">setConfig</a></li><li data-type='method' style='display: none;'><a href="Python.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="Python.html#.uninstallPackage#uninstallPackage">uninstallPackage</a></li><li data-type='method' style='display: none;'><a href="Python.html#.uninstallRequirements#uninstallRequirements">uninstallRequirements</a></li><li data-type='method' style='display: none;'><a href="Python.html#.until#until">until</a></li><li data-type='method' style='display: none;'><a href="Python.html#.downloader">downloader</a></li></ul></li><li><a href="RawViewer.html">RawViewer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="RawViewer.html#.addContextMenu#addContextMenu">addContextMenu</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.addTextPreview#addTextPreview">addTextPreview</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.addTextPreviewFromFileOffset#addTextPreviewFromFileOffset">addTextPreviewFromFileOffset</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.addTextPreviewFromTextOffset#addTextPreviewFromTextOffset">addTextPreviewFromTextOffset</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.append#append">append</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.clear#clear">clear</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.commonHandleFile#commonHandleFile">commonHandleFile</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.getKeyString#getKeyString">getKeyString</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.getSnippetFromOffset#getSnippetFromOffset">getSnippetFromOffset</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.getStartingLineFromOffset#getStartingLineFromOffset">getStartingLineFromOffset</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.handleAttachment#handleAttachment">handleAttachment</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.isClear#isClear">isClear</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.loadPrism#loadPrism">loadPrism</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.openFile#openFile">openFile</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.setListener#setListener">setListener</a></li></ul></li><li><a href="RibbonMenu.html">RibbonMenu</a><ul class='methods'><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.add#add">add</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.clear#clear">clear</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.defaultClickEvt#defaultClickEvt">defaultClickEvt</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.isExist#isExist">isExist</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.onReady#onReady">onReady</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.processWith#processWith">processWith</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.rejectState#rejectState">rejectState</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.remove#remove">remove</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.resolveState#resolveState">resolveState</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.select#select">select</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.until#until">until</a></li></ul></li><li><a href="RowProperties.html">RowProperties</a><ul class='methods'><li data-type='method' style='display: none;'><a href="RowProperties.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="RowProperties.html#.setListener#setListener">setListener</a></li></ul></li><li><a href="ScriptParser.html">ScriptParser</a></li><li><a href="SubTab.html">SubTab</a></li><li></li><li><a href="Sys.html">Sys</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Sys.html#.getConfig#getConfig">getConfig</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.hardReset#hardReset">hardReset</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.setConfig#setConfig">setConfig</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.restartApplication">restartApplication</a></li></ul></li><li><a href="TextReplacer.html">TextReplacer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="TextReplacer.html#.apply#apply">apply</a></li><li data-type='method' style='display: none;'><a href="TextReplacer.html#.parseRules#parseRules">parseRules</a></li></ul></li><li><a href="Thread.html">Thread</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Thread.html#.onReady#onReady">onReady</a></li><li data-type='method' style='display: none;'><a href="Thread.html#.onReady#onReady">onReady</a></li></ul></li><li></li><li></li><li><a href="ThreadHost.html">ThreadHost</a></li><li></li><li><a href="ThreadServer.html">ThreadServer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="ThreadServer.html#.addTask#addTask">addTask</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.addTask#addTask">addTask</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.addTask#addTask">addTask</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.getIddleThread#getIddleThread">getIddleThread</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.getIddleThread#getIddleThread">getIddleThread</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.getReadyState#getReadyState">getReadyState</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.getReadyState#getReadyState">getReadyState</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.startThread#startThread">startThread</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.startThread#startThread">startThread</a></li></ul></li><li></li><li></li><li><a href="Trans.html">Trans</a><ul class='members'><li data-type='member' style='display: none;'><a href="Trans.html#currentFile">currentFile</a></li><li data-type='member' style='display: none;'><a href="Trans.html#currentFile">currentFile</a></li><li data-type='member' style='display: none;'><a href="Trans.html#data">data</a></li><li data-type='member' style='display: none;'><a href="Trans.html#data">data</a></li><li data-type='member' style='display: none;'><a href="Trans.html#fileListLoaded">fileListLoaded</a></li><li data-type='member' style='display: none;'><a href="Trans.html#fileListLoaded">fileListLoaded</a></li><li data-type='member' style='display: none;'><a href="Trans.html#gameEngine">gameEngine</a></li><li data-type='member' style='display: none;'><a href="Trans.html#gameEngine">gameEngine</a></li><li data-type='member' style='display: none;'><a href="Trans.html#gameFolder">gameFolder</a></li><li data-type='member' style='display: none;'><a href="Trans.html#gameFolder">gameFolder</a></li><li data-type='member' style='display: none;'><a href="Trans.html#gameTitle">gameTitle</a></li><li data-type='member' style='display: none;'><a href="Trans.html#gameTitle">gameTitle</a></li><li data-type='member' style='display: none;'><a href="Trans.html#grid">grid</a></li><li data-type='member' style='display: none;'><a href="Trans.html#grid">grid</a></li><li data-type='member' style='display: none;'><a href="Trans.html#inProject">inProject</a></li><li data-type='member' style='display: none;'><a href="Trans.html#inProject">inProject</a></li><li data-type='member' style='display: none;'><a href="Trans.html#indexIds">indexIds</a></li><li data-type='member' style='display: none;'><a href="Trans.html#indexIds">indexIds</a></li><li data-type='member' style='display: none;'><a href="Trans.html#isFreeEditing">isFreeEditing</a></li><li data-type='member' style='display: none;'><a href="Trans.html#isFreeEditing">isFreeEditing</a></li><li data-type='member' style='display: none;'><a href="Trans.html#isLoadingFileList">isLoadingFileList</a></li><li data-type='member' style='display: none;'><a href="Trans.html#isLoadingFileList">isLoadingFileList</a></li><li data-type='member' style='display: none;'><a href="Trans.html#keyColumn">keyColumn</a></li><li data-type='member' style='display: none;'><a href="Trans.html#keyColumn">keyColumn</a></li><li data-type='member' style='display: none;'><a href="Trans.html#project">project</a></li><li data-type='member' style='display: none;'><a href="Trans.html#project">project</a></li><li data-type='member' style='display: none;'><a href="Trans.html#projectId">projectId</a></li><li data-type='member' style='display: none;'><a href="Trans.html#projectId">projectId</a></li><li data-type='member' style='display: none;'><a href="Trans.html#skipElement">skipElement</a></li><li data-type='member' style='display: none;'><a href="Trans.html#skipElement">skipElement</a></li><li data-type='member' style='display: none;'><a href="Trans.html#timers">timers</a></li><li data-type='member' style='display: none;'><a href="Trans.html#timers">timers</a></li><li data-type='member' style='display: none;'><a href="Trans.html#trans.gridContextMenu">trans.gridContextMenu</a></li><li data-type='member' style='display: none;'><a href="Trans.html#trans.gridContextMenu">trans.gridContextMenu</a></li><li data-type='member' style='display: none;'><a href="Trans.html#unsavedChange">unsavedChange</a></li><li data-type='member' style='display: none;'><a href="Trans.html#unsavedChange">unsavedChange</a></li><li data-type='member' style='display: none;'><a href="Trans.html#.maxCols">maxCols</a></li><li data-type='member' style='display: none;'><a href="Trans.html#.maxCols">maxCols</a></li></ul><ul class='methods'><li data-type='method' style='display: none;'><a href="Trans.html#.abortTranslation#abortTranslation">abortTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.abortTranslation#abortTranslation">abortTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addFileGroup#addFileGroup">addFileGroup</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addFileGroup#addFileGroup">addFileGroup</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addFileItem#addFileItem">addFileItem</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addFileItem#addFileItem">addFileItem</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addRow#addRow">addRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addRow#addRow">addRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.alert#alert">alert</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.alert#alert">alert</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendRow#appendRow">appendRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendRow#appendRow">appendRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendTags#appendTags">appendTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendTags#appendTags">appendTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendTextToReference#appendTextToReference">appendTextToReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendTextToReference#appendTextToReference">appendTextToReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.applySaveData#applySaveData">applySaveData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.applySaveData#applySaveData">applySaveData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.applyTransTableToSelectedCell#applyTransTableToSelectedCell">applyTransTableToSelectedCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.applyTransTableToSelectedCell#applyTransTableToSelectedCell">applyTransTableToSelectedCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.autoSave#autoSave">autoSave</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.autoSave#autoSave">autoSave</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildContextFromParameter#buildContextFromParameter">buildContextFromParameter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildContextFromParameter#buildContextFromParameter">buildContextFromParameter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndex#buildIndex">buildIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndex#buildIndex">buildIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndexFromData#buildIndexFromData">buildIndexFromData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndexFromData#buildIndexFromData">buildIndexFromData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndexes#buildIndexes">buildIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndexes#buildIndexes">buildIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.calculateTableHeights#calculateTableHeights">calculateTableHeights</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.calculateTableHeights#calculateTableHeights">calculateTableHeights</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearCellInfo#clearCellInfo">clearCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearCellInfo#clearCellInfo">clearCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearEditor#clearEditor">clearEditor</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearEditor#clearEditor">clearEditor</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearFooter#clearFooter">clearFooter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearFooter#clearFooter">clearFooter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearRow#clearRow">clearRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearRow#clearRow">clearRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearSelection#clearSelection">clearSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearSelection#clearSelection">clearSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearTags#clearTags">clearTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearTags#clearTags">clearTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearTemporaryIndexes#clearTemporaryIndexes">clearTemporaryIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearTemporaryIndexes#clearTemporaryIndexes">clearTemporaryIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.closeProject#closeProject">closeProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.closeProject#closeProject">closeProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.collectContextKeyword#collectContextKeyword">collectContextKeyword</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.collectContextKeyword#collectContextKeyword">collectContextKeyword</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.compress#compress">compress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.compress#compress">compress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.connectData#connectData">connectData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.connectData#connectData">connectData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.copyCol#copyCol">copyCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.copyCol#copyCol">copyCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.copyTranslationToRow#copyTranslationToRow">copyTranslationToRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.copyTranslationToRow#copyTranslationToRow">copyTranslationToRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.countFilledCol#countFilledCol">countFilledCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.countFilledCol#countFilledCol">countFilledCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.countTranslated#countTranslated">countTranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.countTranslated#countTranslated">countTranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createBackup#createBackup">createBackup</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createBackup#createBackup">createBackup</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createFile#createFile">createFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createFile#createFile">createFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createProject#createProject">createProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createProject#createProject">createProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.dataPadding#dataPadding">dataPadding</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.dataPadding#dataPadding">dataPadding</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.deleteFile#deleteFile">deleteFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.deleteFile#deleteFile">deleteFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.doAfterSelection#doAfterSelection">doAfterSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.doAfterSelection#doAfterSelection">doAfterSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawFileSelector#drawFileSelector">drawFileSelector</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawFileSelector#drawFileSelector">drawFileSelector</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawFileStatus#drawFileStatus">drawFileStatus</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawFileStatus#drawFileStatus">drawFileStatus</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawGridTranslatorMenu#drawGridTranslatorMenu">drawGridTranslatorMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawGridTranslatorMenu#drawGridTranslatorMenu">drawGridTranslatorMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.editNoteAtCell#editNoteAtCell">editNoteAtCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.editNoteAtCell#editNoteAtCell">editNoteAtCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.evalContextsQuery#evalContextsQuery">evalContextsQuery</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.evalContextsQuery#evalContextsQuery">evalContextsQuery</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.evalTranslationProgress#evalTranslationProgress">evalTranslationProgress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.evalTranslationProgress#evalTranslationProgress">evalTranslationProgress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.export#export">export</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.export#export">export</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.exportTPP#exportTPP">exportTPP</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.exportTPP#exportTPP">exportTPP</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fileItemExist#fileItemExist">fileItemExist</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fileItemExist#fileItemExist">fileItemExist</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fileSelectorContextMenuInit#fileSelectorContextMenuInit">fileSelectorContextMenuInit</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fileSelectorContextMenuInit#fileSelectorContextMenuInit">fileSelectorContextMenuInit</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fillEmptyLine#fillEmptyLine">fillEmptyLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fillEmptyLine#fillEmptyLine">fillEmptyLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsert#findAndInsert">findAndInsert</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsert#findAndInsert">findAndInsert</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertByContext#findAndInsertByContext">findAndInsertByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertByContext#findAndInsertByContext">findAndInsertByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertLine#findAndInsertLine">findAndInsertLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertLine#findAndInsertLine">findAndInsertLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertWithIndexes#findAndInsertWithIndexes">findAndInsertWithIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertWithIndexes#findAndInsertWithIndexes">findAndInsertWithIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findIdByIndex#findIdByIndex">findIdByIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findIdByIndex#findIdByIndex">findIdByIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findPut#findPut">findPut</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findPut#findPut">findPut</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.from#from">from</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.from#from">from</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateCachePath#generateCachePath">generateCachePath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateCachePath#generateCachePath">generateCachePath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateContextTranslationPair#generateContextTranslationPair">generateContextTranslationPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateContextTranslationPair#generateContextTranslationPair">generateContextTranslationPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateHeader#generateHeader">generateHeader</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateHeader#generateHeader">generateHeader</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateNewDictionaryTable#generateNewDictionaryTable">generateNewDictionaryTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateNewDictionaryTable#generateNewDictionaryTable">generateNewDictionaryTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateSelectedTranslationTable#generateSelectedTranslationTable">generateSelectedTranslationTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateSelectedTranslationTable#generateSelectedTranslationTable">generateSelectedTranslationTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationPair#generateTranslationPair">generateTranslationPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationPair#generateTranslationPair">generateTranslationPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTable#generateTranslationTable">generateTranslationTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTable#generateTranslationTable">generateTranslationTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableFromResult#generateTranslationTableFromResult">generateTranslationTableFromResult</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableFromResult#generateTranslationTableFromResult">generateTranslationTableFromResult</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableFromStrings#generateTranslationTableFromStrings">generateTranslationTableFromStrings</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableFromStrings#generateTranslationTableFromStrings">generateTranslationTableFromStrings</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableLine#generateTranslationTableLine">generateTranslationTableLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableLine#generateTranslationTableLine">generateTranslationTableLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getActiveTranslator#getActiveTranslator">getActiveTranslator</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getActiveTranslator#getActiveTranslator">getActiveTranslator</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getActiveTranslatorEngine#getActiveTranslatorEngine">getActiveTranslatorEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getActiveTranslatorEngine#getActiveTranslatorEngine">getActiveTranslatorEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllCompletedFiles#getAllCompletedFiles">getAllCompletedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllCompletedFiles#getAllCompletedFiles">getAllCompletedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllFiles#getAllFiles">getAllFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllFiles#getAllFiles">getAllFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllFilesExcept#getAllFilesExcept">getAllFilesExcept</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllFilesExcept#getAllFilesExcept">getAllFilesExcept</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllIncompletedFiles#getAllIncompletedFiles">getAllIncompletedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllIncompletedFiles#getAllIncompletedFiles">getAllIncompletedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllMarkedAsCompleted#getAllMarkedAsCompleted">getAllMarkedAsCompleted</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllMarkedAsCompleted#getAllMarkedAsCompleted">getAllMarkedAsCompleted</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAttachmentContent#getAttachmentContent">getAttachmentContent</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAttachmentContent#getAttachmentContent">getAttachmentContent</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCellComment#getCellComment">getCellComment</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCellComment#getCellComment">getCellComment</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCheckedFiles#getCheckedFiles">getCheckedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCheckedFiles#getCheckedFiles">getCheckedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCheckedObjects#getCheckedObjects">getCheckedObjects</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCheckedObjects#getCheckedObjects">getCheckedObjects</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getConfig#getConfig">getConfig</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getConfig#getConfig">getConfig</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getContext#getContext">getContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getContext#getContext">getContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCurrentData#getCurrentData">getCurrentData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCurrentData#getCurrentData">getCurrentData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getData#getData">getData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getData#getData">getData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getFromIndexes#getFromIndexes">getFromIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getFromIndexes#getFromIndexes">getFromIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getGridContextMenu#getGridContextMenu">getGridContextMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getGridContextMenu#getGridContextMenu">getGridContextMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getIndexByKey#getIndexByKey">getIndexByKey</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getIndexByKey#getIndexByKey">getIndexByKey</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getIndexIds#getIndexIds">getIndexIds</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getIndexIds#getIndexIds">getIndexIds</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getLastSelectedCell#getLastSelectedCell">getLastSelectedCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getLastSelectedCell#getLastSelectedCell">getLastSelectedCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getObjectById#getObjectById">getObjectById</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getObjectById#getObjectById">getObjectById</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getOption#getOption">getOption</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getOption#getOption">getOption</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getParamatersByRow#getParamatersByRow">getParamatersByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getParamatersByRow#getParamatersByRow">getParamatersByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getProjectChecksum#getProjectChecksum">getProjectChecksum</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getProjectChecksum#getProjectChecksum">getProjectChecksum</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getReference#getReference">getReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getReference#getReference">getReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowIdByTextInsensitive#getRowIdByTextInsensitive">getRowIdByTextInsensitive</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowIdByTextInsensitive#getRowIdByTextInsensitive">getRowIdByTextInsensitive</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowInfoText#getRowInfoText">getRowInfoText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowInfoText#getRowInfoText">getRowInfoText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowInfoTexts#getRowInfoTexts">getRowInfoTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowInfoTexts#getRowInfoTexts">getRowInfoTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSaveData#getSaveData">getSaveData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSaveData#getSaveData">getSaveData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedCellsData#getSelectedCellsData">getSelectedCellsData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedCellsData#getSelectedCellsData">getSelectedCellsData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedContext#getSelectedContext">getSelectedContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedContext#getSelectedContext">getSelectedContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedId#getSelectedId">getSelectedId</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedId#getSelectedId">getSelectedId</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedKeyText#getSelectedKeyText">getSelectedKeyText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedKeyText#getSelectedKeyText">getSelectedKeyText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedObject#getSelectedObject">getSelectedObject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedObject#getSelectedObject">getSelectedObject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedOriginalTexts#getSelectedOriginalTexts">getSelectedOriginalTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedOriginalTexts#getSelectedOriginalTexts">getSelectedOriginalTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedOriginalTextsAsOneLine#getSelectedOriginalTextsAsOneLine">getSelectedOriginalTextsAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedOriginalTextsAsOneLine#getSelectedOriginalTextsAsOneLine">getSelectedOriginalTextsAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedParameters#getSelectedParameters">getSelectedParameters</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedParameters#getSelectedParameters">getSelectedParameters</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedTexts#getSelectedTexts">getSelectedTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedTexts#getSelectedTexts">getSelectedTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedTextsAsOneLine#getSelectedTextsAsOneLine">getSelectedTextsAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedTextsAsOneLine#getSelectedTextsAsOneLine">getSelectedTextsAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingDataPath#getStagingDataPath">getStagingDataPath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingDataPath#getStagingDataPath">getStagingDataPath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingFile#getStagingFile">getStagingFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingFile#getStagingFile">getStagingFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingPath#getStagingPath">getStagingPath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingPath#getStagingPath">getStagingPath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStats#getStats">getStats</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStats#getStats">getStats</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTemplatePath#getTemplatePath">getTemplatePath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTemplatePath#getTemplatePath">getTemplatePath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getText#getText">getText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getText#getText">getText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTextFromLastSelected#getTextFromLastSelected">getTextFromLastSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTextFromLastSelected#getTextFromLastSelected">getTextFromLastSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationByIndex#getTranslationByIndex">getTranslationByIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationByIndex#getTranslationByIndex">getTranslationByIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationByLine#getTranslationByLine">getTranslationByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationByLine#getTranslationByLine">getTranslationByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationColFromRow#getTranslationColFromRow">getTranslationColFromRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationColFromRow#getTranslationColFromRow">getTranslationColFromRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationData#getTranslationData">getTranslationData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationData#getTranslationData">getTranslationData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationFromRow#getTranslationFromRow">getTranslationFromRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationFromRow#getTranslationFromRow">getTranslationFromRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslatorEngine#getTranslatorEngine">getTranslatorEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslatorEngine#getTranslatorEngine">getTranslatorEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goTo#goTo">goTo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goTo#goTo">goTo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToNewKey#goToNewKey">goToNewKey</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToNewKey#goToNewKey">goToNewKey</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToNextUntranslated#goToNextUntranslated">goToNextUntranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToNextUntranslated#goToNextUntranslated">goToNextUntranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToPreviousUntranslated#goToPreviousUntranslated">goToPreviousUntranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToPreviousUntranslated#goToPreviousUntranslated">goToPreviousUntranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.gridBodyContextMenu#gridBodyContextMenu">gridBodyContextMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.gridBodyContextMenu#gridBodyContextMenu">gridBodyContextMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.gridIsModified#gridIsModified">gridIsModified</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.gridIsModified#gridIsModified">gridIsModified</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.hasTags#hasTags">hasTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.hasTags#hasTags">hasTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importFromFile#importFromFile">importFromFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importFromFile#importFromFile">importFromFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importRPGMTrans#importRPGMTrans">importRPGMTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importRPGMTrans#importRPGMTrans">importRPGMTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importSheet#importSheet">importSheet</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importSheet#importSheet">importSheet</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importTpp#importTpp">importTpp</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importTpp#importTpp">importTpp</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importTranslation#importTranslation">importTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importTranslation#importTranslation">importTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initFileNav#initFileNav">initFileNav</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initFileNav#initFileNav">initFileNav</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initProject#initProject">initProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initProject#initProject">initProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initTable#initTable">initTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initTable#initTable">initTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.insertCell#insertCell">insertCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.insertCell#insertCell">insertCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.invertSelection#invertSelection">invertSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.invertSelection#invertSelection">invertSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isAllSelected#isAllSelected">isAllSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isAllSelected#isAllSelected">isAllSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isFileSupported#isFileSupported">isFileSupported</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isFileSupported#isFileSupported">isFileSupported</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isInContext#isInContext">isInContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isInContext#isInContext">isInContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isInProject#isInProject">isInProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isInProject#isInProject">isInProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isKeyExist#isKeyExist">isKeyExist</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isKeyExist#isKeyExist">isKeyExist</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isKeyExistOn#isKeyExistOn">isKeyExistOn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isKeyExistOn#isKeyExistOn">isKeyExistOn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isLastRow#isLastRow">isLastRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isLastRow#isLastRow">isLastRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isTranslatedRow#isTranslatedRow">isTranslatedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isTranslatedRow#isTranslatedRow">isTranslatedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.legacyExport#legacyExport">legacyExport</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadComments#loadComments">loadComments</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadComments#loadComments">loadComments</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadJSON#loadJSON">loadJSON</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadJSON#loadJSON">loadJSON</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadJSONSync#loadJSONSync">loadJSONSync</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadJSONSync#loadJSONSync">loadJSONSync</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.mergeReference#mergeReference">mergeReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.mergeReference#mergeReference">mergeReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.mergeTrans#mergeTrans">mergeTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.mergeTrans#mergeTrans">mergeTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.moveColumn#moveColumn">moveColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.moveColumn#moveColumn">moveColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.normalizeHeader#normalizeHeader">normalizeHeader</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.normalizeHeader#normalizeHeader">normalizeHeader</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.onBatchTranslationDone#onBatchTranslationDone">onBatchTranslationDone</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.onBatchTranslationDone#onBatchTranslationDone">onBatchTranslationDone</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.openFile#openFile">openFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.openFile#openFile">openFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.paddingTranslation#paddingTranslation">paddingTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.paddingTranslation#paddingTranslation">paddingTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.refreshGrid#refreshGrid">refreshGrid</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.refreshGrid#refreshGrid">refreshGrid</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeAllTranslation#removeAllTranslation">removeAllTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeAllTranslation#removeAllTranslation">removeAllTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeColumn#removeColumn">removeColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeColumn#removeColumn">removeColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeDuplicates#removeDuplicates">removeDuplicates</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeDuplicates#removeDuplicates">removeDuplicates</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeNoteAtSelected#removeNoteAtSelected">removeNoteAtSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeNoteAtSelected#removeNoteAtSelected">removeNoteAtSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeRow#removeRow">removeRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeRow#removeRow">removeRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeRowByContext#removeRowByContext">removeRowByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeRowByContext#removeRowByContext">removeRowByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeTagForSelectedRow#removeTagForSelectedRow">removeTagForSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeTagForSelectedRow#removeTagForSelectedRow">removeTagForSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeTags#removeTags">removeTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeTags#removeTags">removeTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.renameColumn#renameColumn">renameColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.renameColumn#renameColumn">renameColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.replace#replace">replace</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.replace#replace">replace</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetCurentCellEditor#resetCurentCellEditor">resetCurentCellEditor</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetCurentCellEditor#resetCurentCellEditor">resetCurentCellEditor</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetIndex#resetIndex">resetIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetIndex#resetIndex">resetIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetTags#resetTags">resetTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetTags#resetTags">resetTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.revertToOriginal#revertToOriginal">revertToOriginal</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.revertToOriginal#revertToOriginal">revertToOriginal</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.rowHasMultipleContext#rowHasMultipleContext">rowHasMultipleContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.rowHasMultipleContext#rowHasMultipleContext">rowHasMultipleContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.rowHasTranslation#rowHasTranslation">rowHasTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.rowHasTranslation#rowHasTranslation">rowHasTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.runCustomScript#runCustomScript">runCustomScript</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.sanitize#sanitize">sanitize</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.sanitize#sanitize">sanitize</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.save#save">save</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.save#save">save</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.saveAs#saveAs">saveAs</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.saveAs#saveAs">saveAs</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.scrollHToCol#scrollHToCol">scrollHToCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.scrollHToCol#scrollHToCol">scrollHToCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.search#search">search</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.search#search">search</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectAll#selectAll">selectAll</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectAll#selectAll">selectAll</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectCell#selectCell">selectCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectCell#selectCell">selectCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectFile#selectFile">selectFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectFile#selectFile">selectFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectObjectsByFilter#selectObjectsByFilter">selectObjectsByFilter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectObjectsByFilter#selectObjectsByFilter">selectObjectsByFilter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setActiveTranslator#setActiveTranslator">setActiveTranslator</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setActiveTranslator#setActiveTranslator">setActiveTranslator</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setCellInfo#setCellInfo">setCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setCellInfo#setCellInfo">setCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setCellValueAt#setCellValueAt">setCellValueAt</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setCellValueAt#setCellValueAt">setCellValueAt</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setConfig#setConfig">setConfig</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setConfig#setConfig">setConfig</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setContext#setContext">setContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setContext#setContext">setContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setMarkAsComplete#setMarkAsComplete">setMarkAsComplete</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setMarkAsComplete#setMarkAsComplete">setMarkAsComplete</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setParametersByRow#setParametersByRow">setParametersByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setParametersByRow#setParametersByRow">setParametersByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setRowInfoText#setRowInfoText">setRowInfoText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setRowInfoText#setRowInfoText">setRowInfoText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setSl#setSl">setSl</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setSl#setSl">setSl</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarContext#setStatusBarContext">setStatusBarContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarContext#setStatusBarContext">setStatusBarContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarEngine#setStatusBarEngine">setStatusBarEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarEngine#setStatusBarEngine">setStatusBarEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarNumData#setStatusBarNumData">setStatusBarNumData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarNumData#setStatusBarNumData">setStatusBarNumData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTagForSelectedRow#setTagForSelectedRow">setTagForSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTagForSelectedRow#setTagForSelectedRow">setTagForSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTags#setTags">setTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTags#setTags">setTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTl#setTl">setTl</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTl#setTl">setTl</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTrayIcon#setTrayIcon">setTrayIcon</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTrayIcon#setTrayIcon">setTrayIcon</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.stagingFilesRemove#stagingFilesRemove">stagingFilesRemove</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.stagingFilesRemove#stagingFilesRemove">stagingFilesRemove</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.tagRowByContext#tagRowByContext">tagRowByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.tagRowByContext#tagRowByContext">tagRowByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.textEditorSetValue#textEditorSetValue">textEditorSetValue</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.textEditorSetValue#textEditorSetValue">textEditorSetValue</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAll#translateAll">translateAll</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAll#translateAll">translateAll</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAllByLines#translateAllByLines">translateAllByLines</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAllByLines#translateAllByLines">translateAllByLines</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAllByRows#translateAllByRows">translateAllByRows</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAllByRows#translateAllByRows">translateAllByRows</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateByReference#translateByReference">translateByReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateByReference#translateByReference">translateByReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateFromArray#translateFromArray">translateFromArray</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateFromArray#translateFromArray">translateFromArray</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateFromTrans#translateFromTrans">translateFromTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateFromTrans#translateFromTrans">translateFromTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectedRow#translateSelectedRow">translateSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectedRow#translateSelectedRow">translateSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelection#translateSelection">translateSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelection#translateSelection">translateSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionAsOneLine#translateSelectionAsOneLine">translateSelectionAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionAsOneLine#translateSelectionAsOneLine">translateSelectionAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionByLine#translateSelectionByLine">translateSelectionByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionByLine#translateSelectionByLine">translateSelectionByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionByRow#translateSelectionByRow">translateSelectionByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionByRow#translateSelectionByRow">translateSelectionByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionIntoDef#translateSelectionIntoDef">translateSelectionIntoDef</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionIntoDef#translateSelectionIntoDef">translateSelectionIntoDef</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateStringByPair#translateStringByPair">translateStringByPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateStringByPair#translateStringByPair">translateStringByPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateTextByLine#translateTextByLine">translateTextByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateTextByLine#translateTextByLine">translateTextByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.travelContext#travelContext">travelContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.travelContext#travelContext">travelContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.trimTranslation#trimTranslation">trimTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.trimTranslation#trimTranslation">trimTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.unInitFileNav#unInitFileNav">unInitFileNav</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.unInitFileNav#unInitFileNav">unInitFileNav</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.uncompress#uncompress">uncompress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.uncompress#uncompress">uncompress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.updateProject#updateProject">updateProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.updateProject#updateProject">updateProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.updateRunScriptMenu#updateRunScriptMenu">updateRunScriptMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.updateStagingInfo#updateStagingInfo">updateStagingInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.updateStagingInfo#updateStagingInfo">updateStagingInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.walkToAllFile#walkToAllFile">walkToAllFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.walkToAllFile#walkToAllFile">walkToAllFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.wordWrapFiles#wordWrapFiles">wordWrapFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.wordWrapFiles#wordWrapFiles">wordWrapFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.wordWrapText#wordWrapText">wordWrapText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.wordWrapText#wordWrapText">wordWrapText</a></li></ul></li><li></li><li><a href="Trans.CellInfo.html">Trans.CellInfo</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.delete#delete">delete</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.delete#delete">delete</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.deleteRow#deleteRow">deleteRow</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.deleteRow#deleteRow">deleteRow</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.get#get">get</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.get#get">get</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getAll#getAll">getAll</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getAll#getAll">getAll</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getBestCellInfo#getBestCellInfo">getBestCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getBestCellInfo#getBestCellInfo">getBestCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getCell#getCell">getCell</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getCell#getCell">getCell</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getRow#getRow">getRow</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getRow#getRow">getRow</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.set#set">set</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.set#set">set</a></li></ul></li><li></li><li><a href="TransProjectHook.html">TransProjectHook</a></li><li></li><li><a href="Translator.html">Translator</a></li><li><a href="TranslatorEngine.html">TranslatorEngine</a><ul class='members'><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#author">author</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#batchDelay">batchDelay</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#delimiter">delimiter</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#description">description</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#escapeAlgorithm">escapeAlgorithm</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#id">id</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#languages">languages</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#maxRequestLength">maxRequestLength</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#name">name</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#optionsForm">optionsForm</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#version">version</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#.escapeAlgorithms">escapeAlgorithms</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#.translators">translators</a></li></ul><ul class='methods'><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.fetchTranslation#fetchTranslation">fetchTranslation</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getDefaultOptions#getDefaultOptions">getDefaultOptions</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getLanguageCode#getLanguageCode">getLanguageCode</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getOptions#getOptions">getOptions</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getUnsetRequiredOptions#getUnsetRequiredOptions">getUnsetRequiredOptions</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.preProcessText#preProcessText">preProcessText</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.resetOptions#resetOptions">resetOptions</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.setOptions#setOptions">setOptions</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.translate#translate">translate</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.translatePairs#translatePairs">translatePairs</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.update#update">update</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.addEscapeAlgorithm">addEscapeAlgorithm</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getEngine">getEngine</a></li></ul></li><li><a href="common.SimpleDB.html">common.SimpleDB</a><ul class='methods'><li data-type='method' style='display: none;'><a href="common.SimpleDB.html#.clear#clear">clear</a></li><li data-type='method' style='display: none;'><a href="common.SimpleDB.html#.delete#delete">delete</a></li><li data-type='method' style='display: none;'><a href="common.SimpleDB.html#.get#get">get</a></li><li data-type='method' style='display: none;'><a href="common.SimpleDB.html#.set#set">set</a></li></ul></li><li><a href="ui.CellInfoTab.html">ui.CellInfoTab</a></li><li><a href="window.Attachment.html">window.Attachment</a></li><li></li></ul><h3>Externals</h3><ul><li><a href="external-Icon%2520reference.html">external:Icon reference</a></li></ul><h3>Events</h3><ul><li><a href="Addon.html#event:loaded">Addon#loaded</a></li><li><a href="Addon.html#event:onLoaded">Addon#onLoaded</a></li><li><a href="RibbonMenu.html#event:active">RibbonMenu#active</a></li><li><a href="RibbonMenu.html#event:beforeSelect">RibbonMenu#beforeSelect</a></li><li><a href="RibbonMenu.html#event:ready">RibbonMenu#ready</a></li><li><a href="RibbonMenu.html#event:select">RibbonMenu#select</a></li><li><a href="Sys.html#event:beforeSaveConfig">Sys#beforeSaveConfig</a></li><li><a href="Sys.html#event:loadConfig">Sys#loadConfig</a></li><li><a href="Sys.html#event:saveConfig">Sys#saveConfig</a></li><li><a href="Trans.html#event:afterRemoveRow">Trans#afterRemoveRow</a></li><li></li><li><a href="Trans.html#event:beforeProcessSelection">Trans#beforeProcessSelection</a></li><li></li><li><a href="Trans.html#event:clearContextTranslationByRow">Trans#clearContextTranslationByRow</a></li><li></li><li><a href="Trans.html#event:documentModifiedStateChange">Trans#documentModifiedStateChange</a></li><li></li><li><a href="Trans.html#event:languageChange">Trans#languageChange</a></li><li><a href="Trans.html#event:onAfterSelectCell">Trans#onAfterSelectCell</a></li><li></li><li><a href="Trans.html#event:onGenerateTranslationData">Trans#onGenerateTranslationData</a></li><li></li><li><a href="Trans.html#event:onLoadTrans">Trans#onLoadTrans</a></li><li></li><li><a href="Trans.html#event:onUnloadTrans">Trans#onUnloadTrans</a></li><li></li><li><a href="Trans.html#event:projectCreated">Trans#projectCreated</a></li><li></li><li><a href="Trans.html#event:removeAllTranslation">Trans#removeAllTranslation</a></li><li></li><li><a href="Trans.html#event:transLoaded">Trans#transLoaded</a></li><li></li><li></li><li></li><li><a href="Trans.html#event:translatorIsChanged">Trans#translatorIsChanged</a></li><li><a href="ui.html#event:busyOverlayClosed">ui#busyOverlayClosed</a></li><li><a href="ui.html#event:busyOverlayOpened">ui#busyOverlayOpened</a></li><li><a href="ui.html#event:dialogRowPropertiesOpened">ui#dialogRowPropertiesOpened</a></li><li><a href="ui.html#event:loadingScreenIsClosed">ui#loadingScreenIsClosed</a></li><li></li><li><a href="ui.html#event:optionsWindowClosed">ui#optionsWindowClosed</a></li><li></li><li><a href="ui.html#event:optionsWindowOpened">ui#optionsWindowOpened</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">js/addon.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**=====LICENSE STATEMENT START=====
+    Translator++ 
+    CAT (Computer-Assisted Translation) tools and framework to create quality
+    translations and localizations efficiently.
+        
+    Copyright (C) 2018  Dreamsavior&lt;dreamsavior@gmail.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see &lt;https://www.gnu.org/licenses/>.
+=====LICENSE STATEMENT END=====*/
+/**
+ * @file Manages the addons
+ * @author Dreamsavior 
+ * 
+ */
+
+//"use strict"
+window.fs = window.fs||require('graceful-fs');
+/**
+ * @class
+ * @param  {string} path
+ * @param  {} options
+ * @classdesc Add-on for Translator++
+ * Addon is an additional script that is modular, can be added and removed as needed.
+ * Every folder in `www/addons` will automatically be loaded as a Translator++ addon.
+ * The `this` keyword in the top-level scope of javascript that is loaded as an addon will refer to the instance of this class.
+ */
+class Addon extends require("www/js/BasicEventHandler.js") {
+	constructor(path, options) {
+		super()
+		this.path 	= path;
+		this.id 	= nwPath.basename(this.path);
+		var pluginPath = nw.App.manifest.localConfig.addons;
+		pluginPath = pluginPath.replace(/\\/g, "/");
+		
+		this.fullPath = pluginPath+"/"+this.path	
+		this.options = options || {};
+		this.options.onload = this.options.onload || (() => {});
+		this.files = {};
+		this.package = {};
+		this.param = {};
+		this.config = {
+			isDisabled : false,
+			isMandatory : false
+		};
+		this.isReady = false;
+		this.html;
+	
+	}
+}
+
+Addon.extractProtocol = function(url) {
+    // Use a regular expression to match the protocol
+    const match = url.match(/^(\w+:\/\/)/);
+
+    // If a match is found, return the matched protocol, otherwise return an empty string
+    return match ? match[1] : '';
+}
+
+Addon.parseQueryString = function(url) {
+    // Use URLSearchParams to parse the query string
+    const queryParams = new URLSearchParams(url.split('?')[1]);
+
+    // Convert URLSearchParams to an object
+    const paramsObject = {};
+    for (const [key, value] of queryParams) {
+        paramsObject[key] = value;
+    }
+
+    return paramsObject;
+}
+
+/**
+ * Detect whether pathName contains "ao://"
+ * @param  {} pathName
+ */
+Addon.isExternalScript = function(pathName) {
+	if (["ao://"].includes(this.extractProtocol(pathName))) return true;
+	return false;
+}
+
+Addon.isNetworkScript = function(pathName) {
+	if (["https://", "http://"].includes(this.extractProtocol(pathName))) return true;
+	return false;
+}
+
+Addon.getLocalLocationExtScript = function(pathName) {
+	if (!pathName) return "";
+	// Use a regular expression to match the path part of the input
+	const match = pathName.match(/:\/\/(.+)/);
+
+	// If a match is found, return the matched path, otherwise return an empty string
+	return match ? match[1] : pathName;
+}
+
+Addon.prototype.setConfig = function(key, value) {
+	if (typeof key == "string") {
+		this.config[key] = value;
+	} else if (typeof key == "object" &amp;&amp; arguments.length == 1) {
+		for (var i in key) {
+			this.config[i] = key[i];
+		}
+	}
+	sys.saveConfig()
+	return this.config;
+}
+
+Addon.prototype.getConfig = function(key) {
+	if (typeof this.config[key] !== "undefined") return this.config[key];
+	
+	// otherwise get from the default JSONForm options
+	if (typeof this.optionsForm?.schema?.[key]?.default !== "undefined") return this.optionsForm.schema[key].default;
+	
+	// get from the default value of modified JSONForm
+	if (typeof this.optionsForm?.[key]?.HOOK !== "undefined") {
+		try {
+			return eval(this.optionsForm[key].HOOK);
+		} catch (e) {
+			return undefined;
+		}
+	}
+	
+	if (typeof this.optionsForm?.[key]?.default !== "undefined") return this.optionsForm[key].default;
+
+	return undefined;
+}
+
+// Addon.prototype.setOption = Addon.prototype.setConfig;
+// Addon.prototype.getOption = Addon.prototype.getConfig;
+// Addon.prototype.setOptions = function(options={}) {
+// 	for (var key in options) {
+// 		this.setConfig(key, options[key]);
+// 	}
+// 	return this.config;
+// }
+
+/**
+ * Resolve the relative path from the root of a local path relative to addon
+ * Translates the trailing slash to the root path of the addon
+ * @param {String} path 
+ * @returns {String} - Path to the addon
+ */
+Addon.prototype.resolvePath = function(path="") {
+	path = path.replaceAll("\\", "/");
+	if (path[0] == "/") return (nwPath.join(this.getPathRelativeToRoot(), path)).replaceAll("\\", "/");
+	return path; 
+}
+
+Addon.prototype.getLocation = function() {
+	// get location of the engine
+	return nwPath.normalize(nwPath.join(__dirname, this.fullPath));
+}
+
+Addon.prototype.getWebLocation = function() {
+	// get location of the engine
+	return this.fullPath.substring(nwPath.dirname(location.pathname).length);
+}
+
+Addon.prototype.createElement = function() {
+	if (Boolean(document.getElementById('addons')) == false) {
+		//console.log("Creating addon element!");
+		var wraper = document.createElement("div");
+		wraper.setAttribute("id", "addons")
+		wraper.setAttribute("class", "addon hidden")
+		wraper.setAttribute("style", "display:none")
+		document.body.appendChild(wraper);
+	}
+	
+	var addOnId = "_addon_"+this.path;
+	
+	// remove existing element;
+	var existing = document.getElementById(addOnId)
+	if (existing) existing.remove();
+	
+	this.html = document.createElement('div');
+	this.html.setAttribute("class", "addon "+this.path);
+	this.html.setAttribute("name", this.path);
+	this.html.setAttribute("id", addOnId);
+	document.getElementById('addons').appendChild(this.html);
+		
+	return this.html;
+}
+
+Addon.prototype.loadPackage = async function() {
+	//var json = fs.readFileSync(this.fullPath+"/package.json");
+	var json = await common.fileGetContents(this.fullPath+"/package.json");
+	try {
+		this.package = JSON.parse(json);
+	} catch (e) {
+		console.warn("Error when loading package.json", this.fullPath+"/package.json", json);
+	}
+	this.package.config = this.package.config || {};
+	Object.assign(this.config, this.package.config);
+	return this.package;
+}
+
+Addon.prototype.attachScript = function(scriptPath) {
+	// attach script directly to the head section of html
+	console.warn("attaching script : ", scriptPath);
+	var relPath = scriptPath.split("/");
+	relPath.shift();
+	relPath = relPath.join("/");	
+	console.log("relPath", relPath);	
+	
+	var script = document.createElement('script');
+	script.setAttribute("type", "text/javascript");
+	script.setAttribute("id", "_addon_script_"+this.path);
+	script.onload = function(e) {
+
+	}
+	script.setAttribute("src", relPath);
+
+	this.html.appendChild(script);
+
+}
+
+Addon.prototype.loadJS = async function(path, parentObj) {
+	if (this.package.name == "translationProxy") console.log("%ctranslationProxy load JS", "color:yellow;", path);
+	Addon.userscripts = Addon.userscripts||require('userscript-meta');
+
+	return new Promise(async (resolve, reject) => {
+		if (Addon.isExternalScript(path)) {
+			console.log("loading external script", path);
+			if (Boolean(localStorage[path]) == false) {
+				var localPath = Addon.getLocalLocationExtScript(path);
+				if (await common.isFileAsync(nwPath.join(__dirname,localPath))) {
+					var data = await common.fileGetContents(nwPath.join(__dirname,localPath));
+					console.warn("Attaching", localPath);
+					try {
+						eval(data.toString());
+					} catch(e) {
+						console.warn(e);
+					}
+				} else {
+					if (common.debugLevel() > 1) console.warn("File not found:", path);
+				}
+
+			} else {
+				try {
+					let thisScript = localStorage.getItem(path);
+					let thisMeta = common.extractString(thisScript, "==UserScript==", "==/UserScript==");
+					//console.log("meta: ",thisMeta);
+					this.identity = Addon.userscripts.parse(thisMeta);
+					
+					eval(thisScript);
+				} catch(e) {
+					console.warn(e);
+				}
+			}
+			
+			resolve(this);
+			return;
+		}
+
+		var thisScript = "";
+		if (Addon.isNetworkScript(path)) {
+			try {
+				if (common.debugLevel()) console.log("%cNetwork script detected", "color:red", path);
+				console.log("Network script requires autoloader to be completed");
+				await autoload.until("completed");
+				let queryStr = Addon.parseQueryString(path);
+				if (queryStr?.l) {
+					let thisFilepath = this.resolvePath(queryStr?.l);
+					if (await common.isFileAsync(thisFilepath)) {
+						if (common.debugLevel()) console.log("%cNetwork script-load local", "color:red", thisFilepath);
+						thisScript = await common.fileGetContents(thisFilepath);
+					}
+				}
+
+				if (!thisScript) {
+					const basicUtils = addonLoader.getAddon("basicUtils");
+					if (basicUtils?.safeLoad) {
+						thisScript = await basicUtils.safeLoad(path);
+					}
+
+					if (!thisScript) {
+						var res = await fetch(path, {
+							method:"POST", headers:{"Content-Type": "application/json"}, body:JSON.stringify(updater.getUser())
+						});
+						thisScript = await res.text();
+						// if status code is 200, store to localStorage
+						if (res.status == 200) {
+							await basicUtils.safeStore(path, thisScript);
+						}
+						if (common.debugLevel()) console.log("%cresult of network script", "color:red", thisScript);
+					}
+				}
+
+			} catch (e) {
+				if (common.debugLevel()) console.error("Failed to fecth script", path)
+			}
+
+		} else {
+			thisScript = await common.fileGetContents(path);
+			thisScript = thisScript.toString();
+		}
+		var thisMeta = common.extractString(thisScript, "==UserScript==", "==/UserScript==");
+		this.identity = Addon.userscripts.parse(thisMeta);
+
+		try {
+			let AsyncFunction = Object.getPrototypeOf(async function(){}).constructor
+			var thisExecution = new AsyncFunction(thisScript);
+			//var thisExecution = new Function(thisScript);
+			thisExecution.call(this, this.param);
+			if (this.package.name == "unityTrans") console.log("unityTrans loaded JS", path);
+
+			resolve(this);
+		} catch (e) {
+			console.warn("Error when executing script : "+this.path, e)
+			this.attachScript(path);
+			reject("Error when executing script : "+this.path);
+		}
+
+	});
+}
+
+/**
+ * Get relative path of the addon 
+ * @returns {string} - back slashes based add-on's path relative to Translator++ installation. No trailing slash.
+ */
+Addon.prototype.getPathRelativeToRoot = function(file="") {
+	return nwPath.join(nw.App.manifest.localConfig.addons, this.path, file);
+}
+
+/**
+ * Get relative path of the addon 
+ * @returns {string} - forward slashes based add-on's path relative to Translator++ installation. No trailing slash.
+ */
+Addon.prototype.getRelativePath = function(file="") {
+	return (nwPath.join(nw.App.manifest.localConfig.addons, this.path, file)).replaceAll("\\", "/")
+}
+
+Addon.prototype.getRootDocPath = function(path) {
+	path = path || "";
+	path = path.replaceAll("\\", "/");
+	var thisPath = path.split("/");
+	thisPath.shift();
+	return thisPath.join("/");
+}
+
+Addon.prototype.loadCss = async function(path, parentObj) {
+	//console.log("addon init arguments : ", arguments);
+	//if (this.package.name == "unityTrans") console.log("unityTrans load CSS", path, this.getRootDocPath(path));
+
+	parentObj = parentObj || {}
+	return new Promise ((resolve, reject) => {
+		var script = document.createElement('link');
+		script.setAttribute("rel", "stylesheet");
+		script.setAttribute("type", "text/css");
+		script.setAttribute("data-path", path);
+		script.onload = (e) => {
+			//if (this.package.name == "unityTrans") console.log("unityTrans load CSS completed");
+			parentObj.elm = script;
+			resolve(script)
+		}
+		script.setAttribute("href",this.getRootDocPath(path));
+		this.html.appendChild(script);
+	});
+
+}
+
+Addon.prototype.loadHTML = async function(path, parentObj) {
+	//if (this.package.name == "unityTrans") console.log("unityTrans load HTML");
+	parentObj = parentObj ||{};
+	return new Promise ((resolve, reject) => {
+		var htmlString =  fs.readFileSync(path).toString();
+		var div = document.createElement('div');
+		div.setAttribute("data-path", path);
+		div.innerHTML = htmlString.trim();
+		this.html.appendChild(div);
+		parentObj.elm = div
+		//if (this.package.name == "unityTrans") console.log("unityTrans load HTML completed");
+		resolve(div); 	
+	});
+}
+
+Addon.prototype.loadBin = async function(path, parentObj) {
+	// adapt path based on the version of nwjs
+	const dirName = nwPath.dirname(path);
+	const fileName = nwPath.basename(path);
+	const src1 = common.changeExtension(path, "js");
+	if (await common.isFileAsync(src1)) {
+		// load from source instead
+		console.log("Loading from source", src1);
+		this.loadJS(src1, parentObj);
+		return;
+	}
+
+	// load the same file from parent's directory src
+	const src2 = nwPath.join(nwPath.dirname(dirName), "src", common.changeExtension(fileName, "js"));
+	if (await common.isFileAsync(src2)) {
+		console.log("Loading from source", src2);
+		this.loadJS(src2, parentObj);
+		return;
+	}
+
+	const pattern1 = nwPath.join(dirName, `[${nw.process.versions.nw}-win-${nw.process.arch}]fileName`);
+	const pattern2 = nwPath.join(dirName, `${nw.process.versions.nw}-win-${nw.process.arch}`, fileName);
+
+	if (await common.isFileAsync(pattern1)) {
+		await nw.Window.get().evalNWBin(null, pattern1);
+	} else if (await common.isFileAsync(pattern2)) {
+		await nw.Window.get().evalNWBin(null, pattern2);
+	} else {
+		// run as is. Would crash if the file is not matching the version of nwjs
+		await nw.Window.get().evalNWBin(null, path);
+	}
+}
+
+Addon.prototype.loadBackgroundPage = async function(path, parentObj) {
+	if ($(this.html).find(`[data-bgpage="${path}"]`).length) return $(this.html).find(`[data-bgpage="${path}"]`)[0];
+	return new Promise ((resolve, reject) => {
+		var script = document.createElement('iframe');
+		script.onload = (e) => {
+			resolve(script)
+		}
+		script.setAttribute("src", path);
+		script.setAttribute("data-bgpage", path);
+		this.html.appendChild(script);
+	});
+}
+
+Addon.prototype.unloadBackgroundPage = async function(path, parentObj) {
+	$(this.html).find(`[data-bgpage="${path}"]`).remove();
+}
+
+Addon.prototype.onReady = function(fn) {
+	if (typeof fn !== 'function') fn = function() {};
+	this.__onScriptsLoadedPool = this.__onScriptsLoadedPool||[];
+	
+	if (Boolean(this.isReady) == false) {
+		this.__onScriptsLoadedPool.push(fn)
+	} else {
+		for (var i=0; i&lt;this.__onScriptsLoadedPool.length; i++) {
+			this.__onScriptsLoadedPool[i].apply(this, arguments);
+		}
+		
+		fn.apply(this, arguments);
+	}		
+}
+
+Addon.prototype.getFile = function(file) {
+	if (!file) return console.warn("No file specified");
+	file = file.replace("/", "\\");
+	if (file[0]!=="\\") file = "\\"+file;
+	return this.files[file];
+}
+
+/**
+ * Register addon's node modules to the global scope global
+ * @since 5.8.13
+ */
+Addon.prototype.globalizeNodeModules = function() {
+	const thisPath = this.getPathRelativeToRoot();
+	moduleAlias.addPath(thisPath+'/node_modules');
+	moduleAlias(thisPath+'/package.json');
+}
+
+/**
+ * Load node modules that installed locally
+ * @param {string} moduleName - Name of the installed module
+ * @since 5.8.13
+ */
+Addon.prototype.require = function(moduleName) {
+	if (!moduleName) return;
+	const thisPath = this.getPathRelativeToRoot();
+	let newPath = {}
+	const localPath = '@'+this.id;
+	newPath[localPath] = thisPath + "/node_modules"
+	moduleAlias.addAliases(newPath)
+	
+	return require(`${localPath}/${moduleName}`);
+}
+
+Addon.prototype.init = async function() {
+	return new Promise(async (resolve, reject)=> {
+		this.createElement();
+		await this.loadPackage();
+
+		var finish = () => {
+			this.isReady = true;
+			this.options.onload.apply(this);
+			this.onReady();
+			//$(document).trigger("addonLoaded", this);
+			AddonLoader.loadState[this.package.name] = true;
+			AddonLoader.countLoaded++;
+			//console.log("%cLoading package - done: ","color:blue",AddonLoader.countLoaded, this.package.name);
+			resolve(this);
+
+			/**
+			 * Addon is loaded and ready
+			 * @event Addon#onLoaded 
+			 * @type {BasicEventHandler#Event}
+			 * @deprecated Deprecated since 4.12.1. Use `loaded` instead
+			 */
+			this.trigger("onLoaded", this);			
+			/**
+			 * Addon is loaded and ready
+			 * @event Addon#loaded 
+			 * @type {BasicEventHandler#Event|BasicEventHandler#State}
+			 */
+
+			this.trigger("loaded", this);
+			this.resolveState("loaded", this);
+			return this;
+		}
+		
+		sys.config.addons 			= sys.config.addons || {};
+		sys.config.addons.package 	= sys.config.addons.package || {};
+		sys.config.addons.package[this.package.name] = sys.config.addons.package[this.package.name] || this.config || {}
+		this.config = sys.config.addons.package[this.package.name];
+		if (this.config.isDisabled == true) {
+			return finish();
+		}
+		if (this.package.disabled == true) {
+			return finish();
+		}
+		
+		//Addon.userscripts = Addon.userscripts||require('userscript-meta');
+		AddonLoader.loadState[this.package.name] = false;
+		AddonLoader.countLoad++;
+		//console.log("%cLoading package : ","color:blue", AddonLoader.countLoad, this.package.name);
+		var dirContent = [];
+		if (this.package.autoload) {
+			//console.log("Autoloading content");
+			// todo : async this
+			dirContent = await common.readDir(this.fullPath);
+		}
+		
+		if (Array.isArray(this.package.load)) {
+			// convert to the path relative to root
+			var loaded = [];
+			for (var i=0; i&lt;this.package.load.length; i++) {
+				// detect if resource is not local
+				if (Addon.isExternalScript(this.package.load[i]) || Addon.isNetworkScript(this.package.load[i])) {
+					//console.log("adding external resource:", this.package.load[i]);
+					loaded.push(this.package.load[i]);
+					continue;
+				} 
+				loaded.push(nwPath.join(this.getPathRelativeToRoot(), this.package.load[i]));
+			}
+			// merge with package.load
+			dirContent = dirContent.concat(loaded);
+		}
+		
+		var promises = [];
+		for (let i=0; i&lt;dirContent.length; i++) {
+			var thisPath = dirContent[i];
+			var thisData = {}
+			var relPath = thisPath.substr(this.fullPath.length)
+			thisData.path 	= thisPath
+			thisData.ext 	= common.getFileExtension(thisPath).toLowerCase();
+			
+			if (nwPath.basename(thisPath)[0] == "!") {
+				// skip including if the first character of filename is "!"
+				this.files[relPath] = thisData;
+				continue;
+			}
+
+			if (thisData.ext == "js") {
+				promises.push(this.loadJS(thisPath, thisData))
+			} else if (thisData.ext == "htm" || thisData.ext == "html") {
+				promises.push(this.loadHTML(thisPath, thisData))
+			} else if (thisData.ext == "css") {
+				promises.push(this.loadCss(thisPath, thisData))
+			} else if (thisData.ext.endsWith("bin")) {
+				promises.push(this.loadBin(thisPath, thisData))
+			}
+			
+			this.files[relPath] = thisData;
+		}
+
+		await Promise.all(promises)
+		return finish();
+	})
+}
+
+
+/**
+ * Handle addons
+ * @class
+ */
+class AddonLoader extends require("www/js/BasicEventHandler.js") {
+	constructor($elm) {
+		super($elm)
+		this.init.apply(this, arguments);
+		this.completePromise = new Promise((resolve, reject) => {
+			this.completeResolver = resolve;
+		}) 
+	}
+}
+
+AddonLoader.countLoad = 0;
+AddonLoader.countLoaded = 0;
+AddonLoader.loadState = {};
+
+AddonLoader.prototype.init = function() {
+	this.isInitialized = false;
+	this.isInitialized = true;
+	this.onReady.apply(this, arguments);
+	this.addons = {};
+	this.scriptsLoaded = false;
+	this._promiseFor = {}
+}
+
+
+/**
+ * Wait until certain addon is loaded
+ * @async
+ * @param {String} path - Folder name of the addon
+ * @returns {Promise&lt;Addon>}
+ */
+AddonLoader.prototype.waitFor = async function(path) {
+	var holdUp = async ()=> {
+		if (this._promiseFor[path]) return this._promiseFor[path];
+		this._promiseFor[path] = this._promiseFor[path]||{}
+		return new Promise((resolve, reject) => {
+			this._promiseFor[path].resolve = resolve;
+			this._promiseFor[path].reject = reject;
+		})
+	}
+
+	try {
+		if (this.addons[path].isReady) {
+			return this.addons[path];
+		} else {
+			return holdUp();
+		}
+	} catch (e) {
+		return holdUp();
+	}
+}
+
+AddonLoader.prototype.untilCompleted = async function() {
+	return this.completePromise;
+}
+
+AddonLoader.prototype.onScriptsLoaded = function(act) {
+	if (typeof act !== 'function') return console.log("parameter must be a function", act);
+	this.__onScriptsLoadedPool = this.__onScriptsLoadedPool||[];
+	
+	if (Boolean(this.scriptsLoaded) == false) {
+		this.__onScriptsLoadedPool.push(act)
+	} else {
+		for (var i=0; i&lt;this.__onScriptsLoadedPool.length; i++) {
+			this.__onScriptsLoadedPool[i].apply(this, arguments);
+		}
+		
+		act.apply(this, arguments);
+	}
+}
+
+/**
+ * Get instance of addon by directory name
+ * @param {String|Addon} dirName - Directory of the addon
+ * @returns {Addon|undefined}
+ */
+AddonLoader.prototype.getAddon = function(dirName) {
+	if (!dirName) return console.warn("addon is not specified")
+	if (typeof dirName == "string") {
+		if (this.addons[dirName]) return this.addons[dirName];
+	} else {
+		if (dirName?.constructor?.name == "Addon") return dirName
+	}
+}
+
+/**
+ * Get addon by the name on package.json
+ * This function is case insensitive
+ * @param {String} name - Addon's name 
+ * @returns {Addon|undefined} - Addon object
+ * @since 5.8.17
+ */
+AddonLoader.prototype.getAddonByName = function(name="") {
+	if (!name || typeof name !== "string") return;
+	this._nameIndex ||= {};
+	name = name.toLowerCase();
+	if (this._nameIndex[name.toLowerCase()]) {
+		return this.addons[this._nameIndex[name.toLowerCase()]];
+	}
+	for (let id in this.addons) {
+		let nameLowercase = (this.addons?.package?.name||"").toLowerCase()
+		if (!nameLowercase) continue;
+		this._nameIndex[nameLowercase] = id;
+		if (nameLowercase == name.toLowerCase()) return this.addons[id];
+	}
+}
+
+/**
+ * Check if an addon is active or not
+ * @param {String|Addon} addon 
+ * @returns {Boolean} - True if addon is exist and active
+ * @since 5.8.17
+ */
+AddonLoader.prototype.isActive = function(addon) {
+	if (!addon) return console.warn("ID not specified");
+	addon = this.getAddon(addon);
+	if (!addon.getConfig("isDisabled")) return true;
+	return false;
+}
+
+AddonLoader.prototype.onReady = AddonLoader.prototype.onScriptsLoaded;
+
+
+
+AddonLoader.prototype.openManagerWindow = function (param) {
+	param = param||"";
+	nw.Window.open('www/addons.html#'+param,{'frame':false, 'transparent':true}, 
+		function(thisWin) {
+			ui.windows['addonLoader'] = thisWin.window;
+		}
+	);
+}
+
+AddonLoader.prototype.load = async function(dir) {
+	console.log("Loading addon ", dir);
+	if (this.addons[dir]) return; // already loaded;
+
+	var addonPath = nw.App.manifest.localConfig.addons;
+	addonPath = addonPath.replace(/\\/g, "/");
+
+	if (await common.isDirectory(addonPath+"/"+dir) == false) return;
+	if (await common.isFileAsync(addonPath+"/"+dir+"/package.json") == false) return;
+	
+	console.log("Loading addon ", addonPath+"/"+dir);
+	this.length++;
+	this.addons[dir] = new Addon(dir);
+	await this.addons[dir].init();
+	this.addons[dir].trigger("load");
+	this.resolveState("addonLoaded:"+dir);
+	if (this._promiseFor[dir]) {
+		if (typeof this._promiseFor[dir].resolve == "function") this._promiseFor[dir].resolve(this.addons[dir]);
+		delete this._promiseFor[dir];
+	}
+}
+
+AddonLoader.prototype.loadAll = async function(options) {
+	console.log("Load all addons with arguments", options);
+	options = options||{}
+	options.onScriptsLoaded = options.onScriptsLoaded||function(){};
+	options.select ||= []; // load only selected directory
+
+	var addonPath = nw.App.manifest.localConfig.addons;
+	addonPath = addonPath.replace(/\\/g, "/");
+	
+
+	this.length 	= 0;
+	var promises 	= [];
+
+	if (options.select.length > 0) {
+		// load selected
+		console.log("Load selected addon", options.select);
+		for (let i=0; i&lt;options.select.length; i++) {
+			if (!await common.isDirectory(nwPath.join(addonPath, options.select[i]))) continue;
+			promises.push(this.load(options.select[i]));
+		}
+	} else {
+		// load all
+		const dirContent = await fs.promises.readdir(addonPath);
+		// load priority addons first
+		const priorityStack = [];
+		const nonPriorityStack = [];
+		for (let i=0; i&lt;dirContent.length; i++) {
+			if (!await common.isDirectory(nwPath.join(addonPath, dirContent[i]))) continue;
+			if (await common.isFileAsync(nwPath.join(addonPath, dirContent[i], ".priority"))) {
+				priorityStack.push(this.load(dirContent[i]));
+			} else {
+				nonPriorityStack.push(dirContent[i]);
+			}
+		}
+		
+		await Promise.all(priorityStack);
+		for (let i=0; i&lt;nonPriorityStack.length; i++) {
+			promises.push(this.load(nonPriorityStack[i]));
+		}
+
+		// for (let i=0; i&lt;dirContent.length; i++) {
+		// 	if (!await common.isDirectory(nwPath.join(addonPath, dirContent[i]))) continue;
+		// 	promises.push(this.load(dirContent[i]));
+		// }
+	}
+
+
+	await Promise.all(promises);
+	console.log("Running addonLoader.onReady");
+	this.scriptsLoaded = true;
+	this.onReady(function(){});
+	this.trigger("loaded");
+	if (this.completeResolver) this.completeResolver();
+	this.__allFileIsAdded = true;
+	this.isComplete = true;
+	if (this._promiseFor) {
+		for (var i in this._promiseFor) {
+			if (this._promiseFor[i]) this._promiseFor[i].reject(new Error(`Can not resolve addon ${i}. The addon loader is complete but this addon is still not resolved. Maybe the addon doesn't exist.`));
+		}
+	}
+}
+
+AddonLoader.prototype.getByName = function(name) {
+	try {
+		for (var i in this.addons) {
+			if (this.addons[i].package.name == name) return this.addons[i]
+		}
+	} catch (e) {
+		// do nothing
+	}
+}
+
+AddonLoader.prototype.install = function(targetPath, callback) {
+	callback = callback || function(){};
+	var _7z = _7z||require('7zip-min');
+	if (Array.isArray(targetPath) == false) targetPath = [targetPath]
+	
+	var promises = [];
+	for (var i=0; i&lt;targetPath.length; i++) {
+		promises.push(new Promise((resolve, reject) => {
+			_7z.cmd(['x', '-tzip', targetPath[i], '-o'+nw.App.manifest.localConfig.addons], (err) => {
+				if (err) console.warn(err);
+				console.log("installation done : ", targetPath[i]);
+				resolve();
+			});
+		}))		
+	}
+	
+	return new Promise((resolve, reject) => {
+		Promise.all(promises)
+		.then(()=> {
+				console.log("all addons are installed");
+				callback()
+				resolve()
+		})
+	})
+	
+}
+
+AddonLoader.prototype.uninstall = async function(pkg) {
+	console.log("uninstall", pkg);
+	
+	if (Boolean(pkg) == false) return;
+	if (Boolean(pkg.path) == false) return;
+	if (pkg.path == "." || pkg.path == "/" || pkg.path == "./" || pkg.path == "\\") return;
+
+	try {
+		await common.rmdir(nwPath.join(__dirname, "www/addons", pkg.path));
+		delete this.addons[pkg.path];
+	} catch (e) {
+		// do nothing
+	}
+}
+
+
+/**
+ * AddonIstaller
+ * Handle addon installation
+ * @param  {} location
+ * @param  {} type
+ */
+var AddonInstaller = function(location, type) {
+	this.location 	= location;
+	this.type 		= type || "";
+	if (!(this.type)) {
+		if (typeof this.location == "number") {
+			this.type = "store";
+		} else if (this.location.substr(0, 8) == "https://") {
+			this.type = "remote";
+		} else if (this.location.substr(0, 7) == "http://") {
+			this.type = "remote";
+		}
+		this.type = this.type || "local";
+	}
+
+}	
+
+AddonInstaller.localConfig = {};
+if (common.isJSON(localStorage.getItem("AddonInstaller"))) {
+	AddonInstaller.localConfig = JSON.parse(localStorage.getItem("AddonInstaller"));
+}
+
+AddonInstaller.setConfig = function(key, value) {
+	this.localConfig = this.localConfig || {};
+	this.localConfig[key] = value;
+	localStorage.setItem("AddonInstaller", JSON.stringify(this.localConfig));
+	return this.localConfig;
+}
+
+AddonInstaller.getConfig = function(key) {
+	this.localConfig = this.localConfig || {};
+	if (common.isJSON(localStorage.getItem("AddonInstaller"))) {
+		this.localConfig = JSON.parse(localStorage.getItem("AddonInstaller"));
+	}	
+	this.localConfig = this.localConfig || {};
+	return this.localConfig[key];
+}
+
+
+/**
+ * Write newly installed addon to configuration
+ * unused
+ */
+AddonInstaller.configInstall = async function(addonName, options) {
+	if (!addonName) return console.warn("Addon's name can not be blank!");
+	var installedList = this.getConfig("installed") || {};
+	options = options || {};
+	installedList[addonName] = options;
+	installedList[addonName].date = Date();
+
+	this.setConfig("installed", installedList);
+}
+
+
+/**
+ * Uninstall addon from configuration
+ * unused
+ */
+ AddonInstaller.configUninstall = async function(addonName) {
+	if (!addonName) return console.warn("Addon's name can not be blank!");
+	var installedList = this.getConfig("installed") || {};
+	if (!installedList[addonName]) return; 
+	delete installedList[addonName];
+	this.setConfig("installed", installedList);
+}
+
+AddonInstaller.isInstalled = function(addonName) {
+	if (!addonName) return console.warn("Addon's name can not be blank!");
+	var installedList = this.getConfig("installed") || {};
+	if (typeof addonName == "string" ) {
+		return Boolean(addonLoader[addonName])
+	}
+
+
+	if (installedList[addonName]) return true;
+	return false; 
+}
+/**
+ * Get directory name relative to www/addons/
+ * @param  {} addonName
+ */
+AddonInstaller.getRootAddonDir = function(addonName) {
+	if (!addonName) return console.warn("Addon's name can not be blank!");
+	var thisConfig = this.getConfig("installed");
+	if (!thisConfig[addonName]) return;
+	if (!thisConfig[addonName].content) return;
+
+	thisConfig[addonName].content.dirs = thisConfig[addonName].content.dirs || [];
+	for (var i in thisConfig[addonName].content.dirs) {
+		var thisPath = thisConfig[addonName].content.dirs[i];
+		if (thisPath.substring(0, 11) !== 'www\\addons\\') continue;
+
+		var thisRelPath = thisPath.substring(11);
+
+		if (/\\/g.test(thisRelPath) == false) return thisRelPath;
+	}
+}
+
+AddonInstaller.prototype.install = async function(target, options) {
+	target = target || __dirname;
+	options= options || {};
+	options.onError = options.onError || async function(){};
+	options.onSuccess = options.onSuccess || async function(){};
+	var action = "";
+	var url = "";
+	var saveto = "";
+	var packageLocation = "";
+	var currentObj = "";
+
+	if (this.type == "store") {
+		// get url from addon id
+		//await common.download(url, saveto, options);
+		url = `${(nw.App.manifest.homepage || "https://dreamsavior.net").replace(/\/+$/, "")}/rest/addons/get/?id=${this.location}&amp;ver=${nw.App.manifest.version}`;
+		var addonObj =  await common.fetch(url);
+		console.log(addonObj);
+		if (typeof addonObj !== 'object') {
+			console.warn("invalid type addonObj");
+			options.onError.call(this, t("invalid type addonObj"), addonObj);
+			return;
+		}
+		if (Array.isArray(addonObj.addons) == false) {
+			console.warn("invalid type addonObj.addons");
+			options.onError.call(this, t("invalid type addonObj.addons"), addonObj);
+			return;
+		}
+		if (addonObj.addons.length &lt; 1) {
+			console.warn("You are not eligible to get this addon");
+			options.onError.call(this, t("You are not eligible to get this addon"), addonObj);
+			return;
+		}
+		currentObj = addonObj.addons[0];
+		
+		url = currentObj.url;
+		//console.log(url);
+		if (Boolean(url) == false) return;
+		
+		// do remote processing now
+		action = "remote";
+	}
+
+	// running on before install
+	try {
+		if (typeof currentObj == "object") {
+			if (currentObj.onBeforeInstall) {
+				//eval(currentObj.onBeforeInstall);
+				let AsyncFunction = Object.getPrototypeOf(async function(){}).constructor
+				let thisFunc = new AsyncFunction(currentObj.onBeforeInstall);
+				await thisFunc();
+			}
+		}
+	} catch (e) {
+		console.warn("Error on trying to run onBeforeInstall script");
+	}
+
+	
+	if (this.type == "remote" || action == "remote") {
+		console.log("fetching remote location");
+		url = url || this.location;
+		saveto = nwPath.join(nw.process.env.TMP, "addon_"+common.rand(1, 1000000));
+		packageLocation = await common.download(url, saveto);
+		console.log("saved to", saveto);
+		
+		// do local processing now
+		action = "local";		
+	}
+	
+	if (this.type == "local" || action == "local") {
+		packageLocation = packageLocation || this.location;
+		console.log("extracting to : ", target);
+		await common.extract(packageLocation, target);
+	}
+	
+	// running on after install
+	try {
+		if (typeof currentObj == "object") {
+			if (currentObj.onAfterInstall) {
+				console.log("Running post installation script");
+				//eval(currentObj.onAfterInstall);
+				let AsyncFunction = Object.getPrototypeOf(async function(){}).constructor
+				let thisFunc = new AsyncFunction(currentObj.onAfterInstall);
+				await thisFunc();
+			}
+		}
+	} catch (e) {
+		console.warn("Error on trying to run onAfterInstall script");
+	}
+	console.log("All process done");
+	AddonInstaller.configInstall(this.location, {
+		content: await common.listArchiveContent(packageLocation)
+	});
+
+	await options.onSuccess.call(this);
+	return true;
+}
+
+
+
+/**
+ * @global
+ */
+var addonLoader = new AddonLoader();
+window.AddonInstaller = AddonInstaller;
+
+// a class can not be accessed from child page
+window.classAddon = Addon
+
+$(document).ready(function() {
+	var getLoadedAddonFromURL = function() {
+		// load list addon from URL if any
+		// If URL has get parameters addons, then Translator++ will load only that addons.
+		var searchparam = new URLSearchParams(window.location.search);
+		var selectedAddon = searchparam.get("addons");
+		if (!selectedAddon) return;
+		
+		return selectedAddon.split(",");
+	}
+	
+	sys.onReady(()=> {
+		addonLoader.loadAll({
+			select:getLoadedAddonFromURL()
+		});
+	});
+
+	ui.onReady(function() {
+		addonLoader.resolveState("uiReady")
+	})
+});</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.0</a> using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <script src="fix.js"></script>
+    
+</body>
+</html>

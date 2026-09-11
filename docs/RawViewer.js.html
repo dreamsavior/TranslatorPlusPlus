@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>RawViewer.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://dreamsavior.net" target="_blank" class="menu-item" id="website_link" >Project Website</a></h2><h2><a href="https://discord.gg/6Dv97C87xt" target="_blank" class="menu-item" id="forum_link" >Discord</a></h2><h2><a href="https://dreamsavior.net/docs/translator-developers-guide/" target="_blank" class="menu-item" id="website_link" >Developer Guide</a></h2><h2><a href="https://dreamsavior.net/files/docs/tpp/fontello-f7017850/demo.html" target="_blank" class="menu-item" id="website_link" >Icon reference</a></h2><h3>Namespaces</h3><ul><li><a href="global.common.html">global.common</a></li><li><a href="trans_.html">trans</a></li><li><a href="ui.html">ui</a><ul class='methods'><li data-type='method' style='display: none;'><a href="ui.html#.bumpGridScroll">bumpGridScroll</a></li><li data-type='method' style='display: none;'><a href="ui.html#.createMenu">createMenu</a></li><li data-type='method' style='display: none;'><a href="ui.html#.disableButtons">disableButtons</a></li><li data-type='method' style='display: none;'><a href="ui.html#.drawWordWrapByTagField">drawWordWrapByTagField</a></li><li data-type='method' style='display: none;'><a href="ui.html#.form">form</a></li><li data-type='method' style='display: none;'><a href="ui.html#.off">off</a></li><li data-type='method' style='display: none;'><a href="ui.html#.on">on</a></li><li data-type='method' style='display: none;'><a href="ui.html#.onDOMReady">onDOMReady</a></li><li data-type='method' style='display: none;'><a href="ui.html#.onReady">onReady</a></li><li data-type='method' style='display: none;'><a href="ui.html#.one">one</a></li><li data-type='method' style='display: none;'><a href="ui.html#.openImportTrans">openImportTrans</a></li><li data-type='method' style='display: none;'><a href="ui.html#.saveAs">saveAs</a></li><li data-type='method' style='display: none;'><a href="ui.html#.saveAsTPP">saveAsTPP</a></li><li data-type='method' style='display: none;'><a href="ui.html#.setCurrentCellText">setCurrentCellText</a></li><li data-type='method' style='display: none;'><a href="ui.html#.trigger">trigger</a></li></ul></li></ul><h3>Classes</h3><ul><li><a href="Addon.html">Addon</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Addon.html#.getPathRelativeToRoot#getPathRelativeToRoot">getPathRelativeToRoot</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.getRelativePath#getRelativePath">getRelativePath</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.globalizeNodeModules#globalizeNodeModules">globalizeNodeModules</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.require#require">require</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.resolvePath#resolvePath">resolvePath</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.isExternalScript">isExternalScript</a></li></ul></li><li><a href="AddonLoader.html">AddonLoader</a><ul class='methods'><li data-type='method' style='display: none;'><a href="AddonLoader.html#.getAddon#getAddon">getAddon</a></li><li data-type='method' style='display: none;'><a href="AddonLoader.html#.getAddonByName#getAddonByName">getAddonByName</a></li><li data-type='method' style='display: none;'><a href="AddonLoader.html#.isActive#isActive">isActive</a></li><li data-type='method' style='display: none;'><a href="AddonLoader.html#.waitFor#waitFor">waitFor</a></li></ul></li><li><a href="AddonUtils.html">AddonUtils</a><ul class='methods'><li data-type='method' style='display: none;'><a href="AddonUtils.html#.createProject">createProject</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.createTransData">createTransData</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.exportAsZip">exportAsZip</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.exportToFolder">exportToFolder</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.getTransData">getTransData</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.handleExport">handleExport</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.writeFile">writeFile</a></li></ul></li><li><a href="BC.html">BC</a></li><li><a href="BasicEventHandler.html">BasicEventHandler</a><ul class='methods'><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.processWith#processWith">processWith</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.rejectState#rejectState">rejectState</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.resolveState#resolveState">resolveState</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.until#until">until</a></li></ul></li><li><a href="CodeEscape.html">CodeEscape</a><ul class='methods'><li data-type='method' style='display: none;'><a href="CodeEscape.html#.afterTranslation#afterTranslation">afterTranslation</a></li><li data-type='method' style='display: none;'><a href="CodeEscape.html#.processMatchRule#processMatchRule">processMatchRule</a></li></ul></li><li><a href="CustomFields.html">CustomFields</a><ul class='methods'><li data-type='method' style='display: none;'><a href="CustomFields.html#.addHTML#addHTML">addHTML</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.addJSONForm#addJSONForm">addJSONForm</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.getFormValues#getFormValues">getFormValues</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.getJsonFormTree#getJsonFormTree">getJsonFormTree</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.getValues#getValues">getValues</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.setValueByName#setValueByName">setValueByName</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.setValues#setValues">setValues</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.validate#validate">validate</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.isJsonForm">isJsonForm</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.sanitize">sanitize</a></li></ul></li><li><a href="DropFileToWindow.html">DropFileToWindow</a><ul class='methods'><li data-type='method' style='display: none;'><a href="DropFileToWindow.html#.addCss#addCss">addCss</a></li><li data-type='method' style='display: none;'><a href="DropFileToWindow.html#.preventDefault#preventDefault">preventDefault</a></li></ul></li><li><a href="Engine.html">Engine</a></li><li><a href="Engines.html">Engines</a></li><li><a href="LangTools.html">LangTools</a><ul class='methods'><li data-type='method' style='display: none;'><a href="LangTools.html#.compareWithDB#compareWithDB">compareWithDB</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.generateLangPairs#generateLangPairs">generateLangPairs</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.getFullName#getFullName">getFullName</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.getLanguage#getLanguage">getLanguage</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.getLanguageList#getLanguageList">getLanguageList</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.isCJK#isCJK">isCJK</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.lookupAlias#lookupAlias">lookupAlias</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.lookupDB#lookupDB">lookupDB</a></li></ul></li><li><a href="Logger.html">Logger</a></li><li><a href="ParserBase.html">ParserBase</a><ul class='methods'><li data-type='method' style='display: none;'><a href="ParserBase.html#.assignTranslationPair#assignTranslationPair">assignTranslationPair</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.contextEnd#contextEnd">contextEnd</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.contextEnter#contextEnter">contextEnter</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.editLastWritableData#editLastWritableData">editLastWritableData</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.filterText#filterText">filterText</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.generateFileInfo#generateFileInfo">generateFileInfo</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.getText#getText">getText</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.importTransData#importTransData">importTransData</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.processThispath#processThispath">processThispath</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.register#register">register</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.registerString#registerString">registerString</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.replaceLineBreak#replaceLineBreak">replaceLineBreak</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.setTranslationPair#setTranslationPair">setTranslationPair</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.toString#toString">toString</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.toTrans#toTrans">toTrans</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.translate#translate">translate</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.unfilterText#unfilterText">unfilterText</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.appendTransData">appendTransData</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.detectEncoding">detectEncoding</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.generateFileInfo">generateFileInfo</a></li></ul></li><li><a href="ParserFile.html">ParserFile</a><ul class='methods'><li data-type='method' style='display: none;'><a href="ParserFile.html#.readFile#readFile">readFile</a></li><li data-type='method' style='display: none;'><a href="ParserFile.html#.readTextFromFile#readTextFromFile">readTextFromFile</a></li><li data-type='method' style='display: none;'><a href="ParserFile.html#.write#write">write</a></li><li data-type='method' style='display: none;'><a href="ParserFile.html#.detectEncoding">detectEncoding</a></li></ul></li><li><a href="Python.html">Python</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Python.html#.getConfig#getConfig">getConfig</a></li><li data-type='method' style='display: none;'><a href="Python.html#.getPackageInfo#getPackageInfo">getPackageInfo</a></li><li data-type='method' style='display: none;'><a href="Python.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="Python.html#.installPackage#installPackage">installPackage</a></li><li data-type='method' style='display: none;'><a href="Python.html#.installPython#installPython">installPython</a></li><li data-type='method' style='display: none;'><a href="Python.html#.installRequirements#installRequirements">installRequirements</a></li><li data-type='method' style='display: none;'><a href="Python.html#.isPackage#isPackage">isPackage</a></li><li data-type='method' style='display: none;'><a href="Python.html#.isScript#isScript">isScript</a></li><li data-type='method' style='display: none;'><a href="Python.html#.listPackages#listPackages">listPackages</a></li><li data-type='method' style='display: none;'><a href="Python.html#.loadConfig#loadConfig">loadConfig</a></li><li data-type='method' style='display: none;'><a href="Python.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="Python.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="Python.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="Python.html#.processWith#processWith">processWith</a></li><li data-type='method' style='display: none;'><a href="Python.html#.rejectState#rejectState">rejectState</a></li><li data-type='method' style='display: none;'><a href="Python.html#.requirementIsInstalled#requirementIsInstalled">requirementIsInstalled</a></li><li data-type='method' style='display: none;'><a href="Python.html#.resolveState#resolveState">resolveState</a></li><li data-type='method' style='display: none;'><a href="Python.html#.runPy#runPy">runPy</a></li><li data-type='method' style='display: none;'><a href="Python.html#.runPyDetached#runPyDetached">runPyDetached</a></li><li data-type='method' style='display: none;'><a href="Python.html#.saveConfig#saveConfig">saveConfig</a></li><li data-type='method' style='display: none;'><a href="Python.html#.setConfig#setConfig">setConfig</a></li><li data-type='method' style='display: none;'><a href="Python.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="Python.html#.uninstallPackage#uninstallPackage">uninstallPackage</a></li><li data-type='method' style='display: none;'><a href="Python.html#.uninstallRequirements#uninstallRequirements">uninstallRequirements</a></li><li data-type='method' style='display: none;'><a href="Python.html#.until#until">until</a></li><li data-type='method' style='display: none;'><a href="Python.html#.downloader">downloader</a></li></ul></li><li><a href="RawViewer.html">RawViewer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="RawViewer.html#.addContextMenu#addContextMenu">addContextMenu</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.addTextPreview#addTextPreview">addTextPreview</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.addTextPreviewFromFileOffset#addTextPreviewFromFileOffset">addTextPreviewFromFileOffset</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.addTextPreviewFromTextOffset#addTextPreviewFromTextOffset">addTextPreviewFromTextOffset</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.append#append">append</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.clear#clear">clear</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.commonHandleFile#commonHandleFile">commonHandleFile</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.getKeyString#getKeyString">getKeyString</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.getSnippetFromOffset#getSnippetFromOffset">getSnippetFromOffset</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.getStartingLineFromOffset#getStartingLineFromOffset">getStartingLineFromOffset</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.handleAttachment#handleAttachment">handleAttachment</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.isClear#isClear">isClear</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.loadPrism#loadPrism">loadPrism</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.openFile#openFile">openFile</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.setListener#setListener">setListener</a></li></ul></li><li><a href="Sys.html">Sys</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Sys.html#.getConfig#getConfig">getConfig</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.setConfig#setConfig">setConfig</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.trigger#trigger">trigger</a></li></ul></li><li><a href="Thread.html">Thread</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Thread.html#.onReady#onReady">onReady</a></li><li data-type='method' style='display: none;'><a href="Thread.html#.onReady#onReady">onReady</a></li></ul></li><li></li><li></li><li><a href="ThreadHost.html">ThreadHost</a></li><li></li><li><a href="ThreadServer.html">ThreadServer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="ThreadServer.html#.addTask#addTask">addTask</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.addTask#addTask">addTask</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.addTask#addTask">addTask</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.getIddleThread#getIddleThread">getIddleThread</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.getIddleThread#getIddleThread">getIddleThread</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.getReadyState#getReadyState">getReadyState</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.getReadyState#getReadyState">getReadyState</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.startThread#startThread">startThread</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.startThread#startThread">startThread</a></li></ul></li><li></li><li></li><li><a href="Trans.html">Trans</a><ul class='members'><li data-type='member' style='display: none;'><a href="Trans.html#data">data</a></li><li data-type='member' style='display: none;'><a href="Trans.html#grid">grid</a></li><li data-type='member' style='display: none;'><a href="Trans.html#inProject">inProject</a></li><li data-type='member' style='display: none;'><a href="Trans.html#keyColumn">keyColumn</a></li><li data-type='member' style='display: none;'><a href="Trans.html#project">project</a></li><li data-type='member' style='display: none;'><a href="Trans.html#trans.gridContextMenu">trans.gridContextMenu</a></li><li data-type='member' style='display: none;'><a href="Trans.html#.maxCols">maxCols</a></li></ul><ul class='methods'><li data-type='method' style='display: none;'><a href="Trans.html#.abortTranslation#abortTranslation">abortTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addFileGroup#addFileGroup">addFileGroup</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addFileItem#addFileItem">addFileItem</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addRow#addRow">addRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.alert#alert">alert</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendTags#appendTags">appendTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendTextToReference#appendTextToReference">appendTextToReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.applySaveData#applySaveData">applySaveData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.applyTransTableToSelectedCell#applyTransTableToSelectedCell">applyTransTableToSelectedCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.autoSave#autoSave">autoSave</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildContextFromParameter#buildContextFromParameter">buildContextFromParameter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndex#buildIndex">buildIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndexFromData#buildIndexFromData">buildIndexFromData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndexes#buildIndexes">buildIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.calculateTableHeights#calculateTableHeights">calculateTableHeights</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearCellInfo#clearCellInfo">clearCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearEditor#clearEditor">clearEditor</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearFooter#clearFooter">clearFooter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearRow#clearRow">clearRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearSelection#clearSelection">clearSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearTags#clearTags">clearTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearTemporaryIndexes#clearTemporaryIndexes">clearTemporaryIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.closeProject#closeProject">closeProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.collectContextKeyword#collectContextKeyword">collectContextKeyword</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.compress#compress">compress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.connectData#connectData">connectData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.copyCol#copyCol">copyCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.copyTranslationToRow#copyTranslationToRow">copyTranslationToRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.countFilledCol#countFilledCol">countFilledCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.countTranslated#countTranslated">countTranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createBackup#createBackup">createBackup</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createFile#createFile">createFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createProject#createProject">createProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.dataPadding#dataPadding">dataPadding</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.deleteFile#deleteFile">deleteFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.doAfterSelection#doAfterSelection">doAfterSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawFileSelector#drawFileSelector">drawFileSelector</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawFileStatus#drawFileStatus">drawFileStatus</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawGridTranslatorMenu#drawGridTranslatorMenu">drawGridTranslatorMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.editNoteAtCell#editNoteAtCell">editNoteAtCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.evalContextsQuery#evalContextsQuery">evalContextsQuery</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.evalTranslationProgress#evalTranslationProgress">evalTranslationProgress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.export#export">export</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.exportTPP#exportTPP">exportTPP</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fileItemExist#fileItemExist">fileItemExist</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fileSelectorContextMenuInit#fileSelectorContextMenuInit">fileSelectorContextMenuInit</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fillEmptyLine#fillEmptyLine">fillEmptyLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsert#findAndInsert">findAndInsert</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertByContext#findAndInsertByContext">findAndInsertByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertLine#findAndInsertLine">findAndInsertLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertWithIndexes#findAndInsertWithIndexes">findAndInsertWithIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findIdByIndex#findIdByIndex">findIdByIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findPut#findPut">findPut</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.from#from">from</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateCachePath#generateCachePath">generateCachePath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateContextTranslationPair#generateContextTranslationPair">generateContextTranslationPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateHeader#generateHeader">generateHeader</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateNewDictionaryTable#generateNewDictionaryTable">generateNewDictionaryTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateSelectedTranslationTable#generateSelectedTranslationTable">generateSelectedTranslationTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationPair#generateTranslationPair">generateTranslationPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTable#generateTranslationTable">generateTranslationTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableFromResult#generateTranslationTableFromResult">generateTranslationTableFromResult</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableFromStrings#generateTranslationTableFromStrings">generateTranslationTableFromStrings</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableLine#generateTranslationTableLine">generateTranslationTableLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getActiveTranslator#getActiveTranslator">getActiveTranslator</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getActiveTranslatorEngine#getActiveTranslatorEngine">getActiveTranslatorEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllCompletedFiles#getAllCompletedFiles">getAllCompletedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllFiles#getAllFiles">getAllFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllFilesExcept#getAllFilesExcept">getAllFilesExcept</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllIncompletedFiles#getAllIncompletedFiles">getAllIncompletedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllMarkedAsCompleted#getAllMarkedAsCompleted">getAllMarkedAsCompleted</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAttachmentContent#getAttachmentContent">getAttachmentContent</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCellComment#getCellComment">getCellComment</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCheckedFiles#getCheckedFiles">getCheckedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCheckedObjects#getCheckedObjects">getCheckedObjects</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getConfig#getConfig">getConfig</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCurrentData#getCurrentData">getCurrentData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getData#getData">getData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getFromIndexes#getFromIndexes">getFromIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getGridContextMenu#getGridContextMenu">getGridContextMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getIndexByKey#getIndexByKey">getIndexByKey</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getIndexIds#getIndexIds">getIndexIds</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getLastSelectedCell#getLastSelectedCell">getLastSelectedCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getObjectById#getObjectById">getObjectById</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getOption#getOption">getOption</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getParamatersByRow#getParamatersByRow">getParamatersByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getProjectChecksum#getProjectChecksum">getProjectChecksum</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getReference#getReference">getReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowIdByTextInsensitive#getRowIdByTextInsensitive">getRowIdByTextInsensitive</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowInfoText#getRowInfoText">getRowInfoText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSaveData#getSaveData">getSaveData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedContext#getSelectedContext">getSelectedContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedId#getSelectedId">getSelectedId</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedKeyText#getSelectedKeyText">getSelectedKeyText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedObject#getSelectedObject">getSelectedObject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedOriginalTexts#getSelectedOriginalTexts">getSelectedOriginalTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedOriginalTextsAsOneLine#getSelectedOriginalTextsAsOneLine">getSelectedOriginalTextsAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedParameters#getSelectedParameters">getSelectedParameters</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedTexts#getSelectedTexts">getSelectedTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedTextsAsOneLine#getSelectedTextsAsOneLine">getSelectedTextsAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingDataPath#getStagingDataPath">getStagingDataPath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingFile#getStagingFile">getStagingFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingPath#getStagingPath">getStagingPath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStats#getStats">getStats</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTemplatePath#getTemplatePath">getTemplatePath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getText#getText">getText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTextFromLastSelected#getTextFromLastSelected">getTextFromLastSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationByIndex#getTranslationByIndex">getTranslationByIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationByLine#getTranslationByLine">getTranslationByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationColFromRow#getTranslationColFromRow">getTranslationColFromRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationData#getTranslationData">getTranslationData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationFromRow#getTranslationFromRow">getTranslationFromRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslatorEngine#getTranslatorEngine">getTranslatorEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goTo#goTo">goTo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToNewKey#goToNewKey">goToNewKey</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToNextUntranslated#goToNextUntranslated">goToNextUntranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToPreviousUntranslated#goToPreviousUntranslated">goToPreviousUntranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.gridBodyContextMenu#gridBodyContextMenu">gridBodyContextMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.gridIsModified#gridIsModified">gridIsModified</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.hasTags#hasTags">hasTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importFromFile#importFromFile">importFromFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importRPGMTrans#importRPGMTrans">importRPGMTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importSheet#importSheet">importSheet</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importTpp#importTpp">importTpp</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importTranslation#importTranslation">importTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initFileNav#initFileNav">initFileNav</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initProject#initProject">initProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initTable#initTable">initTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.insertCell#insertCell">insertCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.invertSelection#invertSelection">invertSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isAllSelected#isAllSelected">isAllSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isFileSupported#isFileSupported">isFileSupported</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isInContext#isInContext">isInContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isInProject#isInProject">isInProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isKeyExist#isKeyExist">isKeyExist</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isKeyExistOn#isKeyExistOn">isKeyExistOn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isLastRow#isLastRow">isLastRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isTranslatedRow#isTranslatedRow">isTranslatedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadComments#loadComments">loadComments</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadJSON#loadJSON">loadJSON</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadJSONSync#loadJSONSync">loadJSONSync</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.mergeReference#mergeReference">mergeReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.mergeTrans#mergeTrans">mergeTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.moveColumn#moveColumn">moveColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.normalizeHeader#normalizeHeader">normalizeHeader</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.onBatchTranslationDone#onBatchTranslationDone">onBatchTranslationDone</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.openFile#openFile">openFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.paddingTranslation#paddingTranslation">paddingTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.refreshGrid#refreshGrid">refreshGrid</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeAllTranslation#removeAllTranslation">removeAllTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeColumn#removeColumn">removeColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeDuplicates#removeDuplicates">removeDuplicates</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeNoteAtSelected#removeNoteAtSelected">removeNoteAtSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeRow#removeRow">removeRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeRowByContext#removeRowByContext">removeRowByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeTagForSelectedRow#removeTagForSelectedRow">removeTagForSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeTags#removeTags">removeTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.renameColumn#renameColumn">renameColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.replace#replace">replace</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetCurentCellEditor#resetCurentCellEditor">resetCurentCellEditor</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetIndex#resetIndex">resetIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetTags#resetTags">resetTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.revertToOriginal#revertToOriginal">revertToOriginal</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.rowHasMultipleContext#rowHasMultipleContext">rowHasMultipleContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.rowHasTranslation#rowHasTranslation">rowHasTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.sanitize#sanitize">sanitize</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.save#save">save</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.saveAs#saveAs">saveAs</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.scrollHToCol#scrollHToCol">scrollHToCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.search#search">search</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectAll#selectAll">selectAll</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectCell#selectCell">selectCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectFile#selectFile">selectFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setCellInfo#setCellInfo">setCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setConfig#setConfig">setConfig</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setMarkAsComplete#setMarkAsComplete">setMarkAsComplete</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarContext#setStatusBarContext">setStatusBarContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarEngine#setStatusBarEngine">setStatusBarEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarNumData#setStatusBarNumData">setStatusBarNumData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTagForSelectedRow#setTagForSelectedRow">setTagForSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTags#setTags">setTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTrayIcon#setTrayIcon">setTrayIcon</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.stagingFilesRemove#stagingFilesRemove">stagingFilesRemove</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.textEditorSetValue#textEditorSetValue">textEditorSetValue</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAll#translateAll">translateAll</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAllByLines#translateAllByLines">translateAllByLines</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAllByRows#translateAllByRows">translateAllByRows</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateByReference#translateByReference">translateByReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateFromArray#translateFromArray">translateFromArray</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateFromTrans#translateFromTrans">translateFromTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectedRow#translateSelectedRow">translateSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelection#translateSelection">translateSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionByLine#translateSelectionByLine">translateSelectionByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionByRow#translateSelectionByRow">translateSelectionByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionIntoDef#translateSelectionIntoDef">translateSelectionIntoDef</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateStringByPair#translateStringByPair">translateStringByPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateTextByLine#translateTextByLine">translateTextByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.travelContext#travelContext">travelContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.trimTranslation#trimTranslation">trimTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.unInitFileNav#unInitFileNav">unInitFileNav</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.uncompress#uncompress">uncompress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.updateProject#updateProject">updateProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.updateStagingInfo#updateStagingInfo">updateStagingInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.walkToAllFile#walkToAllFile">walkToAllFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.wordWrapFiles#wordWrapFiles">wordWrapFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.wordWrapText#wordWrapText">wordWrapText</a></li></ul></li><li><a href="Trans.CellInfo.html">Trans.CellInfo</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.delete#delete">delete</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.deleteRow#deleteRow">deleteRow</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.get#get">get</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getAll#getAll">getAll</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getBestCellInfo#getBestCellInfo">getBestCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getCell#getCell">getCell</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getRow#getRow">getRow</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.set#set">set</a></li></ul></li><li><a href="TransProjectHook.html">TransProjectHook</a></li><li><a href="TranslatorEngine.html">TranslatorEngine</a><ul class='members'><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#author">author</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#batchDelay">batchDelay</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#delimiter">delimiter</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#description">description</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#escapeAlgorithm">escapeAlgorithm</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#id">id</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#languages">languages</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#maxRequestLength">maxRequestLength</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#name">name</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#optionsForm">optionsForm</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#version">version</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#.escapeAlgorithms">escapeAlgorithms</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#.translators">translators</a></li></ul><ul class='methods'><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.fetchTranslation#fetchTranslation">fetchTranslation</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getDefaultOptions#getDefaultOptions">getDefaultOptions</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getLanguageCode#getLanguageCode">getLanguageCode</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getOptions#getOptions">getOptions</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.preProcessText#preProcessText">preProcessText</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.resetOptions#resetOptions">resetOptions</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.translate#translate">translate</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.translatePairs#translatePairs">translatePairs</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.update#update">update</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.addEscapeAlgorithm">addEscapeAlgorithm</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getEngine">getEngine</a></li></ul></li><li><a href="common.SimpleDB.html">common.SimpleDB</a><ul class='methods'><li data-type='method' style='display: none;'><a href="common.SimpleDB.html#.clear#clear">clear</a></li><li data-type='method' style='display: none;'><a href="common.SimpleDB.html#.delete#delete">delete</a></li><li data-type='method' style='display: none;'><a href="common.SimpleDB.html#.get#get">get</a></li><li data-type='method' style='display: none;'><a href="common.SimpleDB.html#.set#set">set</a></li></ul></li><li><a href="ui.CellInfoTab.html">ui.CellInfoTab</a></li><li><a href="window.Attachment.html">window.Attachment</a></li></ul><h3>Externals</h3><ul><li><a href="external-Icon%2520reference.html">external:Icon reference</a></li></ul><h3>Events</h3><ul><li><a href="Addon.html#event:loaded">Addon#loaded</a></li><li><a href="Addon.html#event:onLoaded">Addon#onLoaded</a></li><li><a href="Sys.html#event:beforeSaveConfig">Sys#beforeSaveConfig</a></li><li><a href="Sys.html#event:loadConfig">Sys#loadConfig</a></li><li><a href="Sys.html#event:saveConfig">Sys#saveConfig</a></li><li><a href="Trans.html#event:afterRemoveRow">Trans#afterRemoveRow</a></li><li><a href="Trans.html#event:beforeProcessSelection">Trans#beforeProcessSelection</a></li><li><a href="Trans.html#event:clearContextTranslationByRow">Trans#clearContextTranslationByRow</a></li><li><a href="Trans.html#event:documentModifiedStateChange">Trans#documentModifiedStateChange</a></li><li><a href="Trans.html#event:languageChange">Trans#languageChange</a></li><li><a href="Trans.html#event:onAfterSelectCell">Trans#onAfterSelectCell</a></li><li><a href="Trans.html#event:onGenerateTranslationData">Trans#onGenerateTranslationData</a></li><li><a href="Trans.html#event:onLoadTrans">Trans#onLoadTrans</a></li><li><a href="Trans.html#event:onUnloadTrans">Trans#onUnloadTrans</a></li><li><a href="Trans.html#event:projectCreated">Trans#projectCreated</a></li><li><a href="Trans.html#event:removeAllTranslation">Trans#removeAllTranslation</a></li><li><a href="Trans.html#event:transLoaded">Trans#transLoaded</a></li><li></li><li><a href="Trans.html#event:translatorIsChanged">Trans#translatorIsChanged</a></li><li><a href="ui.html#event:busyOverlayClosed">ui#busyOverlayClosed</a></li><li><a href="ui.html#event:busyOverlayOpened">ui#busyOverlayOpened</a></li><li><a href="ui.html#event:dialogRowPropertiesOpened">ui#dialogRowPropertiesOpened</a></li><li><a href="ui.html#event:loadingScreenIsClosed">ui#loadingScreenIsClosed</a></li><li><a href="ui.html#event:optionsWindowClosed">ui#optionsWindowClosed</a></li><li><a href="ui.html#event:optionsWindowOpened">ui#optionsWindowOpened</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">RawViewer.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>var encoding 	= require('encoding-japanese');
+var iconv 		= require('iconv-lite');
+
+/**
+ * Represents a RawViewer object.
+ * @constructor
+ * @param {object} options - Options for configuring the RawViewer.
+ * @param {jQuery} [options.container=$("#previewRawData")] - The container element for the RawViewer.
+ */
+const RawViewer = function(options) {
+    /**
+     * Options for configuring the RawViewer.
+     * @type {object}
+     * @property {jQuery} [container=$("#previewRawData")] - The container element for the RawViewer.
+     */
+    this.options = options || {};
+
+    /**
+     * The container element for the RawViewer.
+     * @type {jQuery}
+     */
+    this.container = this.options.container || $("#previewRawData");
+
+    /**
+     * The feather value for the RawViewer.
+     * @type {number}
+     */
+    this.feather = 2;
+
+    // Initialize the RawViewer
+    this.init();
+};
+
+// RawViewer.prototype.loadPrism = function() {
+//     if (this.prismIsLoaded) return;
+//     $("head").append(`&lt;link href="modules/prismjs/prism.css" rel="stylesheet" />`);  
+//     $("head").append(`&lt;script src="modules/prismjs/prism.js">&lt;/script>`);  
+  
+//     this.prismIsLoaded = true;
+// }
+
+/**
+ * Loads Prism CSS stylesheet if not already loaded, and initializes Prism library if not already initialized.
+ */
+RawViewer.prototype.loadPrism = function() {
+    if (!$("#prismStyle").length) {
+        $("head").append(`&lt;link href="modules/prismjs/prism.css" rel="stylesheet" id="prismStyle" />`);  
+    }
+
+    
+    if (window.Prism) return;
+    window.Prism = require("prismjs")
+}
+
+/**
+ * Sets event listeners for the RawViewer.
+ */
+RawViewer.prototype.setListener = function() {
+    var that = this;
+    $(document).on("objectSelected", () => {
+        this.clear();
+    });
+    $(document).on('cellInfoTabChange.RawViewer', function(e, target) {
+        console.log("tabChange", arguments);
+        if (target !== "previewRawData") that.clear();
+    })
+
+    $(document).off("onAfterSelectCell.RawViewer");
+    $(document).on("onAfterSelectCell.RawViewer", function(e, selectionInfo) {
+        if (ui.cellInfoTab.getActiveTab() !== "previewRawData") return;
+        console.log("onAfterSelectedCell", arguments);
+        that.selectionInfo = selectionInfo;
+        engines.handler('onLoadSnippet').call(that, selectionInfo);
+    }) 
+}
+
+/**
+ * Adds text preview to the RawViewer.
+ * @param {object|string} textObj - The text object or string to be previewed.
+ * @param {object} [options] - Additional options.
+ * @param {number} [options.lineStart=1] - The line number to start the preview.
+ * @param {string} [options.language="html"] - The language of the text for syntax highlighting.
+ * @returns {Promise&lt;jQuery>} - A promise resolving to the jQuery object of the added text preview.
+ */
+RawViewer.prototype.addTextPreview = async function(textObj, options) {
+    if (typeof textObj == "string") {
+        // text object that marked with boundary
+        textObj = {
+            textMarked:textObj,
+            boundary:""
+        }
+    }
+
+    console.log("generating preview with textObj:", textObj);
+
+    options             = options || {};
+    options.lineStart   = options.lineStart || 1;
+    options.language    = options.language || "html";
+    var $template = $(`&lt;pre class="snippetData line-numbers language-${options.language}" data-start="${options.lineStart}">&lt;code class="language-${options.language}">&lt;/code>&lt;/pre>`);
+    var keyString = this.getKeyString();
+    $template.find("code").text(textObj.textMarked);
+    this.container.append($template);
+    console.log("keyString", keyString);
+
+    var highlighted = $template.find("code").html();
+    if (textObj.boundary) {
+        console.log("replacing boundary", textObj);
+        highlighted = highlighted.replace(textObj.boundary, '&lt;span class="highlight">');
+        highlighted = highlighted.replace(textObj.boundary, '&lt;/span>');
+    }
+    
+    $template.find("code").html(highlighted);
+    await window.Prism.highlightAllUnder($template[0]);
+
+    if (options.data) {
+        for (var i in options.data)
+        $template.data(i, options.data[i]);
+    }
+    return $template
+}
+
+/**
+ * Gets the starting line number from the offset in the text.
+ * @param {string} text - The text.
+ * @param {number} offsetStart - The starting offset.
+ * @returns {number} - The starting line number.
+ */
+RawViewer.prototype.getStartingLineFromOffset = function(text, offsetStart) {
+    var before = text.substring(0, offsetStart).split('\n');
+    var margin = this.feather+1
+    if (before.length > margin) return before.length-margin;
+    return 1;
+}
+
+/**
+ * Gets a snippet of text from the given offsets in the text.
+ * @param {string} text - The text.
+ * @param {number} offsetStart - The starting offset.
+ * @param {number} [offsetEnd=offsetStart] - The ending offset.
+ * @returns {object} - The snippet of text.
+ */
+RawViewer.prototype.getSnippetFromOffset = function(text, offsetStart, offsetEnd) {
+    offsetEnd = offsetEnd || offsetStart;
+    var result = [];
+    var resultMarked = [];
+    var boundary= `----boundary:${(Math.random()+"").substring(2,10)}-----`;
+    var before = text.substring(0, offsetStart).split('\n');
+    var lineNum = before.length;
+    var current = text.substring(offsetStart, offsetEnd);
+    var after = text.substring(offsetEnd).split("\n");
+    var leftSide = before.pop()
+    var rightSide = after.shift()
+    var columnStart =  leftSide.length;
+    var currentLine = leftSide+current+rightSide;
+    var currentLineMarked = leftSide+boundary+current+boundary+rightSide;
+
+    var starting = before.length-(1+this.feather);
+    if (starting &lt; 0) starting = 0;
+    for (let i=starting; i&lt;before.length; i++) {
+        if (i&lt;0) break;
+        result.push(before[i]);
+        resultMarked.push(before[i]);
+    }
+    result.push(currentLine);
+    //resultMarked.push(boundary+currentLine+boundary);
+    resultMarked.push(currentLineMarked);
+    for (let i=0; i&lt;this.feather; i++) {
+        if (i>after.length) break;
+        result.push(after[i]);
+        resultMarked.push(after[i]);
+    }
+
+    return {
+        text:result.join("\n"),
+        textMarked:resultMarked.join("\n"),
+        col:columnStart,
+        boundary:boundary,
+        line:lineNum
+    };
+
+}
+
+/**
+ * Checks if the RawViewer is clear.
+ * @returns {boolean} - Indicates whether the RawViewer is clear.
+ */
+RawViewer.prototype.isClear = function() {
+    if (this.container.find("*").length > 0) return false;
+    return true;
+}
+
+/**
+ * Clears the RawViewer.
+ */
+RawViewer.prototype.clear = function() {
+    this.container.empty();
+}
+
+/**
+ * Gets the key string from the selection info.
+ * @returns {string} - The key string.
+ */
+RawViewer.prototype.getKeyString = function() {
+    try {
+       return trans.getSelectedObject().data[this.selectionInfo.fromRow][trans.keyColumn]
+    } catch (e) {
+        //do nothing
+    }
+}
+
+/**
+ * Appends HTML content to the RawViewer container.
+ * @param {string} html - The HTML content to append.
+ * @returns {jQuery} - The container element after appending the HTML content.
+ */
+RawViewer.prototype.append = function(html) {
+    this.container.append($(html));
+    return this.container;
+}
+
+/**
+ * Opens a file asynchronously and reads its content.
+ * @param {string} path - The path of the file to open.
+ * @returns {Promise&lt;string>} - A promise resolving to the content of the file.
+ */
+RawViewer.prototype.openFile = async function(path) {
+	return new Promise((resolve, reject) => {
+		fs.readFile(path, (err, data) => {
+			if (err) return reject();
+		
+			var thisEncoding = encoding.detect(data);
+			// if encoding is not detected, read with default writeEncoding
+			if (!thisEncoding) {
+                console.log("Unable to detect encoding via encoding.detect()");
+                thisEncoding = this.fileEncoding || "utf8";
+            }
+			console.log("detected encoding", thisEncoding);
+            var string;
+			try {
+				string = iconv.decode(data, thisEncoding);
+			} catch (e) {
+				console.warn("Unable to decode string try 'Shift_JIS'", e);
+				string = iconv.decode(data, 'Shift_JIS');
+			}
+
+            resolve(string);
+        })
+    }) 
+ 
+}
+
+/**
+ * Adds a text preview from a file offset to the RawViewer.
+ * @param {string} file - The path of the file.
+ * @param {number} offsetStart - The starting offset in the file.
+ * @param {number} offsetEnd - The ending offset in the file.
+ * @param {object} [options] - Additional options.
+ * @param {string} [options.language] - The language for syntax highlighting.
+ * @returns {Promise&lt;jQuery>} - A promise resolving to the jQuery object of the added text preview.
+ */
+RawViewer.prototype.addTextPreviewFromFileOffset = async function(file, offsetStart, offsetEnd, options) {
+    options = options || {};
+    var fileContent;
+    if (this.cachedFileContentName !== file) {
+        //var fileContent = await common.fileGetContents(file);
+        fileContent = await this.openFile(file);
+        this.cachedFileContent = fileContent;
+        this.cachedFileContentName = file;        
+    } else {
+        fileContent = this.cachedFileContent;
+    }
+
+    var snippetData = this.getSnippetFromOffset(fileContent, offsetStart, offsetEnd);
+    if (!options.language) {
+        var ext = nwPath.extname(file);
+        options.language = ext.substring(1);
+    }
+    options.lineStart = this.getStartingLineFromOffset(fileContent, offsetStart);
+
+    options.data = {
+        path:file,
+    };
+    var snippet = await this.addTextPreview(snippetData, options);
+
+    var wrapper = $(`&lt;div class="snippetWrapper">&lt;div class="snippetInfo flex">&lt;span class="snippetPath">${file}&lt;/span>&lt;span class="lineNumber">Line:${snippetData.line}&lt;/span>&lt;/div>&lt;/div>`)
+    wrapper.append(snippet);
+    wrapper.data("fileInfo", {...options, ...{offsetStart:offsetStart, offsetEnd:offsetEnd}});
+    this.container.append(wrapper);
+    return wrapper;
+
+}
+
+/**
+ * Adds a text preview from a text offset to the RawViewer.
+ * @param {string} text - The text content.
+ * @param {number} offsetStart - The starting offset in the text.
+ * @param {number} offsetEnd - The ending offset in the text.
+ * @param {object} [options] - Additional options.
+ * @param {string} [options.language] - The language for syntax highlighting.
+ * @param {object} [options.data] - Additional data.
+ * @returns {Promise&lt;jQuery>} - A promise resolving to the jQuery object of the added text preview.
+ */
+RawViewer.prototype.addTextPreviewFromTextOffset = async function(text, offsetStart, offsetEnd, options) {
+    options = options || {};
+
+    var snippetData = this.getSnippetFromOffset(text, offsetStart, offsetEnd);
+    options.lineStart = this.getStartingLineFromOffset(text, offsetStart);
+
+    var snippet = await this.addTextPreview(snippetData, options);
+
+    var wrapper = $(`&lt;div class="snippetWrapper">&lt;div class="snippetInfo flex">&lt;span class="snippetPath">${options?.data?.path || ""}&lt;/span>&lt;span class="lineNumber">Line:${snippetData.line}&lt;/span>&lt;/div>&lt;/div>`)
+    wrapper.append(snippet);
+    wrapper.data("fileInfo", {...options, ...{offsetStart:offsetStart, offsetEnd:offsetEnd}});
+    this.container.append(wrapper);
+    return wrapper;
+
+}
+
+
+/**
+ * @param  {Object} selectedCell - Selected cell object passed from event onLoadSnippet
+ * @param  {String} language - language of the snippet, determines syntax highlight
+ * @param  {Object[]} offsetList - Array of object (because one row can have more than one occurance of string)
+ * @param  {integer} offsetList[].start - Offset start of the string
+ * @param  {integer} offsetList[].end - Offset end of the string
+ * @param  {string} [filePath] - Path to the file. By default the file in the original project location / cache.
+ */
+RawViewer.prototype.commonHandleFile = async function(selectedCell, language, offsetList, filePath) {
+    console.log("commonHandleFile");
+    console.log("selected cell:", selectedCell);
+    var obj = trans.getSelectedObject();
+
+    if (!Array.isArray(obj.context[selectedCell.fromRow])) return;
+    if (obj.context[selectedCell.fromRow].length == 0) return;
+
+    console.log("determining active path");
+    var activePath = filePath || nwPath.join(trans.project.loc, obj.path);
+    if (await common.isFileAsync(activePath) == false)  activePath = nwPath.join(trans.getStagingDataPath(), obj.path);
+
+    if (await common.isFileAsync(activePath) == false) {
+        this.clear();
+        console.log("no active path");
+
+        let $warningMsg = $(`&lt;div class="blockBox warningBlock withIcon">${t(`Unable to find the file related to the data`)}&lt;br />
+        ${t(`To fix this correct the &lt;b>Raw material location&lt;/b> field at the &lt;a href="#" class="openProjectProperties">Project properties&lt;/a>`)}&lt;/div>`)
+        $warningMsg.find(".openProjectProperties").on("click", function() {
+            ui.openProjectProperties();
+        });
+        this.append($warningMsg)
+        return;
+    }
+    console.log("active path is:", activePath);
+
+    this.clear();
+
+    offsetList = offsetList || obj.parameters[selectedCell.fromRow]
+    for (var i in offsetList) {
+        var thisParam = offsetList[i]
+        if (!thisParam.start) continue;
+        var previewOptions = {
+            language:language,
+            externalEditor:true
+        }
+        var elm = await this.addTextPreviewFromFileOffset(activePath, thisParam.start, thisParam.end, previewOptions);
+        this.addContextMenu(elm, {...thisParam, ...{path:activePath}}, previewOptions);
+        elm.data("path", activePath)
+    }
+}
+
+/**
+ * Handles attachment content by adding text previews with context menus.
+ * @param {object} selectedCell - The selected cell object.
+ * @param {string} language - The language for syntax highlighting.
+ * @param {Array&lt;object>} [offsetList] - The list of offsets.
+ */
+RawViewer.prototype.handleAttachment = async function(selectedCell, language, offsetList) {
+    console.log("commonHandleFile");
+    console.log("selected cell:", selectedCell);
+    var obj = trans.getSelectedObject();
+
+    if (!Array.isArray(obj.context[selectedCell.fromRow])) return;
+    if (obj.context[selectedCell.fromRow].length == 0) return;
+
+    this.clear();
+
+    offsetList = offsetList || obj.parameters[selectedCell.fromRow]
+    for (var i in offsetList) {
+        var thisParam = offsetList[i]
+        if (!thisParam.start) continue;
+        let attachmentContent = trans.getAttachmentContent(thisParam.attachment);
+        if (!attachmentContent) continue;
+
+        let activePath = "attachment:"+thisParam.attachment
+        var previewOptions = {
+            language:language,
+            data: {
+                path:activePath
+            }
+        }
+        var elm = await this.addTextPreviewFromTextOffset(trans.getAttachmentContent(thisParam.attachment), thisParam.start, thisParam.end, previewOptions);
+        this.addContextMenu(elm, {...thisParam, ...{path:activePath}}, previewOptions);
+        elm.data("path", activePath)
+    }
+}
+
+
+/**
+ * Adds a context menu to the specified element.
+ * @param {HTMLElement} elm - The element to which the context menu will be added.
+ * @param {object} obj - An object.
+ * @param {object} [options={}] - Additional options.
+ * @param {boolean} [options.externalEditor=false] - Whether to enable options for opening with external editors.
+ */
+RawViewer.prototype.addContextMenu = function(elm, obj, options={}) {
+	//var that = this;
+    elm = elm  || this.elm
+    
+    var menu;
+
+    var createMenu = () => {
+        menu = new nw.Menu();
+        // Add some items with label
+        menu.append(new nw.MenuItem({
+            label: t('Copy path to clipboard'),
+            type: "normal", 
+            click: function(){
+                var filePath = elm.data("path");
+                if (!filePath) return;
+                var clipboard = nw.Clipboard.get();
+                clipboard.set(nwPath.resolve(filePath));
+                alert(t("Path has been copied to clipboard."));
+            }
+        }));
+
+        if (!options.externalEditor) return;
+
+        menu.append(new nw.MenuItem({
+            label: t('Open folder'),
+            type: "normal", 
+            click: function(){
+                var filePath = elm.data("path");
+                if (!filePath) return;
+                nw.Shell.showItemInFolder(nwPath.resolve(filePath));
+            }
+        }));
+        menu.append(new nw.MenuItem({
+            label: t('Open with external application'),
+            type: "normal", 
+            click: function(){
+                var filePath = elm.data("path");
+                if (!filePath) return;
+                nw.Shell.openItem(nwPath.resolve(filePath));			  
+            }
+        }));
+
+        var openWithMenu = new nw.Menu();
+
+        //opacity.append(new nw.MenuItem({ type: 'separator' }));
+        openWithMenu.append(new nw.MenuItem({
+            label: t('VS Code'),
+            type: "normal", 
+            click: async function(){
+                var scriptInfo = elm.data()
+                var content = ""
+                try {
+                    content = await common.fileGetContents(scriptInfo.path);
+                } catch (e) {
+                    return alert("Error opening file:", scriptInfo.path)
+                }
+
+                var pos = common.cursorPosInfo(content, scriptInfo.fileInfo.offsetStart);
+
+                common.aSpawn("code", ["--goto", `"${scriptInfo.path}":${pos.row}`], {
+                    detached:true,
+                    shell:true
+                })
+            }
+        }));
+        openWithMenu.append(new nw.MenuItem({
+            label: t('Notepad++'),
+            type: "normal", 
+            click: async function(){
+                var scriptInfo = elm.data()
+                var content = ""
+                try {
+                    content = await common.fileGetContents(scriptInfo.path);
+                } catch (e) {
+                    return alert("Error opening file:", scriptInfo.path)
+                }
+
+                var pos = common.cursorPosInfo(content, scriptInfo.fileInfo.offsetStart);
+
+                common.aSpawn("start", ["notepad++", `"${scriptInfo.path}"`, `-n${pos.row}`], {
+                    detached:true,
+                    shell:true
+                })        
+            }
+        }));
+        
+        menu.append(new nw.MenuItem({
+        label: t('Open with...'),
+        submenu: openWithMenu
+        }));
+    }
+
+	elm.on("contextmenu", function(ev) {
+		ev.preventDefault();
+        createMenu();
+		menu.popup(parseInt(ev.originalEvent.x), parseInt(ev.originalEvent.y));
+		return false;		
+	})
+}
+
+/**
+ * Initializes the RawViewer by setting event listeners and loading Prism.
+ */
+RawViewer.prototype.init = function() {
+    $("head").append(`
+    &lt;style>
+        #previewRawData .blockBox  {
+            background-color: #fff;
+            margin: 12px;
+        }
+    &lt;/style>
+    `)
+    this.setListener();
+    this.loadPrism();
+}
+
+
+exports.RawViewer = RawViewer;</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.0</a> using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <script src="fix.js"></script>
+    
+</body>
+</html>

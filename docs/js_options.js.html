@@ -1,0 +1,2399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>js/options.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://dreamsavior.net" target="_blank" class="menu-item" id="website_link" >Project Website</a></h2><h2><a href="https://discord.gg/6Dv97C87xt" target="_blank" class="menu-item" id="forum_link" >Discord</a></h2><h2><a href="https://dreamsavior.net/docs/translator-developers-guide/" target="_blank" class="menu-item" id="website_link" >Developer Guide</a></h2><h2><a href="https://dreamsavior.net/files/docs/tpp/fontello-f7017850/demo.html" target="_blank" class="menu-item" id="website_link" >Icon reference</a></h2><h3>Namespaces</h3><ul><li><a href="global.common.html">global.common</a></li><li><a href="global.html#trans">trans</a></li><li></li><li><a href="ui.html">ui</a><ul class='methods'><li data-type='method' style='display: none;'><a href="ui.html#.bumpGridScroll">bumpGridScroll</a></li><li data-type='method' style='display: none;'><a href="ui.html#.disableButtons">disableButtons</a></li><li data-type='method' style='display: none;'><a href="ui.html#.drawWordWrapByTagField">drawWordWrapByTagField</a></li><li data-type='method' style='display: none;'><a href="ui.html#.log">log</a></li><li data-type='method' style='display: none;'><a href="ui.html#.off">off</a></li><li data-type='method' style='display: none;'><a href="ui.html#.on">on</a></li><li data-type='method' style='display: none;'><a href="ui.html#.onDOMReady">onDOMReady</a></li><li data-type='method' style='display: none;'><a href="ui.html#.onReady">onReady</a></li><li data-type='method' style='display: none;'><a href="ui.html#.one">one</a></li><li data-type='method' style='display: none;'><a href="ui.html#.openImportTrans">openImportTrans</a></li><li data-type='method' style='display: none;'><a href="ui.html#.openOptionsWindow">openOptionsWindow</a></li><li data-type='method' style='display: none;'><a href="ui.html#.renderExternalLinks">renderExternalLinks</a></li><li data-type='method' style='display: none;'><a href="ui.html#.saveAs">saveAs</a></li><li data-type='method' style='display: none;'><a href="ui.html#.saveAsTPP">saveAsTPP</a></li><li data-type='method' style='display: none;'><a href="ui.html#.setCurrentCellText">setCurrentCellText</a></li><li data-type='method' style='display: none;'><a href="ui.html#.trigger">trigger</a></li></ul></li></ul><h3>Classes</h3><ul><li><a href="Addon.html">Addon</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Addon.html#.getPathRelativeToRoot#getPathRelativeToRoot">getPathRelativeToRoot</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.getRelativePath#getRelativePath">getRelativePath</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.globalizeNodeModules#globalizeNodeModules">globalizeNodeModules</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.require#require">require</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.resolvePath#resolvePath">resolvePath</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.isExternalScript">isExternalScript</a></li></ul></li><li><a href="AddonLoader.html">AddonLoader</a><ul class='methods'><li data-type='method' style='display: none;'><a href="AddonLoader.html#.getAddon#getAddon">getAddon</a></li><li data-type='method' style='display: none;'><a href="AddonLoader.html#.getAddonByName#getAddonByName">getAddonByName</a></li><li data-type='method' style='display: none;'><a href="AddonLoader.html#.isActive#isActive">isActive</a></li><li data-type='method' style='display: none;'><a href="AddonLoader.html#.waitFor#waitFor">waitFor</a></li></ul></li><li><a href="AddonUtils.html">AddonUtils</a><ul class='methods'><li data-type='method' style='display: none;'><a href="AddonUtils.html#.createProject">createProject</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.createTransData">createTransData</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.exportAsZip">exportAsZip</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.exportToFolder">exportToFolder</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.getTransData">getTransData</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.handleExport">handleExport</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.writeFile">writeFile</a></li></ul></li><li><a href="Attachment.html">Attachment</a></li><li><a href="BC.html">BC</a></li><li><a href="BasicEventHandler.html">BasicEventHandler</a><ul class='methods'><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.processWith#processWith">processWith</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.processWith#processWith">processWith</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.rejectState#rejectState">rejectState</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.rejectState#rejectState">rejectState</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.resolveState#resolveState">resolveState</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.resolveState#resolveState">resolveState</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.until#until">until</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.until#until">until</a></li></ul></li><li></li><li></li><li><a href="BatchTranslate.html">BatchTranslate</a><ul class='members'><li data-type='member' style='display: none;'><a href="BatchTranslate.html#.procedures">procedures</a></li></ul><ul class='methods'><li data-type='method' style='display: none;'><a href="BatchTranslate.html#.getTranslationBatchData#getTranslationBatchData">getTranslationBatchData</a></li><li data-type='method' style='display: none;'><a href="BatchTranslate.html#.runProcedure#runProcedure">runProcedure</a></li><li data-type='method' style='display: none;'><a href="BatchTranslate.html#.translate#translate">translate</a></li><li data-type='method' style='display: none;'><a href="BatchTranslate.html#.defineProcedure">defineProcedure</a></li><li data-type='method' style='display: none;'><a href="BatchTranslate.html#.getActorGlossaryData">getActorGlossaryData</a></li></ul></li><li><a href="CodeEscape.html">CodeEscape</a><ul class='methods'><li data-type='method' style='display: none;'><a href="CodeEscape.html#.afterTranslation#afterTranslation">afterTranslation</a></li><li data-type='method' style='display: none;'><a href="CodeEscape.html#.processMatchRule#processMatchRule">processMatchRule</a></li></ul></li><li><a href="CustomFields.html">CustomFields</a><ul class='methods'><li data-type='method' style='display: none;'><a href="CustomFields.html#.addHTML#addHTML">addHTML</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.addJSONForm#addJSONForm">addJSONForm</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.getFormValues#getFormValues">getFormValues</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.getJsonFormTree#getJsonFormTree">getJsonFormTree</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.getValues#getValues">getValues</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.setValueByName#setValueByName">setValueByName</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.setValues#setValues">setValues</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.validate#validate">validate</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.isJsonForm">isJsonForm</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.sanitize">sanitize</a></li></ul></li><li><a href="CustomParser.html">CustomParser</a><ul class='methods'><li data-type='method' style='display: none;'><a href="CustomParser.html#.assignTranslationPair#assignTranslationPair">assignTranslationPair</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.contextEnd#contextEnd">contextEnd</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.contextEnter#contextEnter">contextEnter</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.editLastWritableData#editLastWritableData">editLastWritableData</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.filterText#filterText">filterText</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.generateFileInfo#generateFileInfo">generateFileInfo</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.getModel#getModel">getModel</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.getText#getText">getText</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.importTransData#importTransData">importTransData</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.parse#parse">parse</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.parseCaptureGroup#parseCaptureGroup">parseCaptureGroup</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.processThispath#processThispath">processThispath</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.register#register">register</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.registerString#registerString">registerString</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.replaceLineBreak#replaceLineBreak">replaceLineBreak</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.setModel#setModel">setModel</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.setTranslationPair#setTranslationPair">setTranslationPair</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.toString#toString">toString</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.toTrans#toTrans">toTrans</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.translate#translate">translate</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.unfilterText#unfilterText">unfilterText</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.isValidModel">isValidModel</a></li></ul></li><li><a href="DropFileToWindow.html">DropFileToWindow</a><ul class='methods'><li data-type='method' style='display: none;'><a href="DropFileToWindow.html#.addCss#addCss">addCss</a></li><li data-type='method' style='display: none;'><a href="DropFileToWindow.html#.preventDefault#preventDefault">preventDefault</a></li></ul></li><li><a href="Engine.html">Engine</a></li><li><a href="Engines.html">Engines</a></li><li><a href="LangTools.html">LangTools</a><ul class='methods'><li data-type='method' style='display: none;'><a href="LangTools.html#.compareWithDB#compareWithDB">compareWithDB</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.generateLangPairs#generateLangPairs">generateLangPairs</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.getDisplayName#getDisplayName">getDisplayName</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.getFullName#getFullName">getFullName</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.getLanguage#getLanguage">getLanguage</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.getLanguageList#getLanguageList">getLanguageList</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.getName#getName">getName</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.isCJK#isCJK">isCJK</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.lookupAlias#lookupAlias">lookupAlias</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.lookupDB#lookupDB">lookupDB</a></li></ul></li><li><a href="Logger.html">Logger</a></li><li><a href="ParserBase.html">ParserBase</a><ul class='methods'><li data-type='method' style='display: none;'><a href="ParserBase.html#.assignTranslationPair#assignTranslationPair">assignTranslationPair</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.contextEnd#contextEnd">contextEnd</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.contextEnter#contextEnter">contextEnter</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.editLastWritableData#editLastWritableData">editLastWritableData</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.filterText#filterText">filterText</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.generateFileInfo#generateFileInfo">generateFileInfo</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.getText#getText">getText</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.importTransData#importTransData">importTransData</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.parse#parse">parse</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.processThispath#processThispath">processThispath</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.register#register">register</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.registerString#registerString">registerString</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.replaceLineBreak#replaceLineBreak">replaceLineBreak</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.setTranslationPair#setTranslationPair">setTranslationPair</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.toString#toString">toString</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.toTrans#toTrans">toTrans</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.translate#translate">translate</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.unfilterText#unfilterText">unfilterText</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.appendTransData">appendTransData</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.detectEncoding">detectEncoding</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.generateFileInfo">generateFileInfo</a></li></ul></li><li><a href="ParserFile.html">ParserFile</a><ul class='methods'><li data-type='method' style='display: none;'><a href="ParserFile.html#.readFile#readFile">readFile</a></li><li data-type='method' style='display: none;'><a href="ParserFile.html#.readTextFromFile#readTextFromFile">readTextFromFile</a></li><li data-type='method' style='display: none;'><a href="ParserFile.html#.write#write">write</a></li><li data-type='method' style='display: none;'><a href="ParserFile.html#.detectEncoding">detectEncoding</a></li></ul></li><li><a href="Python.html">Python</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Python.html#.checkAvailablePackageVersion#checkAvailablePackageVersion">checkAvailablePackageVersion</a></li><li data-type='method' style='display: none;'><a href="Python.html#.checkLatestPackageVersion#checkLatestPackageVersion">checkLatestPackageVersion</a></li><li data-type='method' style='display: none;'><a href="Python.html#.getConfig#getConfig">getConfig</a></li><li data-type='method' style='display: none;'><a href="Python.html#.getPackageInfo#getPackageInfo">getPackageInfo</a></li><li data-type='method' style='display: none;'><a href="Python.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="Python.html#.installPackage#installPackage">installPackage</a></li><li data-type='method' style='display: none;'><a href="Python.html#.installPython#installPython">installPython</a></li><li data-type='method' style='display: none;'><a href="Python.html#.installRequirements#installRequirements">installRequirements</a></li><li data-type='method' style='display: none;'><a href="Python.html#.isPackage#isPackage">isPackage</a></li><li data-type='method' style='display: none;'><a href="Python.html#.isScript#isScript">isScript</a></li><li data-type='method' style='display: none;'><a href="Python.html#.listPackages#listPackages">listPackages</a></li><li data-type='method' style='display: none;'><a href="Python.html#.loadConfig#loadConfig">loadConfig</a></li><li data-type='method' style='display: none;'><a href="Python.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="Python.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="Python.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="Python.html#.processWith#processWith">processWith</a></li><li data-type='method' style='display: none;'><a href="Python.html#.rejectState#rejectState">rejectState</a></li><li data-type='method' style='display: none;'><a href="Python.html#.requirementIsInstalled#requirementIsInstalled">requirementIsInstalled</a></li><li data-type='method' style='display: none;'><a href="Python.html#.resolveState#resolveState">resolveState</a></li><li data-type='method' style='display: none;'><a href="Python.html#.runPy#runPy">runPy</a></li><li data-type='method' style='display: none;'><a href="Python.html#.runPyDetached#runPyDetached">runPyDetached</a></li><li data-type='method' style='display: none;'><a href="Python.html#.saveConfig#saveConfig">saveConfig</a></li><li data-type='method' style='display: none;'><a href="Python.html#.setConfig#setConfig">setConfig</a></li><li data-type='method' style='display: none;'><a href="Python.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="Python.html#.uninstallPackage#uninstallPackage">uninstallPackage</a></li><li data-type='method' style='display: none;'><a href="Python.html#.uninstallRequirements#uninstallRequirements">uninstallRequirements</a></li><li data-type='method' style='display: none;'><a href="Python.html#.until#until">until</a></li><li data-type='method' style='display: none;'><a href="Python.html#.downloader">downloader</a></li></ul></li><li><a href="RawViewer.html">RawViewer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="RawViewer.html#.addContextMenu#addContextMenu">addContextMenu</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.addTextPreview#addTextPreview">addTextPreview</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.addTextPreviewFromFileOffset#addTextPreviewFromFileOffset">addTextPreviewFromFileOffset</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.addTextPreviewFromTextOffset#addTextPreviewFromTextOffset">addTextPreviewFromTextOffset</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.append#append">append</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.clear#clear">clear</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.commonHandleFile#commonHandleFile">commonHandleFile</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.getKeyString#getKeyString">getKeyString</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.getSnippetFromOffset#getSnippetFromOffset">getSnippetFromOffset</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.getStartingLineFromOffset#getStartingLineFromOffset">getStartingLineFromOffset</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.handleAttachment#handleAttachment">handleAttachment</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.isClear#isClear">isClear</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.loadPrism#loadPrism">loadPrism</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.openFile#openFile">openFile</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.setListener#setListener">setListener</a></li></ul></li><li><a href="RibbonMenu.html">RibbonMenu</a><ul class='methods'><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.add#add">add</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.clear#clear">clear</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.defaultClickEvt#defaultClickEvt">defaultClickEvt</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.isExist#isExist">isExist</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.onReady#onReady">onReady</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.processWith#processWith">processWith</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.rejectState#rejectState">rejectState</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.remove#remove">remove</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.resolveState#resolveState">resolveState</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.select#select">select</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.until#until">until</a></li></ul></li><li><a href="RowProperties.html">RowProperties</a><ul class='methods'><li data-type='method' style='display: none;'><a href="RowProperties.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="RowProperties.html#.setListener#setListener">setListener</a></li></ul></li><li><a href="ScriptParser.html">ScriptParser</a></li><li><a href="SubTab.html">SubTab</a></li><li></li><li><a href="Sys.html">Sys</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Sys.html#.getConfig#getConfig">getConfig</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.hardReset#hardReset">hardReset</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.setConfig#setConfig">setConfig</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.restartApplication">restartApplication</a></li></ul></li><li><a href="TextReplacer.html">TextReplacer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="TextReplacer.html#.apply#apply">apply</a></li><li data-type='method' style='display: none;'><a href="TextReplacer.html#.parseRules#parseRules">parseRules</a></li></ul></li><li><a href="Thread.html">Thread</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Thread.html#.onReady#onReady">onReady</a></li><li data-type='method' style='display: none;'><a href="Thread.html#.onReady#onReady">onReady</a></li></ul></li><li></li><li></li><li><a href="ThreadHost.html">ThreadHost</a></li><li></li><li><a href="ThreadServer.html">ThreadServer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="ThreadServer.html#.addTask#addTask">addTask</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.addTask#addTask">addTask</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.addTask#addTask">addTask</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.getIddleThread#getIddleThread">getIddleThread</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.getIddleThread#getIddleThread">getIddleThread</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.getReadyState#getReadyState">getReadyState</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.getReadyState#getReadyState">getReadyState</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.startThread#startThread">startThread</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.startThread#startThread">startThread</a></li></ul></li><li></li><li></li><li><a href="Trans.html">Trans</a><ul class='members'><li data-type='member' style='display: none;'><a href="Trans.html#currentFile">currentFile</a></li><li data-type='member' style='display: none;'><a href="Trans.html#currentFile">currentFile</a></li><li data-type='member' style='display: none;'><a href="Trans.html#data">data</a></li><li data-type='member' style='display: none;'><a href="Trans.html#data">data</a></li><li data-type='member' style='display: none;'><a href="Trans.html#fileListLoaded">fileListLoaded</a></li><li data-type='member' style='display: none;'><a href="Trans.html#fileListLoaded">fileListLoaded</a></li><li data-type='member' style='display: none;'><a href="Trans.html#gameEngine">gameEngine</a></li><li data-type='member' style='display: none;'><a href="Trans.html#gameEngine">gameEngine</a></li><li data-type='member' style='display: none;'><a href="Trans.html#gameFolder">gameFolder</a></li><li data-type='member' style='display: none;'><a href="Trans.html#gameFolder">gameFolder</a></li><li data-type='member' style='display: none;'><a href="Trans.html#gameTitle">gameTitle</a></li><li data-type='member' style='display: none;'><a href="Trans.html#gameTitle">gameTitle</a></li><li data-type='member' style='display: none;'><a href="Trans.html#grid">grid</a></li><li data-type='member' style='display: none;'><a href="Trans.html#grid">grid</a></li><li data-type='member' style='display: none;'><a href="Trans.html#inProject">inProject</a></li><li data-type='member' style='display: none;'><a href="Trans.html#inProject">inProject</a></li><li data-type='member' style='display: none;'><a href="Trans.html#indexIds">indexIds</a></li><li data-type='member' style='display: none;'><a href="Trans.html#indexIds">indexIds</a></li><li data-type='member' style='display: none;'><a href="Trans.html#isFreeEditing">isFreeEditing</a></li><li data-type='member' style='display: none;'><a href="Trans.html#isFreeEditing">isFreeEditing</a></li><li data-type='member' style='display: none;'><a href="Trans.html#isLoadingFileList">isLoadingFileList</a></li><li data-type='member' style='display: none;'><a href="Trans.html#isLoadingFileList">isLoadingFileList</a></li><li data-type='member' style='display: none;'><a href="Trans.html#keyColumn">keyColumn</a></li><li data-type='member' style='display: none;'><a href="Trans.html#keyColumn">keyColumn</a></li><li data-type='member' style='display: none;'><a href="Trans.html#project">project</a></li><li data-type='member' style='display: none;'><a href="Trans.html#project">project</a></li><li data-type='member' style='display: none;'><a href="Trans.html#projectId">projectId</a></li><li data-type='member' style='display: none;'><a href="Trans.html#projectId">projectId</a></li><li data-type='member' style='display: none;'><a href="Trans.html#skipElement">skipElement</a></li><li data-type='member' style='display: none;'><a href="Trans.html#skipElement">skipElement</a></li><li data-type='member' style='display: none;'><a href="Trans.html#timers">timers</a></li><li data-type='member' style='display: none;'><a href="Trans.html#timers">timers</a></li><li data-type='member' style='display: none;'><a href="Trans.html#trans.gridContextMenu">trans.gridContextMenu</a></li><li data-type='member' style='display: none;'><a href="Trans.html#trans.gridContextMenu">trans.gridContextMenu</a></li><li data-type='member' style='display: none;'><a href="Trans.html#unsavedChange">unsavedChange</a></li><li data-type='member' style='display: none;'><a href="Trans.html#unsavedChange">unsavedChange</a></li><li data-type='member' style='display: none;'><a href="Trans.html#.maxCols">maxCols</a></li><li data-type='member' style='display: none;'><a href="Trans.html#.maxCols">maxCols</a></li></ul><ul class='methods'><li data-type='method' style='display: none;'><a href="Trans.html#.abortTranslation#abortTranslation">abortTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.abortTranslation#abortTranslation">abortTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addFileGroup#addFileGroup">addFileGroup</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addFileGroup#addFileGroup">addFileGroup</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addFileItem#addFileItem">addFileItem</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addFileItem#addFileItem">addFileItem</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addRow#addRow">addRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addRow#addRow">addRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.alert#alert">alert</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.alert#alert">alert</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendRow#appendRow">appendRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendRow#appendRow">appendRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendTags#appendTags">appendTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendTags#appendTags">appendTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendTextToReference#appendTextToReference">appendTextToReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendTextToReference#appendTextToReference">appendTextToReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.applySaveData#applySaveData">applySaveData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.applySaveData#applySaveData">applySaveData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.applyTransTableToSelectedCell#applyTransTableToSelectedCell">applyTransTableToSelectedCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.applyTransTableToSelectedCell#applyTransTableToSelectedCell">applyTransTableToSelectedCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.autoSave#autoSave">autoSave</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.autoSave#autoSave">autoSave</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildContextFromParameter#buildContextFromParameter">buildContextFromParameter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildContextFromParameter#buildContextFromParameter">buildContextFromParameter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndex#buildIndex">buildIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndex#buildIndex">buildIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndexFromData#buildIndexFromData">buildIndexFromData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndexFromData#buildIndexFromData">buildIndexFromData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndexes#buildIndexes">buildIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndexes#buildIndexes">buildIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.calculateTableHeights#calculateTableHeights">calculateTableHeights</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.calculateTableHeights#calculateTableHeights">calculateTableHeights</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearCellInfo#clearCellInfo">clearCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearCellInfo#clearCellInfo">clearCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearEditor#clearEditor">clearEditor</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearEditor#clearEditor">clearEditor</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearFooter#clearFooter">clearFooter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearFooter#clearFooter">clearFooter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearRow#clearRow">clearRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearRow#clearRow">clearRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearSelection#clearSelection">clearSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearSelection#clearSelection">clearSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearTags#clearTags">clearTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearTags#clearTags">clearTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearTemporaryIndexes#clearTemporaryIndexes">clearTemporaryIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearTemporaryIndexes#clearTemporaryIndexes">clearTemporaryIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.closeProject#closeProject">closeProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.closeProject#closeProject">closeProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.collectContextKeyword#collectContextKeyword">collectContextKeyword</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.collectContextKeyword#collectContextKeyword">collectContextKeyword</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.compress#compress">compress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.compress#compress">compress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.connectData#connectData">connectData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.connectData#connectData">connectData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.copyCol#copyCol">copyCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.copyCol#copyCol">copyCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.copyTranslationToRow#copyTranslationToRow">copyTranslationToRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.copyTranslationToRow#copyTranslationToRow">copyTranslationToRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.countFilledCol#countFilledCol">countFilledCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.countFilledCol#countFilledCol">countFilledCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.countTranslated#countTranslated">countTranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.countTranslated#countTranslated">countTranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createBackup#createBackup">createBackup</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createBackup#createBackup">createBackup</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createFile#createFile">createFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createFile#createFile">createFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createProject#createProject">createProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createProject#createProject">createProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.dataPadding#dataPadding">dataPadding</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.dataPadding#dataPadding">dataPadding</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.deleteFile#deleteFile">deleteFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.deleteFile#deleteFile">deleteFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.doAfterSelection#doAfterSelection">doAfterSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.doAfterSelection#doAfterSelection">doAfterSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawFileSelector#drawFileSelector">drawFileSelector</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawFileSelector#drawFileSelector">drawFileSelector</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawFileStatus#drawFileStatus">drawFileStatus</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawFileStatus#drawFileStatus">drawFileStatus</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawGridTranslatorMenu#drawGridTranslatorMenu">drawGridTranslatorMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawGridTranslatorMenu#drawGridTranslatorMenu">drawGridTranslatorMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.editNoteAtCell#editNoteAtCell">editNoteAtCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.editNoteAtCell#editNoteAtCell">editNoteAtCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.evalContextsQuery#evalContextsQuery">evalContextsQuery</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.evalContextsQuery#evalContextsQuery">evalContextsQuery</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.evalTranslationProgress#evalTranslationProgress">evalTranslationProgress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.evalTranslationProgress#evalTranslationProgress">evalTranslationProgress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.export#export">export</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.export#export">export</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.exportTPP#exportTPP">exportTPP</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.exportTPP#exportTPP">exportTPP</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fileItemExist#fileItemExist">fileItemExist</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fileItemExist#fileItemExist">fileItemExist</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fileSelectorContextMenuInit#fileSelectorContextMenuInit">fileSelectorContextMenuInit</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fileSelectorContextMenuInit#fileSelectorContextMenuInit">fileSelectorContextMenuInit</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fillEmptyLine#fillEmptyLine">fillEmptyLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fillEmptyLine#fillEmptyLine">fillEmptyLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsert#findAndInsert">findAndInsert</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsert#findAndInsert">findAndInsert</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertByContext#findAndInsertByContext">findAndInsertByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertByContext#findAndInsertByContext">findAndInsertByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertLine#findAndInsertLine">findAndInsertLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertLine#findAndInsertLine">findAndInsertLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertWithIndexes#findAndInsertWithIndexes">findAndInsertWithIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertWithIndexes#findAndInsertWithIndexes">findAndInsertWithIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findIdByIndex#findIdByIndex">findIdByIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findIdByIndex#findIdByIndex">findIdByIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findPut#findPut">findPut</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findPut#findPut">findPut</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.from#from">from</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.from#from">from</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateCachePath#generateCachePath">generateCachePath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateCachePath#generateCachePath">generateCachePath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateContextTranslationPair#generateContextTranslationPair">generateContextTranslationPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateContextTranslationPair#generateContextTranslationPair">generateContextTranslationPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateHeader#generateHeader">generateHeader</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateHeader#generateHeader">generateHeader</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateNewDictionaryTable#generateNewDictionaryTable">generateNewDictionaryTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateNewDictionaryTable#generateNewDictionaryTable">generateNewDictionaryTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateSelectedTranslationTable#generateSelectedTranslationTable">generateSelectedTranslationTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateSelectedTranslationTable#generateSelectedTranslationTable">generateSelectedTranslationTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationPair#generateTranslationPair">generateTranslationPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationPair#generateTranslationPair">generateTranslationPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTable#generateTranslationTable">generateTranslationTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTable#generateTranslationTable">generateTranslationTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableFromResult#generateTranslationTableFromResult">generateTranslationTableFromResult</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableFromResult#generateTranslationTableFromResult">generateTranslationTableFromResult</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableFromStrings#generateTranslationTableFromStrings">generateTranslationTableFromStrings</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableFromStrings#generateTranslationTableFromStrings">generateTranslationTableFromStrings</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableLine#generateTranslationTableLine">generateTranslationTableLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableLine#generateTranslationTableLine">generateTranslationTableLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getActiveTranslator#getActiveTranslator">getActiveTranslator</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getActiveTranslator#getActiveTranslator">getActiveTranslator</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getActiveTranslatorEngine#getActiveTranslatorEngine">getActiveTranslatorEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getActiveTranslatorEngine#getActiveTranslatorEngine">getActiveTranslatorEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllCompletedFiles#getAllCompletedFiles">getAllCompletedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllCompletedFiles#getAllCompletedFiles">getAllCompletedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllFiles#getAllFiles">getAllFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllFiles#getAllFiles">getAllFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllFilesExcept#getAllFilesExcept">getAllFilesExcept</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllFilesExcept#getAllFilesExcept">getAllFilesExcept</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllIncompletedFiles#getAllIncompletedFiles">getAllIncompletedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllIncompletedFiles#getAllIncompletedFiles">getAllIncompletedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllMarkedAsCompleted#getAllMarkedAsCompleted">getAllMarkedAsCompleted</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllMarkedAsCompleted#getAllMarkedAsCompleted">getAllMarkedAsCompleted</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAttachmentContent#getAttachmentContent">getAttachmentContent</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAttachmentContent#getAttachmentContent">getAttachmentContent</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCellComment#getCellComment">getCellComment</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCellComment#getCellComment">getCellComment</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCheckedFiles#getCheckedFiles">getCheckedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCheckedFiles#getCheckedFiles">getCheckedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCheckedObjects#getCheckedObjects">getCheckedObjects</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCheckedObjects#getCheckedObjects">getCheckedObjects</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getConfig#getConfig">getConfig</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getConfig#getConfig">getConfig</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getContext#getContext">getContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getContext#getContext">getContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCurrentData#getCurrentData">getCurrentData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCurrentData#getCurrentData">getCurrentData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getData#getData">getData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getData#getData">getData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getFromIndexes#getFromIndexes">getFromIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getFromIndexes#getFromIndexes">getFromIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getGridContextMenu#getGridContextMenu">getGridContextMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getGridContextMenu#getGridContextMenu">getGridContextMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getIndexByKey#getIndexByKey">getIndexByKey</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getIndexByKey#getIndexByKey">getIndexByKey</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getIndexIds#getIndexIds">getIndexIds</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getIndexIds#getIndexIds">getIndexIds</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getLastSelectedCell#getLastSelectedCell">getLastSelectedCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getLastSelectedCell#getLastSelectedCell">getLastSelectedCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getObjectById#getObjectById">getObjectById</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getObjectById#getObjectById">getObjectById</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getOption#getOption">getOption</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getOption#getOption">getOption</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getParamatersByRow#getParamatersByRow">getParamatersByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getParamatersByRow#getParamatersByRow">getParamatersByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getProjectChecksum#getProjectChecksum">getProjectChecksum</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getProjectChecksum#getProjectChecksum">getProjectChecksum</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getReference#getReference">getReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getReference#getReference">getReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowIdByTextInsensitive#getRowIdByTextInsensitive">getRowIdByTextInsensitive</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowIdByTextInsensitive#getRowIdByTextInsensitive">getRowIdByTextInsensitive</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowInfoText#getRowInfoText">getRowInfoText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowInfoText#getRowInfoText">getRowInfoText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowInfoTexts#getRowInfoTexts">getRowInfoTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowInfoTexts#getRowInfoTexts">getRowInfoTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSaveData#getSaveData">getSaveData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSaveData#getSaveData">getSaveData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedCellsData#getSelectedCellsData">getSelectedCellsData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedCellsData#getSelectedCellsData">getSelectedCellsData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedContext#getSelectedContext">getSelectedContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedContext#getSelectedContext">getSelectedContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedId#getSelectedId">getSelectedId</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedId#getSelectedId">getSelectedId</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedKeyText#getSelectedKeyText">getSelectedKeyText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedKeyText#getSelectedKeyText">getSelectedKeyText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedObject#getSelectedObject">getSelectedObject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedObject#getSelectedObject">getSelectedObject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedOriginalTexts#getSelectedOriginalTexts">getSelectedOriginalTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedOriginalTexts#getSelectedOriginalTexts">getSelectedOriginalTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedOriginalTextsAsOneLine#getSelectedOriginalTextsAsOneLine">getSelectedOriginalTextsAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedOriginalTextsAsOneLine#getSelectedOriginalTextsAsOneLine">getSelectedOriginalTextsAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedParameters#getSelectedParameters">getSelectedParameters</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedParameters#getSelectedParameters">getSelectedParameters</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedTexts#getSelectedTexts">getSelectedTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedTexts#getSelectedTexts">getSelectedTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedTextsAsOneLine#getSelectedTextsAsOneLine">getSelectedTextsAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedTextsAsOneLine#getSelectedTextsAsOneLine">getSelectedTextsAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingDataPath#getStagingDataPath">getStagingDataPath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingDataPath#getStagingDataPath">getStagingDataPath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingFile#getStagingFile">getStagingFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingFile#getStagingFile">getStagingFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingPath#getStagingPath">getStagingPath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingPath#getStagingPath">getStagingPath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStats#getStats">getStats</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStats#getStats">getStats</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTemplatePath#getTemplatePath">getTemplatePath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTemplatePath#getTemplatePath">getTemplatePath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getText#getText">getText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getText#getText">getText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTextFromLastSelected#getTextFromLastSelected">getTextFromLastSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTextFromLastSelected#getTextFromLastSelected">getTextFromLastSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationByIndex#getTranslationByIndex">getTranslationByIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationByIndex#getTranslationByIndex">getTranslationByIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationByLine#getTranslationByLine">getTranslationByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationByLine#getTranslationByLine">getTranslationByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationColFromRow#getTranslationColFromRow">getTranslationColFromRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationColFromRow#getTranslationColFromRow">getTranslationColFromRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationData#getTranslationData">getTranslationData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationData#getTranslationData">getTranslationData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationFromRow#getTranslationFromRow">getTranslationFromRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationFromRow#getTranslationFromRow">getTranslationFromRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslatorEngine#getTranslatorEngine">getTranslatorEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslatorEngine#getTranslatorEngine">getTranslatorEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goTo#goTo">goTo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goTo#goTo">goTo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToNewKey#goToNewKey">goToNewKey</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToNewKey#goToNewKey">goToNewKey</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToNextUntranslated#goToNextUntranslated">goToNextUntranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToNextUntranslated#goToNextUntranslated">goToNextUntranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToPreviousUntranslated#goToPreviousUntranslated">goToPreviousUntranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToPreviousUntranslated#goToPreviousUntranslated">goToPreviousUntranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.gridBodyContextMenu#gridBodyContextMenu">gridBodyContextMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.gridBodyContextMenu#gridBodyContextMenu">gridBodyContextMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.gridIsModified#gridIsModified">gridIsModified</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.gridIsModified#gridIsModified">gridIsModified</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.hasTags#hasTags">hasTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.hasTags#hasTags">hasTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importFromFile#importFromFile">importFromFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importFromFile#importFromFile">importFromFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importRPGMTrans#importRPGMTrans">importRPGMTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importRPGMTrans#importRPGMTrans">importRPGMTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importSheet#importSheet">importSheet</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importSheet#importSheet">importSheet</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importTpp#importTpp">importTpp</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importTpp#importTpp">importTpp</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importTranslation#importTranslation">importTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importTranslation#importTranslation">importTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initFileNav#initFileNav">initFileNav</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initFileNav#initFileNav">initFileNav</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initProject#initProject">initProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initProject#initProject">initProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initTable#initTable">initTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initTable#initTable">initTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.insertCell#insertCell">insertCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.insertCell#insertCell">insertCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.invertSelection#invertSelection">invertSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.invertSelection#invertSelection">invertSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isAllSelected#isAllSelected">isAllSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isAllSelected#isAllSelected">isAllSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isFileSupported#isFileSupported">isFileSupported</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isFileSupported#isFileSupported">isFileSupported</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isInContext#isInContext">isInContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isInContext#isInContext">isInContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isInProject#isInProject">isInProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isInProject#isInProject">isInProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isKeyExist#isKeyExist">isKeyExist</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isKeyExist#isKeyExist">isKeyExist</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isKeyExistOn#isKeyExistOn">isKeyExistOn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isKeyExistOn#isKeyExistOn">isKeyExistOn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isLastRow#isLastRow">isLastRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isLastRow#isLastRow">isLastRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isTranslatedRow#isTranslatedRow">isTranslatedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isTranslatedRow#isTranslatedRow">isTranslatedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.legacyExport#legacyExport">legacyExport</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadComments#loadComments">loadComments</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadComments#loadComments">loadComments</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadJSON#loadJSON">loadJSON</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadJSON#loadJSON">loadJSON</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadJSONSync#loadJSONSync">loadJSONSync</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadJSONSync#loadJSONSync">loadJSONSync</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.mergeReference#mergeReference">mergeReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.mergeReference#mergeReference">mergeReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.mergeTrans#mergeTrans">mergeTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.mergeTrans#mergeTrans">mergeTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.moveColumn#moveColumn">moveColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.moveColumn#moveColumn">moveColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.normalizeHeader#normalizeHeader">normalizeHeader</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.normalizeHeader#normalizeHeader">normalizeHeader</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.onBatchTranslationDone#onBatchTranslationDone">onBatchTranslationDone</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.onBatchTranslationDone#onBatchTranslationDone">onBatchTranslationDone</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.openFile#openFile">openFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.openFile#openFile">openFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.paddingTranslation#paddingTranslation">paddingTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.paddingTranslation#paddingTranslation">paddingTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.refreshGrid#refreshGrid">refreshGrid</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.refreshGrid#refreshGrid">refreshGrid</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeAllTranslation#removeAllTranslation">removeAllTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeAllTranslation#removeAllTranslation">removeAllTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeColumn#removeColumn">removeColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeColumn#removeColumn">removeColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeDuplicates#removeDuplicates">removeDuplicates</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeDuplicates#removeDuplicates">removeDuplicates</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeNoteAtSelected#removeNoteAtSelected">removeNoteAtSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeNoteAtSelected#removeNoteAtSelected">removeNoteAtSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeRow#removeRow">removeRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeRow#removeRow">removeRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeRowByContext#removeRowByContext">removeRowByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeRowByContext#removeRowByContext">removeRowByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeTagForSelectedRow#removeTagForSelectedRow">removeTagForSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeTagForSelectedRow#removeTagForSelectedRow">removeTagForSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeTags#removeTags">removeTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeTags#removeTags">removeTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.renameColumn#renameColumn">renameColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.renameColumn#renameColumn">renameColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.replace#replace">replace</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.replace#replace">replace</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetCurentCellEditor#resetCurentCellEditor">resetCurentCellEditor</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetCurentCellEditor#resetCurentCellEditor">resetCurentCellEditor</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetIndex#resetIndex">resetIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetIndex#resetIndex">resetIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetTags#resetTags">resetTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetTags#resetTags">resetTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.revertToOriginal#revertToOriginal">revertToOriginal</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.revertToOriginal#revertToOriginal">revertToOriginal</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.rowHasMultipleContext#rowHasMultipleContext">rowHasMultipleContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.rowHasMultipleContext#rowHasMultipleContext">rowHasMultipleContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.rowHasTranslation#rowHasTranslation">rowHasTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.rowHasTranslation#rowHasTranslation">rowHasTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.runCustomScript#runCustomScript">runCustomScript</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.sanitize#sanitize">sanitize</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.sanitize#sanitize">sanitize</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.save#save">save</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.save#save">save</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.saveAs#saveAs">saveAs</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.saveAs#saveAs">saveAs</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.scrollHToCol#scrollHToCol">scrollHToCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.scrollHToCol#scrollHToCol">scrollHToCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.search#search">search</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.search#search">search</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectAll#selectAll">selectAll</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectAll#selectAll">selectAll</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectCell#selectCell">selectCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectCell#selectCell">selectCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectFile#selectFile">selectFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectFile#selectFile">selectFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectObjectsByFilter#selectObjectsByFilter">selectObjectsByFilter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectObjectsByFilter#selectObjectsByFilter">selectObjectsByFilter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setActiveTranslator#setActiveTranslator">setActiveTranslator</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setActiveTranslator#setActiveTranslator">setActiveTranslator</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setCellInfo#setCellInfo">setCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setCellInfo#setCellInfo">setCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setCellValueAt#setCellValueAt">setCellValueAt</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setCellValueAt#setCellValueAt">setCellValueAt</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setConfig#setConfig">setConfig</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setConfig#setConfig">setConfig</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setContext#setContext">setContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setContext#setContext">setContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setMarkAsComplete#setMarkAsComplete">setMarkAsComplete</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setMarkAsComplete#setMarkAsComplete">setMarkAsComplete</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setParametersByRow#setParametersByRow">setParametersByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setParametersByRow#setParametersByRow">setParametersByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setRowInfoText#setRowInfoText">setRowInfoText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setRowInfoText#setRowInfoText">setRowInfoText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setSl#setSl">setSl</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setSl#setSl">setSl</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarContext#setStatusBarContext">setStatusBarContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarContext#setStatusBarContext">setStatusBarContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarEngine#setStatusBarEngine">setStatusBarEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarEngine#setStatusBarEngine">setStatusBarEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarNumData#setStatusBarNumData">setStatusBarNumData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarNumData#setStatusBarNumData">setStatusBarNumData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTagForSelectedRow#setTagForSelectedRow">setTagForSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTagForSelectedRow#setTagForSelectedRow">setTagForSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTags#setTags">setTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTags#setTags">setTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTl#setTl">setTl</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTl#setTl">setTl</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTrayIcon#setTrayIcon">setTrayIcon</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTrayIcon#setTrayIcon">setTrayIcon</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.stagingFilesRemove#stagingFilesRemove">stagingFilesRemove</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.stagingFilesRemove#stagingFilesRemove">stagingFilesRemove</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.tagRowByContext#tagRowByContext">tagRowByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.tagRowByContext#tagRowByContext">tagRowByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.textEditorSetValue#textEditorSetValue">textEditorSetValue</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.textEditorSetValue#textEditorSetValue">textEditorSetValue</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAll#translateAll">translateAll</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAll#translateAll">translateAll</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAllByLines#translateAllByLines">translateAllByLines</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAllByLines#translateAllByLines">translateAllByLines</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAllByRows#translateAllByRows">translateAllByRows</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAllByRows#translateAllByRows">translateAllByRows</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateByReference#translateByReference">translateByReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateByReference#translateByReference">translateByReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateFromArray#translateFromArray">translateFromArray</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateFromArray#translateFromArray">translateFromArray</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateFromTrans#translateFromTrans">translateFromTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateFromTrans#translateFromTrans">translateFromTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectedRow#translateSelectedRow">translateSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectedRow#translateSelectedRow">translateSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelection#translateSelection">translateSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelection#translateSelection">translateSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionAsOneLine#translateSelectionAsOneLine">translateSelectionAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionAsOneLine#translateSelectionAsOneLine">translateSelectionAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionByLine#translateSelectionByLine">translateSelectionByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionByLine#translateSelectionByLine">translateSelectionByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionByRow#translateSelectionByRow">translateSelectionByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionByRow#translateSelectionByRow">translateSelectionByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionIntoDef#translateSelectionIntoDef">translateSelectionIntoDef</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionIntoDef#translateSelectionIntoDef">translateSelectionIntoDef</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateStringByPair#translateStringByPair">translateStringByPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateStringByPair#translateStringByPair">translateStringByPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateTextByLine#translateTextByLine">translateTextByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateTextByLine#translateTextByLine">translateTextByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.travelContext#travelContext">travelContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.travelContext#travelContext">travelContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.trimTranslation#trimTranslation">trimTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.trimTranslation#trimTranslation">trimTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.unInitFileNav#unInitFileNav">unInitFileNav</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.unInitFileNav#unInitFileNav">unInitFileNav</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.uncompress#uncompress">uncompress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.uncompress#uncompress">uncompress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.updateProject#updateProject">updateProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.updateProject#updateProject">updateProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.updateRunScriptMenu#updateRunScriptMenu">updateRunScriptMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.updateStagingInfo#updateStagingInfo">updateStagingInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.updateStagingInfo#updateStagingInfo">updateStagingInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.walkToAllFile#walkToAllFile">walkToAllFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.walkToAllFile#walkToAllFile">walkToAllFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.wordWrapFiles#wordWrapFiles">wordWrapFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.wordWrapFiles#wordWrapFiles">wordWrapFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.wordWrapText#wordWrapText">wordWrapText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.wordWrapText#wordWrapText">wordWrapText</a></li></ul></li><li></li><li><a href="Trans.CellInfo.html">Trans.CellInfo</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.delete#delete">delete</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.delete#delete">delete</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.deleteRow#deleteRow">deleteRow</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.deleteRow#deleteRow">deleteRow</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.get#get">get</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.get#get">get</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getAll#getAll">getAll</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getAll#getAll">getAll</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getBestCellInfo#getBestCellInfo">getBestCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getBestCellInfo#getBestCellInfo">getBestCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getCell#getCell">getCell</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getCell#getCell">getCell</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getRow#getRow">getRow</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getRow#getRow">getRow</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.set#set">set</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.set#set">set</a></li></ul></li><li></li><li><a href="TransProjectHook.html">TransProjectHook</a></li><li></li><li><a href="Translator.html">Translator</a></li><li><a href="TranslatorEngine.html">TranslatorEngine</a><ul class='members'><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#author">author</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#batchDelay">batchDelay</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#delimiter">delimiter</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#description">description</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#escapeAlgorithm">escapeAlgorithm</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#id">id</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#languages">languages</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#maxRequestLength">maxRequestLength</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#name">name</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#optionsForm">optionsForm</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#version">version</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#.escapeAlgorithms">escapeAlgorithms</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#.translators">translators</a></li></ul><ul class='methods'><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.fetchTranslation#fetchTranslation">fetchTranslation</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getDefaultOptions#getDefaultOptions">getDefaultOptions</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getLanguageCode#getLanguageCode">getLanguageCode</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getOptions#getOptions">getOptions</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getUnsetRequiredOptions#getUnsetRequiredOptions">getUnsetRequiredOptions</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.preProcessText#preProcessText">preProcessText</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.resetOptions#resetOptions">resetOptions</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.setOptions#setOptions">setOptions</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.translate#translate">translate</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.translatePairs#translatePairs">translatePairs</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.update#update">update</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.addEscapeAlgorithm">addEscapeAlgorithm</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getEngine">getEngine</a></li></ul></li><li><a href="common.SimpleDB.html">common.SimpleDB</a><ul class='methods'><li data-type='method' style='display: none;'><a href="common.SimpleDB.html#.clear#clear">clear</a></li><li data-type='method' style='display: none;'><a href="common.SimpleDB.html#.delete#delete">delete</a></li><li data-type='method' style='display: none;'><a href="common.SimpleDB.html#.get#get">get</a></li><li data-type='method' style='display: none;'><a href="common.SimpleDB.html#.set#set">set</a></li></ul></li><li><a href="ui.CellInfoTab.html">ui.CellInfoTab</a></li><li><a href="window.Attachment.html">window.Attachment</a></li><li></li></ul><h3>Externals</h3><ul><li><a href="external-Icon%2520reference.html">external:Icon reference</a></li></ul><h3>Events</h3><ul><li><a href="Addon.html#event:loaded">Addon#loaded</a></li><li><a href="Addon.html#event:onLoaded">Addon#onLoaded</a></li><li><a href="RibbonMenu.html#event:active">RibbonMenu#active</a></li><li><a href="RibbonMenu.html#event:beforeSelect">RibbonMenu#beforeSelect</a></li><li><a href="RibbonMenu.html#event:ready">RibbonMenu#ready</a></li><li><a href="RibbonMenu.html#event:select">RibbonMenu#select</a></li><li><a href="Sys.html#event:beforeSaveConfig">Sys#beforeSaveConfig</a></li><li><a href="Sys.html#event:loadConfig">Sys#loadConfig</a></li><li><a href="Sys.html#event:saveConfig">Sys#saveConfig</a></li><li><a href="Trans.html#event:afterRemoveRow">Trans#afterRemoveRow</a></li><li></li><li><a href="Trans.html#event:beforeProcessSelection">Trans#beforeProcessSelection</a></li><li></li><li><a href="Trans.html#event:clearContextTranslationByRow">Trans#clearContextTranslationByRow</a></li><li></li><li><a href="Trans.html#event:documentModifiedStateChange">Trans#documentModifiedStateChange</a></li><li></li><li><a href="Trans.html#event:languageChange">Trans#languageChange</a></li><li><a href="Trans.html#event:onAfterSelectCell">Trans#onAfterSelectCell</a></li><li></li><li><a href="Trans.html#event:onGenerateTranslationData">Trans#onGenerateTranslationData</a></li><li></li><li><a href="Trans.html#event:onLoadTrans">Trans#onLoadTrans</a></li><li></li><li><a href="Trans.html#event:onUnloadTrans">Trans#onUnloadTrans</a></li><li></li><li><a href="Trans.html#event:projectCreated">Trans#projectCreated</a></li><li></li><li><a href="Trans.html#event:removeAllTranslation">Trans#removeAllTranslation</a></li><li></li><li><a href="Trans.html#event:transLoaded">Trans#transLoaded</a></li><li></li><li></li><li></li><li><a href="Trans.html#event:translatorIsChanged">Trans#translatorIsChanged</a></li><li><a href="ui.html#event:busyOverlayClosed">ui#busyOverlayClosed</a></li><li><a href="ui.html#event:busyOverlayOpened">ui#busyOverlayOpened</a></li><li><a href="ui.html#event:dialogRowPropertiesOpened">ui#dialogRowPropertiesOpened</a></li><li><a href="ui.html#event:loadingScreenIsClosed">ui#loadingScreenIsClosed</a></li><li></li><li><a href="ui.html#event:optionsWindowClosed">ui#optionsWindowClosed</a></li><li></li><li><a href="ui.html#event:optionsWindowOpened">ui#optionsWindowOpened</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">js/options.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**=====LICENSE STATEMENT START=====
+    Translator++ 
+    CAT (Computer-Assisted Translation) tools and framework to create quality
+    translations and localizations efficiently.
+        
+    Copyright (C) 2018  Dreamsavior&lt;dreamsavior@gmail.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see &lt;https://www.gnu.org/licenses/>.
+=====LICENSE STATEMENT END=====*/
+const { shim } = require('regexp-match-indices'); // eslint-disable-line
+const BasicEventHandler = require('www/js/BasicEventHandler.js');
+var options = {};
+var win = nw.Window.get();
+win.restore(); // restore if minimized
+win.show(); // show if hidden
+
+win.setResizable(true);
+
+var $DV 	= window.opener.$DV;
+var trans 	= window.opener.trans;
+var sys 	= window.opener.sys;
+var addonLoader = window.opener.addonLoader;
+var AddonInstaller = window.opener.AddonInstaller;
+var fs 		= require('fs');
+var lt 		= lt || window.opener.lt;
+var info 	= window.opener.info;
+var updater	= window.opener.updater;
+var Updater	= window.opener.Updater;
+var langTools = window.opener.langTools;
+var TranslatorEngine = window.opener.TranslatorEngine;
+
+/**
+ * Triggered when option window is opened
+ * @event ui#optionsWindowOpened
+ * @since 4.3.20
+ */
+window.opener.ui.trigger("optionsWindowOpened");
+
+
+
+trans.project = trans.project||{};
+trans.project.options = trans.project.options||{};
+
+options.__onBeforeClose = [];
+options.onBeforeCloseRunOnce = function(fn) {
+	if (typeof fn !== 'function') return console.info("Argument is not a function", fn)
+	options.__onBeforeClose.push(fn);
+}
+
+options.localStorage = new (require("better-localstorage"))("options");
+
+options.isUpdaterAvailable = function() {
+	if (typeof updater?.update == "function") return true;
+}
+
+options.initLanguageList = function() {
+	var langList = common.getLanguageCode();
+	if ($("#languageList").length > 0) return;
+	var $languageList = $(`&lt;datalist id="languageList">&lt;/datalist>`);
+	for (var i in langList) {
+		$languageList.append(`&lt;option value="${i}">${langList[i]}&lt;/option>`);
+	}
+	$("#template").append($languageList);
+}
+
+options.needRestart = false;
+options.requestRestart = function() {
+	this.needRestart = true;	
+}
+
+options.isNeedRestart = function() {
+	if (options.needRestart) {
+		alert(t("Some configuration require you to restart the application to take effect.\nPlease save your work, and restart Translator++."));
+	}
+}
+
+options.updateLanguageSelectors = function() {
+	options.drawLanguageSelector($("#sl"),'sl', sys.config.default.sl);
+	options.drawLanguageSelector($("#tl"),'tl', sys.config.default.tl);
+
+	if ($("#language .languagePair").hasClass("initialized")) {
+		$("#sl").trigger("input")
+		$("#tl").trigger("input")
+		return;
+	}
+	$("#sl").on("input", function() {
+		var $this = $(this)
+		$this.closest(".fieldLine").find("label .attention").remove();
+
+		if (!$this.val()) {
+			$this.addClass("error");
+			$this.closest(".fieldLine").find("label").append(`&lt;i class="attention icon-attention red" title="Please select a language">&lt;/i>`);
+
+		} else {
+			$this.removeClass("error");
+
+		}
+
+		/**
+		 * Triggered when the default translator is changed
+		 * @event Trans#languageChange
+		 * @param  {String} sl - Source language
+		 * @param  {String} tl - Target language
+		 * @since 4.12.10
+		 */
+		trans.trigger("languageChange", [$("#sl").val(), $("#tl").val()])
+	})
+	$("#tl").on("input", function() {
+		var $this = $(this)
+		$this.closest(".fieldLine").find("label .attention").remove();
+
+		if (!$this.val()) {
+			$this.addClass("error");
+			$this.closest(".fieldLine").find("label").append(`&lt;i class="attention icon-attention red" title="Please select a language">&lt;/i>`);
+		} else {
+			$this.removeClass("error");
+		}
+		trans.trigger("languageChange", [$("#sl").val(), $("#tl").val()])
+
+	})
+	$("#sl").trigger("input")
+	$("#tl").trigger("input")
+	$("#language .languagePair").addClass("initialized")
+}
+
+
+options.drawTranslatorSelector = function($obj, defaultVal) {
+	defaultVal = defaultVal || "google";
+	$obj.data("previousValue", defaultVal);
+	if (!trans.getTranslatorEngine) return;
+	if (!trans.translator) return;
+	if (Array.isArray(trans.translator)) trans.translator.sort();
+	for (var i=0; i&lt;trans.translator.length; i++) {
+		var thisTranslator = trans.getTranslatorEngine(trans.translator[i]);
+		if (!thisTranslator) {
+			console.warn("Can not process option for:", trans.translator[i]);
+			continue;
+		}
+		$obj.append("&lt;option value='"+trans.translator[i]+"'>"+thisTranslator.name+"&lt;/option>");
+	}
+	$obj.val(defaultVal);
+	
+	if ($obj.hasClass("eventApplied") == false) {
+		$obj.on("change.updater", function(e) {
+			trans.project.options = trans.project.options||{};
+			trans.project.options.translator = $(this).val();
+			options.updateLanguageSelectors();
+			// registering into sys
+			try {
+				sys.config.translator = $(this).val();
+				sys.saveConfig();
+			} catch (e) {
+				console.info("error writing sys.config", e);
+			}
+		})
+		$obj.addClass("eventApplied")
+	}
+	
+	// initializing;
+	$obj.trigger("change");
+
+	$obj.on("change", function() {
+		var $this = $(this);
+		// store old value
+		var oldValue = $(this).data("previousValue");
+		// set old value to new value;
+		$(this).data("previousValue", $this.val());
+		options.updateLanguageSelectors();
+		// trigger event
+		
+		/**
+		 * Triggered when the default translator is changed
+		 * @event Trans#translatorIsChanged
+		 * @param  {String} oldTranslator - The id of the old translator
+		 * @param  {String} newTranslator - The id of the new Translator
+		 * @since 4.3.20
+		 */
+		options.trigger("translatorIsChanged", [$this.val(), oldValue])
+		trans.trigger("translatorIsChanged", [$this.val(), oldValue]);
+	})
+
+	return $obj;
+}
+
+options.drawLanguageSelector = function($obj, id, defaultVal, options) {
+	var languages;
+	try {
+		var thisTranslator = sys.config.translator||trans.project.options.translator;
+		var keyName = "sourceLanguages"
+		if (id == "tl") {
+			keyName = "targetLanguages"
+		}
+		languages = trans[thisTranslator][keyName]||trans[thisTranslator].languages||consts.defaultLanguages||{};
+	} catch (e) {
+		languages = consts.defaultLanguages||{};
+	}
+	
+	$obj.empty();
+	options = options||{};
+	options.disableChoice = options.disableChoice||[];
+	if (typeof(defaultVal) == 'undefined') {
+		defaultVal = 'en';
+		if (id == 'sl') defaultVal = 'ja'; 
+	}
+	
+	for (var langCode in languages) {
+		var $opt;
+		//var langDBData = langTools.lookupDB(langCode, languages[langCode])
+		var langDBData = langTools.getLanguage(langCode, languages[langCode])
+		if (langDBData) {
+			$opt = $(`&lt;option value="${langDBData.id}">${langTools.getFullName(langDBData)}&lt;/option>`);
+		} else {
+			$opt = $("&lt;option value='"+langCode+"'>"+languages[langCode]+"&lt;/option>");
+		}
+
+		if (options.disableChoice.includes(langCode)) $opt.prop("disabled", true);
+		$obj.append($opt);
+	}
+	$obj.val(defaultVal);
+
+	if ($obj.hasClass("eventApplied") == false) {
+		$obj.on("change.updater", function(e) {
+			sys.config.default[id] = $(this).val();
+			$DV.config[id] = $(this).val();		
+		})
+		$obj.addClass("eventApplied")
+	}
+
+	
+	return $obj;
+}
+
+options.applyAll =function($obj) {
+	$obj = $obj||$("body");
+	
+	$obj.find("input").trigger("change");
+	$obj.find("select").trigger("change");
+	$obj.find("textarea").trigger("change");
+}
+
+
+
+
+// ===================================================
+// Handling tab / left menu
+// ===================================================
+options.tab = {};
+options.tab.select = function($obj, scrollToView= false) {
+	//$obj can be jquery instance, element or id
+	if (typeof $obj == "string") {
+		$obj = $(".tabMenu li[data-for='"+CSS.escape($obj)+"']");
+	}
+	if ($obj.length == 0) {
+		return;
+	}
+	$obj.closest(".tabMenu").find("li.selectable").removeClass("selected");
+	$obj.addClass("selected");
+	let $panelContents = $(".panel-right .panelContent");
+	$panelContents.removeClass("activeTab");
+	$panelContents.addClass("hidden");
+	
+	let thisRef = $obj.data("for");
+	let $targetObj = $("#"+thisRef);
+	if ($targetObj.length > 0) {
+		$targetObj.trigger("beforeShown");
+		$targetObj.removeClass("hidden");
+		$targetObj.addClass("activeTab");
+		$targetObj.trigger("tabSelected");
+	}
+	if (typeof $obj.data("onOptionSelected") == "function") {
+		$obj.data("onOptionSelected")($targetObj, $obj);
+	}
+
+
+	if ($obj.is(".hidden") &amp;&amp; $obj.is("[data-parent]")) {
+		// expand the parent
+		const $parent = $(".tabMenu li[data-for='"+$obj.data("parent")+"']");
+		const $expander = $parent.find(".expanderButton");
+		options.expanderButton.toggle($expander, true);
+	}
+
+	if (scrollToView) {
+		$obj[0].scrollIntoView();
+	}
+
+
+	return $obj;
+}
+
+options.tab.insertBefore = function(id, title, $insertBefore, options) {
+	options = options||{};
+	options.icon = options.icon||"circle";
+	options.tabClass = options.tabClass||"";
+	var $tab = $('&lt;li data-for="'+id+'" class="selectable '+options.tabClass+'">&lt;a>&lt;i class="icon-'+options.icon+'">&lt;/i>&lt;span class="menuTitle">'+title+'&lt;/span>&lt;/a>&lt;/li>');
+
+	$tab.insertBefore($insertBefore);
+	$tab.attr("data-keyword", title);
+	if (typeof options.onSelect == "function") $tab.data("onOptionSelected", options.onSelect);
+	
+	var $tabContent = $('&lt;div class="panelContent '+id+'" id="'+id+'">&lt;/div>');
+	$(".panel-right").append($tabContent);
+	
+	return {tab:$tab, content:$tabContent};
+}
+
+options.tab.insertAfter = function(id, title, $insertAfter, options) {
+	options = options||{};
+	options.icon = options.icon||"circle";
+	options.tabClass = options.tabClass||"";
+	options.tabContent = options.tabContent||"";
+
+	var $tab = $('&lt;li data-for="'+id+'" class="selectable '+options.tabClass+'">&lt;a>&lt;i class="icon-'+options.icon+'">&lt;/i>&lt;span class="menuTitle">'+title+'&lt;/span>&lt;/a>&lt;/li>');
+	$tab.insertAfter($insertAfter);
+	$tab.attr("data-keyword", title);
+
+	if (typeof options.onSelect == "function") $tab.data("onOptionSelected", options.onSelect);
+
+	var $tabContent = $('&lt;div class="panelContent '+id+'" id="'+id+'">&lt;/div>');
+	$tabContent.append(options.tabContent);
+	$(".panel-right").append($tabContent);
+	return {tab:$tab, content:$tabContent};
+}
+
+options.tab.insertAsChild = function(id, title, $insertAfter, options) {
+	if (typeof $insertAfter == "string") {
+		$insertAfter = $(".tabMenu li[data-for='"+CSS.escape($insertAfter)+"']");
+	}
+
+	const parentId = $insertAfter.data("for");
+	options = options||{};
+	options.icon = options.icon||"circle";
+	options.tabClass = options.tabClass||"";
+	options.tabContent = options.tabContent||"";
+
+	var $tab = $('&lt;li data-for="'+id+'" class="selectable '+options.tabClass+'">&lt;a>&lt;i class="icon-'+options.icon+'">&lt;/i>&lt;span class="menuTitle">'+title+'&lt;/span>&lt;/a>&lt;/li>');
+	$tab.insertAfter($insertAfter);
+	$tab.attr("data-keyword", title);
+	$tab.attr("data-parent", parentId);
+
+	if (typeof options.onSelect == "function") $tab.data("onOptionSelected", options.onSelect);
+
+	var $tabContent = $('&lt;div class="panelContent '+id+'" id="'+id+'">&lt;/div>');
+	$tabContent.append(options.tabContent);
+	$(".panel-right").append($tabContent);
+	return {tab:$tab, content:$tabContent};
+}
+
+options.tab.getActiveContent = function() {
+	return $(".panel-right .panelContent.activeTab");
+}
+
+options.tab.findInActiveContent = function(text) {
+	const $activeContent = this.getActiveContent();
+	const targetElements = ["label", "h1", "h2", "h3", "h4"];
+	// find the text in the active content, encapsulate with &lt;span class='highlight'>
+	for (let i=0; i&lt;targetElements.length; i++) {
+		$activeContent.find(targetElements[i]).each(function() {
+			var $this = $(this);
+			var html = $this.html();
+			html = html.replace(new RegExp(text, "gi"), function(match) {
+				return "&lt;span class='highlight'>"+match+"&lt;/span>";
+			})
+			$this.html(html);
+		})
+	}
+
+
+	// scroll into the highlighted element
+	var $highlighted = $activeContent.find(".highlight");
+	if ($highlighted.length) {
+		$highlighted.get(0).scrollIntoView();
+	}
+}
+
+options.tab.init = function() {
+	var $selectableMenu = $(".tabMenu li.selectable");
+	$selectableMenu.each(function() {
+		var $thisLi = $(this);
+		$thisLi.off("click.selectTab");
+		$thisLi.on("click.selectTab", function(e){
+			options.tab.select($(this));
+		})
+	});
+}
+
+// ===================================================
+// Handling translator options
+// ===================================================
+options.translatorMenu = {};
+
+options.translatorMenu.assignDefault = function(thisTranslator) {
+	if (thisTranslator.id == "testEngine2") {
+		console.log("%cAssign default", "color:aqua", thisTranslator);
+	}
+	if (typeof thisTranslator.optionsForm == 'undefined') return thisTranslator;
+	if (typeof thisTranslator.optionsForm.schema == 'undefined') return thisTranslator;
+	
+	for (var key in thisTranslator.optionsForm.schema) {
+		if (typeof thisTranslator[key] == 'undefined') continue;
+		if (["array", "object"].includes(thisTranslator.optionsForm.schema[key].type) &amp;&amp; typeof thisTranslator[key] == "string") {
+			// if the schema type is object or array, and the saved value is string, try to JSON.parse() it.
+			thisTranslator.optionsForm.schema[key]['default'] = JSON.parse(thisTranslator[key]);
+		} else {
+			thisTranslator.optionsForm.schema[key]['default'] = thisTranslator[key];
+		}
+	}
+	if (thisTranslator.id == "testEngine2") {
+		console.log("%cafter assigning default :", "color:aqua", thisTranslator);
+	}
+	return thisTranslator;
+	
+}
+	
+options.translatorMenu.linkify = function(text) {
+    var urlRegex =/(\b(https?|ftp|file):\/\/[-A-Z0-9+&amp;@#/%?=~_|!:,.;]*[-A-Z0-9+&amp;@#/%=~_|])/ig;
+    return text.replace(urlRegex, function(url) {
+        return '&lt;a href="' + url + '", target="_system">' + url + '&lt;/a>';
+    });
+}
+
+options.translatorMenu.renderOptions = function(thisTranslator, $elm) {
+	console.log("%cRendering options", "color:yellow;", thisTranslator.id)
+	options.translatorMenu.assignDefault(thisTranslator);
+	$elm ||= $("#"+thisTranslator.id+" .pluginOptions")
+	$elm.empty();
+	// append the default value into the form
+	const optionsForm = {...thisTranslator.optionsForm, 
+		...{
+			value: thisTranslator.getOptionsFormValue(),
+		}
+	};
+	var jsonForm = $elm.jsonForm(optionsForm);
+	$elm.data("jsonForm", jsonForm);
+	$elm.closest(".panelContent").data("translatorInfo", thisTranslator);
+
+	console.log("rendering custom attr for translator engine:", thisTranslator.id, optionsForm);
+	for (var key in optionsForm.schema) {
+		var thisForm = optionsForm.schema[key];
+		if (!thisForm.attr) continue;
+		console.log("rendering attr for:", key);
+		var $thisField = $elm.find(`[name="${key}"]`);
+		for (var attrKey in thisForm.attr) {
+			$thisField.attr(attrKey, thisForm.attr[attrKey]);
+		}
+	}
+
+	$elm.find(".help-block").each(function() {
+		$(this).html(options.translatorMenu.linkify($(this).html()));
+		$(this).find("a[target=_system]").on("click", function(e) {
+			e.preventDefault();
+			nw.Shell.openExternal($(this).attr("href"));
+		})
+	});
+	console.log(`Translator option: ${thisTranslator.id} JSON form:`, jsonForm);
+	// to get the values:
+	// jsonForm.root.getFormValues()
+	// to set the values
+	// let's create a function on translatorEngine to batch apply value	
+}
+
+/**
+ * Set the value of a &lt;select> element. If the value does not exist in the options,
+ * a new option is added.
+ *
+ * @param {jQuery} $select - The jQuery object representing the &lt;select> element.
+ * @param {string} valueToSet - The value to set in the &lt;select>.
+ */
+options.setSelectValue = function($select, valueToSet) {
+	// Check if the value already exists in the options
+	if ($select.find('option[value="' + valueToSet + '"]').length > 0) {
+		// If it exists, simply set the value
+		$select.val(valueToSet);
+	} else {
+		// If it doesn't exist, add a new option and then set the value
+		$select.append($('&lt;option>', {
+			value: valueToSet,
+			text: valueToSet
+		}));
+		$select.val(valueToSet);
+	}
+}
+
+options.translatorMenu.configLoad = async function($panelContent, configName="") {
+	console.log("Changing configuration to:", configName);
+	const translatorInfo = $panelContent.data("translatorInfo");
+	const $pluginOptions = $panelContent.find(".pluginOptions");
+	//const jsonForm = $pluginOptions.data("jsonForm");
+
+	const oldConfigName = 	translatorInfo.getOptions("activeConfiguration") || "";
+
+	console.log("Save current configuration which is", oldConfigName);
+	await options.translatorMenu.configSave($panelContent, oldConfigName);
+
+	console.log("Old options:", JSON.stringify(translatorInfo.getOptions(), undefined, 2))
+	console.log("Reset options");
+	await translatorInfo.resetOptions();
+	console.log("After reset:", JSON.stringify(translatorInfo.getOptions(), undefined, 2))
+
+	var storageKey = `tlEngineConfig/${translatorInfo.id}`
+	var existingConfig = await options.localStorage.get(storageKey) || {}
+	var thisConfig = existingConfig[configName] || {}
+	if (!thisConfig) {
+		console.warn("No configuration found");
+	}
+
+	for (let i in thisConfig) {
+		translatorInfo.update(i, thisConfig[i])
+	}
+	console.log("After setting value:", JSON.stringify(translatorInfo.getOptions(), undefined, 2))
+
+	options.translatorMenu.renderOptions(translatorInfo, $pluginOptions);
+	translatorInfo.update("activeConfiguration", configName);
+
+	console.log("After everything:", JSON.stringify(translatorInfo.getOptions(), undefined, 2))
+
+	return thisConfig;
+}
+
+options.translatorMenu.configSave = async function($panelContent, configName="") {
+	if (!$panelContent?.length) return;
+	const translatorInfo = $panelContent.data("translatorInfo");
+	const $pluginOptions = $panelContent.find(".pluginOptions");
+	const jsonForm = $pluginOptions.data("jsonForm");
+	console.log("Saving config saveAs", translatorInfo, jsonForm);
+
+	var storageKey = `tlEngineConfig/${translatorInfo.id}`
+	console.log("Set: ", storageKey, "value:", jsonForm.root.getFormValues())
+	var existingConfig = await options.localStorage.get(storageKey) || {}
+	existingConfig[configName] = jsonForm.root.getFormValues()
+	await options.localStorage.set(storageKey, existingConfig);
+	return existingConfig;
+}
+
+options.translatorMenu.configSaveAs = async function($panelContent, configName="") {
+	if (!$panelContent?.length) return;
+	const translatorInfo = $panelContent.data("translatorInfo");
+	const $pluginOptions = $panelContent.find(".pluginOptions");
+	const jsonForm = $pluginOptions.data("jsonForm");
+	console.log("Saving config saveAs", translatorInfo, jsonForm);
+	if (!configName) {
+		configName = prompt(t("Pleae select the name for your configuration."));
+	}
+	if (!configName) return;
+
+	const result = await options.translatorMenu.configSave($panelContent, configName);
+	options.setSelectValue($panelContent.find(".configurationControl .configSelector"), configName);
+	return result;
+}
+
+/**
+ * Renders select box of configuration selection
+ * @param {JQuery} $panelContent - Jquery instance of panelContent
+ * @param {string} defaultSelection - Selected configuration as default
+ */
+options.translatorMenu.renderConfigSelection = async function($panelContent, defaultSelection="") {
+	const translatorInfo = $panelContent.data("translatorInfo");
+	const $configSelector = $panelContent.find(".configurationControl .configSelector");
+	$configSelector.empty();
+
+	var storageKey = `tlEngineConfig/${translatorInfo.id}`
+	var existingConfig = await options.localStorage.get(storageKey) || {}
+	$configSelector.append(`&lt;option value="">Default&lt;/option>`)
+	for (let confName in existingConfig) {
+		$configSelector.append(`&lt;option value="${common.htmlEntities(confName)}">${common.htmlEntities(confName)}&lt;/option>`)
+	}
+
+	$configSelector.off("change");
+	$configSelector.on("change", function() {
+		console.log("Selection change, changing to configuration ", $(this).val());
+		options.translatorMenu.configLoad($panelContent, $(this).val());
+	})
+
+	defaultSelection ||= translatorInfo.getOptions("activeConfiguration") || "";
+
+	if (defaultSelection) options.setSelectValue( $configSelector, defaultSelection);
+
+}
+
+options.translatorMenu.init = function() {
+	if (Array.isArray(trans.translator) == false) return false;
+	console.log("Initializing translator engine's options");
+
+	var translators = common.sort(TranslatorEngine.translators, "name", true);
+	for (var i=0; i&lt;translators.length; i++) {
+		(()=> {
+			var thisTranslator = translators[i];
+			thisTranslator.description = thisTranslator.description||"";
+			thisTranslator.author = thisTranslator.author||"Anonymous";
+			thisTranslator.version = thisTranslator.version||"1.0";
+			let thisIcon = thisTranslator.icon || 'mtl'
+			let translatorType = thisTranslator.getOptions("translatorType") || "";
+			if (translatorType) translatorType = `&lt;span class="translatorType">(${translatorType})&lt;/span>`;
+			var thisOption = {
+				icon: thisIcon,
+				tabClass: 'submenu translatorSetting hidden',
+				tabContent:$("&lt;h1 class='pluginTitle'>&lt;i class='icon-"+thisIcon+"'>&lt;/i> "+thisTranslator.name+"&lt;/h1>\
+							&lt;div class='subtitle'>"+t("Translator Engine configuration")+translatorType+"&lt;/div>\
+							&lt;div class='authorBlock'>"+t("Translator engine version.")+" &lt;span class='author'>"+thisTranslator.version+"&lt;/span>&lt;/div>\
+							&lt;div class='versionBlock'>"+t("By.")+" &lt;span class='engineVersion'>"+thisTranslator.author+"&lt;/span>&lt;/div>\
+							&lt;p class='description'>"+thisTranslator.description+"&lt;/p>\
+							&lt;div class='configurationControl'>&lt;/div>\
+							&lt;div class='pluginOptions'>&lt;/div>")
+			}
+			
+			if (typeof thisTranslator.onOptionSelected == "function") thisOption.onSelect = thisTranslator.onOptionSelected
+			const tab = options.tab.insertAsChild(thisTranslator.id, thisTranslator.name, $(".langSetting"), thisOption);
+			let $formContainer = tab.content.find(".pluginOptions");
+
+			if (typeof thisTranslator.optionsForm == 'undefined') {
+				$formContainer.html(t("No option for this engine"));
+				return;
+			}
+			
+			options.translatorMenu.renderOptions(thisTranslator, $formContainer);
+
+			// ================================================================
+			// Option manager section only available if enableOptionManager is TRUE
+			if (!thisTranslator.getOptions("enableOptionManager")) return;
+			if (thisOption.tabContent.parent().find(".configurationControl").html(`
+				&lt;span class='configurationLabel'>Manage configuration&lt;/span>
+				&lt;span class='configSelectorFieldWrapper'>
+					&lt;select type='search' class='configSelector'>
+						&lt;option value=''>Default&lt;/option>
+					&lt;/select>
+					&lt;button class='configSave'>Save&lt;/button>
+					&lt;button class='configSaveAs'>Save As&lt;/button>
+				&lt;/span>`));
+
+			thisOption.tabContent.parent().find(".configurationControl .configSave").on("click", function() {
+				options.translatorMenu.configSave($(this).closest(".panelContent"));
+
+			});
+			thisOption.tabContent.parent().find(".configurationControl .configSaveAs").on("click", function() {
+				const $panelContent = $(this).closest(".panelContent");
+				const currentConfigName = $panelContent.find(".configurationControl .configSelector").val();
+				options.translatorMenu.configSaveAs($panelContent, currentConfigName);
+				alert(`Configuration ${currentConfigName} saved!`);
+
+			});
+
+			options.translatorMenu.renderConfigSelection(tab.content);
+	
+		})()
+	}
+}
+
+class ConfigControl extends BasicEventHandler {
+	constructor(translatorEngine) {
+		super();
+		this.translatorEngine = translatorEngine;
+	}
+}
+
+ConfigControl.prototype.init = function() {
+	this.$elm = $(`
+		&lt;div class="bs5 form-group jsonform-formcontrol">
+            &lt;nav class="navbar bg-body-tertiary">
+                &lt;div class="container-fluid justify-content-end">
+                    &lt;div class="btn-group me-3" role="group">
+                        &lt;button class="btn btn-primary jsonform-save">Quick Save&lt;/button>
+                        &lt;button class="btn btn-primary jsonform-load">Quick Load&lt;/button>
+                    &lt;/div>
+                    &lt;div class="btn-group me-3" role="group">
+                        &lt;button class="btn btn-primary jsonform-export">Export&lt;/button>
+                        &lt;button class="btn btn-primary jsonform-import">Import&lt;/button>
+                    &lt;/div>
+                    &lt;button class="btn btn btn-outline-danger jsonform-reset">Reset&lt;/button>
+                &lt;/div>
+            &lt;/nav>
+            &lt;nav class="navbar bg-body-tertiary">
+                &lt;div class="container-fluid">
+                    &lt;div class="input-group">
+                            &lt;label class="input-group-text">Preset&lt;/label>
+                        &lt;select class="form-select custom-select jsonform-preset-list">
+                            &lt;optgroup label="Default Presets" class="defaultPresets">
+                                &lt;option value="default" selected>Default&lt;/option>
+                            &lt;/optgroup>
+                            &lt;optgroup label="User's Presets" class="userPresets">
+                            &lt;/optgroup>
+                        &lt;/select>
+                            &lt;button type="button" class="btn btn-outline-secondary jsonform-preset-save" title="save">&lt;i class="icon-save">&lt;/i>&lt;/button>
+                            &lt;button type="button" class="btn btn-outline-secondary jsonform-preset-saveas" title="save-as">&lt;i class="icon-save-as">&lt;/i>&lt;/button>
+                            &lt;button type="button" class="btn btn-danger jsonform-preset-remove" title="delete">&lt;i class="icon-trash">&lt;/i>&lt;/button>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/nav>
+        &lt;/div>`);
+}
+
+
+// ===================================================
+// Handling addons options
+// ===================================================
+var AddonsOption = function(addons) {
+	this.addons = addons || addonLoader.addons;
+}
+// Draw the list of addons
+AddonsOption.prototype.initInstallFilter = function(defaultFilter) {
+	const doFilter = (keyword)=> {
+        $("#addons [data-id=online] .addonListWrapper > .listMember").filter(function() {
+			$(this).toggle($(this).text().toLowerCase().indexOf(keyword) > -1)
+		});
+	}
+    $("#addonInstallerSearch").off("input")
+    $("#addonInstallerSearch").on("input", function() {
+        var value = $(this).val().toLowerCase();
+		doFilter(value);
+    });
+
+	doFilter(defaultFilter);
+}
+
+AddonsOption.prototype.initManagerFilter = function(defaultFilter) {
+	const doFilter = (keyword)=> {
+        $("#addons [data-id=installed] .addonListWrapper > .listMember").filter(function() {
+			$(this).toggle($(this).text().toLowerCase().indexOf(keyword) > -1)
+		});
+	}
+    $("#addonManagerSearch").off("input")
+    $("#addonManagerSearch").on("input", function() {
+        var value = $(this).val().toLowerCase();
+		doFilter(value);
+    });
+
+	doFilter(defaultFilter);
+}
+
+AddonsOption.prototype.drawList = function() {
+	var $container = $("#addons .installedAddons .addonListWrapper");
+	var that = this;
+	for (var id in this.addons) {
+		var thisAddon = this.addons[id];
+		var label 	= thisAddon.package.title || thisAddon.package.name;
+		var author	 = thisAddon.package.author || "Unknown";
+		var license	 = thisAddon.package?.license || "";
+		if (typeof thisAddon.package.author?.name == "string") {
+			author = author.name;
+		}
+
+		var licenseBlock = "";
+		if (license) {
+			licenseBlock = `&lt;div class="licenseBlock">${t('License')}: ${license}&lt;/div>`;
+		}
+		var $template = $(`&lt;div class="addonsOption addonList listMember">
+			&lt;div class="addonsIconBlock">&lt;/div>
+			&lt;div class="addonsInfoBlock">
+				&lt;div class='titleBlock'>&lt;span class="name">${label}&lt;/span>&lt;span class="ver">${thisAddon.package.version}&lt;/span>&lt;/div>
+				&lt;div class="authorBlock">By. ${author}&lt;/div>
+				${licenseBlock}
+				&lt;div class='descBlock'>${thisAddon.package.description}&lt;/div>
+			&lt;/div>
+			&lt;div class="addonsAction">&lt;/div>
+		&lt;/div>`)	
+		$template.data('id', id)
+		if (thisAddon.package.icon) {
+			$template.find(".addonsIconBlock").append('&lt;img class="addonsIcon" src="'+thisAddon.getWebLocation()+'/'+thisAddon.package.icon+'" alt="icon" />');
+		} else {
+			$template.find(".addonsIconBlock").append('&lt;img class="addonsIcon" src="img/icon.png" alt="icon" />');
+		}
+
+		if (thisAddon.config.isMandatory) {
+			var $lock = $("&lt;i class='icon-lock' title='"+t("Can not disable this addon")+"'>&lt;/i>")
+			$template.find(".addonsAction").append($lock);
+		} else {
+		
+			var $flipSwitch = $("&lt;i class='iconToggle icon-toggle-on'>&lt;/i>")
+			if (thisAddon.config.isDisabled) {
+				$flipSwitch.removeClass('icon-toggle-on');
+				$flipSwitch.addClass('icon-toggle-off');
+			}
+			
+			$template.find(".addonsAction").append($flipSwitch);
+			
+			$flipSwitch.on("click", function(e) {
+				var addonId = $(this).closest(".addonList").data("id");
+				if ($(this).hasClass('icon-toggle-on')) {
+					$(this).removeClass('icon-toggle-on');
+					$(this).addClass('icon-toggle-off');
+					that.addons[addonId].setConfig("isDisabled", true)
+				} else {
+					$(this).removeClass('icon-toggle-off');
+					$(this).addClass('icon-toggle-on');
+					that.addons[addonId].setConfig("isDisabled", false)
+					
+				}
+				options.needRestart = true;
+			})
+		}
+		
+		$container.append($template);
+	}
+	
+	this.initManagerFilter($("#addonManagerSearch").val());
+}
+
+
+AddonsOption.prototype.drawOnlineList = async function(onlineList) {
+	// check if updater is available
+	if (!options.isUpdaterAvailable()) return;
+
+	var $container = $("#addons [data-id=online] .addonListWrapper");
+	$container.empty();
+	options.busy();
+	var fetchError = false;
+	try{
+		onlineList = onlineList || this.onlineList || await common.fetch('http://dreamsavior.net/rest/addons/list/');
+	} catch (e) {
+		alert("Unable to fetch online list");
+		onlineList = onlineList || {};
+		fetchError = true;
+	}
+	if (!fetchError) this.onlineList = onlineList;
+	console.log("online list is :", onlineList);
+	var that = this;
+	onlineList.list = onlineList.list || [];
+	for (var id in onlineList.list) {
+		var thisAddon = onlineList.list[id];
+		var cost = thisAddon.patron_level || 0;
+		if (thisAddon.purchase_type == "points") {
+			cost = thisAddon.patron_points;
+		}
+		var iconPath = "&lt;img src='/www/img/icon.png' class='addonsIcon' alt='' />";
+
+		if (thisAddon.icon) {
+			iconPath = "&lt;img src='"+thisAddon.icon+"' class='addonsIcon' alt='' />";
+		}
+		
+		var $template = $(`&lt;div class="addonsOption addonList listMember">
+			&lt;div class="addonsIconBlock">${iconPath}&lt;/div>
+			&lt;div class="addonsInfoBlock">
+				&lt;div class='titleBlock'>
+					&lt;span class="name">${thisAddon.title}&lt;/span>
+					&lt;span class="ver">${thisAddon.version}&lt;/span>
+				&lt;/div>
+				&lt;div class="authorBlock">by. ${thisAddon.author}&lt;/div>
+				&lt;div class='descBlock'>${thisAddon.description}&lt;/div>
+				&lt;div class="addonReq">&lt;i class="icon-info-circled-1">&lt;/i>&lt;span>`+t('Requirements')+`: &lt;span>  &lt;span class="reqCost ${thisAddon.purchase_type}">`+cost+`&lt;/span> &lt;span class="reqType noInvert" data-reqtype="${thisAddon.purchase_type}">${thisAddon.purchase_type}&lt;/span>&lt;a href="https://dreamsavior.net/docs/translator/faq/what-is-points-and-level/" class="noInvert" title="${t("What is this?")}" external>&lt;i class="icon-help-circled-1">&lt;/i>&lt;/a>&lt;/div>					
+
+			&lt;/div>
+			&lt;div class="addonsAction">
+				&lt;div class="addonsActionBtn">&lt;/div>
+			&lt;/div>
+		&lt;/div>`);
+
+		var isUnsupported = false;
+		if (thisAddon.min_ver) {
+			var $minver = $(`&lt;div class="minVer">&lt;i class="icon-info-circled-1">&lt;/i>Minimum Translator++ version: &lt;span class="version">${thisAddon.min_ver}&lt;/span>&lt;/div>`)
+			$template.find(".addonReq").append($minver);
+
+			if (common.versionToFloat(nw.App.manifest.version) &lt; common.versionToFloat(thisAddon.min_ver)) isUnsupported = true;
+		}
+
+		$template.find("a[external]").on("click", function(e) {
+			e.preventDefault();
+			nw.Shell.openExternal($(this).attr("href"));
+		});
+		
+		$template.attr('data-id', thisAddon.id)
+		$template.data('id', thisAddon.id)
+		$template.attr('data-name', thisAddon.name)
+		$template.data('name', thisAddon.name)
+		$template.data('addonInfo', thisAddon)
+		var $installButtons;
+		
+		if (addonLoader.getByName(thisAddon.name)) {
+		//if (AddonInstaller.isInstalled(thisAddon.id)) {
+			var installedVersion = addonLoader.getByName(thisAddon.name).package.version;
+			$installButtons = [$(`&lt;div class='addon-installedVer'>Installed ver. ${installedVersion}&lt;/div>`)]
+			var $installBtn =$("&lt;button class='addon-uninstall'>&lt;i class='icon-cancel-circled'>&lt;/i> Uninstall&lt;/button>")
+			$installButtons.push($installBtn);
+		
+			$installBtn.on("click", async function() {
+				var thisName = $(this).closest('.addonsOption').data("name");
+				var conf = confirm(t("Uninstall")+` ${thisName}?`);
+				if (!conf) return;
+				
+				options.busy();
+				var thisId = $(this).closest('.addonsOption').data("id");
+				//await addonLoader.uninstall(AddonInstaller.getRootAddonDir(thisId));
+				await addonLoader.uninstall(addonLoader.getByName(thisName));
+				AddonInstaller.configUninstall(thisId);
+				await that.drawOnlineList();
+			});
+
+
+			try {
+				
+				console.log("Addon:", thisAddon.name);
+				console.log("current version:", common.versionToFloat(thisAddon.version) );
+				console.log("installed version:", common.versionToFloat(installedVersion));
+				if (common.versionToFloat(thisAddon.version) > common.versionToFloat(installedVersion)) {
+					// update
+					console.log("%cshow update flag", "color:orange", thisAddon);
+					if (isUnsupported) {
+						const $updateBtn = $("&lt;button class='addon-unsupported' disabled>&lt;i class='icon-cancel-circled'>&lt;/i> Please update your Translator++ to install the addon&lt;/button>");
+						$installButtons.push($updateBtn)
+					} else {
+						const $updateBtn = $("&lt;button class='addon-update noInvert'>&lt;i class='icon-arrows-cw'>&lt;/i> Update&lt;/button>");
+						$installButtons.push($updateBtn)
+			
+						$updateBtn.on("click", async function() {
+							var thisName = $(this).closest('.addonsOption').data("name");
+							var conf = confirm(t("Update")+` ${thisName}?`);
+							if (!conf) return;
+							
+							options.busy();
+							// uninstall
+							var thisId = $(this).closest('.addonsOption').data("id");
+							//await addonLoader.uninstall(AddonInstaller.getRootAddonDir(thisId));
+							await addonLoader.uninstall(addonLoader.getByName(thisName));
+							AddonInstaller.configUninstall(thisId);
+
+							// install
+							thisId = $(this).closest('.addonsOption').data("id");
+							var addonInstaller = new AddonInstaller(parseInt(thisId));
+							var installOption = {
+								onError: async function(message, result) {
+									window.opener.ui.alert(message, "options");
+								},
+								onSuccess: async function() {
+									window.opener.ui.alert(t("Addon successfully installed.\r\nTranslator++ may need to be restarted for some addon to take effect."), "options");
+									console.log("reloading addon");
+									await addonLoader.loadAll();
+								}
+							}
+							await addonInstaller.install(undefined, installOption);
+							console.log("refreshing online list")
+							await common.wait(500);
+							await that.drawOnlineList();
+						});
+					}
+				}
+			} catch(e) {
+				console.warn("Unable to get package version of "+thisAddon.name, e)
+			}
+		} else if (isUnsupported) {
+			// unsupported
+			$installButtons = $("&lt;button class='addon-unsupported' disabled>&lt;i class='icon-cancel-circled'>&lt;/i> Please update your Translator++ to install the addon&lt;/button>");
+		} else {
+			// install
+			$installButtons = $("&lt;button class='addon-install noInvert'>&lt;i class='icon-download-cloud-1'>&lt;/i> Install&lt;/button>")
+		
+			//console.log("drawing install button", thisAddon);
+			if (thisAddon.purchase_type == "points") {
+				updater.user.points = updater.user.points || 0;
+				thisAddon.patron_points = thisAddon.patron_points || 0;
+				//console.log(`User points: ${updater.user.points} addonPoints = ${thisAddon.patron_points}`);
+				if (updater.user.points &lt; thisAddon.patron_points) {
+					console.log("User points less then required");
+					$installButtons.prop("disabled", true);
+				}
+			}
+
+			$installButtons.on("click", async function() {
+				console.log("installing addon", $(this).closest('.addonsOption').data());
+				const addonInfo = $(this).closest('.addonsOption').data("addonInfo");
+				const thisId 		= addonInfo.id;
+				const addonName 	=  addonInfo.name;
+				const addonInstaller = new AddonInstaller(parseInt(thisId));
+				//var thisAddon = onlineList.list[thisId];
+				if (addonInfo?.is_parser_change == "yes") {
+					let conf = confirm(t(`WARNING!\n`)+t(`This add-on has marked as "parser change". Your old project related to this add-on may no longer worked as expected. It is advised to backup your project before installing this add-on.\nYou can import your existing translation into the newly created project.\n\nDo you wish to install `)+addonName+`?`);
+					if (!conf) return;
+				} else {
+					let conf = confirm(t(`Do you want to install `) +addonName);
+					if (!conf) return;
+				}
+
+				options.busy();
+
+				var installOption = {
+					onError: async function(message, result) {
+						window.opener.ui.alert(message, "options");
+					},
+					onSuccess: async function() {
+						window.opener.ui.alert(t(`Add-on ${addonName} is installed successfully.\r\nTranslator++ may need to be restarted for some addon to take effect.`), "options");
+						console.log("reloading addon");
+						await addonLoader.loadAll();
+					}
+				}
+				await addonInstaller.install(undefined, installOption);
+				console.log("refreshing online list")
+				await common.wait(500);
+				await that.drawOnlineList();
+			});
+		}
+		
+		$template.find(".addonsActionBtn").append($installButtons);	
+
+
+		$container.append($template);
+		
+	}
+	this.initInstallFilter($("#addonInstallerSearch").val());
+	options.busyNot();
+}
+
+// Drawing the form
+AddonsOption.prototype.findForm = function(optionsForm, key) {
+	optionsForm.form = optionsForm.form || [];
+	for (var i=0; i&lt;optionsForm.form.length; i++) {
+		optionsForm.form[i].key = optionsForm.form[i].key|| ""
+		if (optionsForm.form[i].key == key) return i;
+	}
+}
+AddonsOption.prototype.camelCaseToWords = function(text) {
+	var result = text.replace( /([A-Z])/g, " $1" );
+	var finalResult = result.charAt(0).toUpperCase() + result.slice(1);
+	return 	finalResult;
+}
+
+AddonsOption.prototype.generateFromMini = function(optionsForm) {
+	// generates minified json form to full json form
+	console.info("generate from mini", optionsForm);
+	if (typeof optionsForm.schema !== 'undefined') return optionsForm
+	console.log("pass here");
+	var form = [];
+	for (var key in optionsForm) {
+		var thisData = {};
+		thisData.key = key;
+		
+		// enum
+		if (Array.isArray(optionsForm[key].enum)) {
+			thisData.titleMap = {};
+			if (optionsForm[key].preventAutoCamelCase) {
+				for (let i=0; i&lt;optionsForm[key].enum.length; i++) {
+					thisData.titleMap[optionsForm[key].enum[i]] = optionsForm[key].enum[i]
+				}
+			} else {
+				for (let i=0; i&lt;optionsForm[key].enum.length; i++) {
+					thisData.titleMap[optionsForm[key].enum[i]] = this.camelCaseToWords(optionsForm[key].enum[i])
+				}
+			}
+
+		}
+		// array
+		if (optionsForm[key].type == "array") {
+			thisData.type = "checkboxes";
+			if (optionsForm[key].enum &amp;&amp; Boolean(optionsForm[key].items)==false) {
+				optionsForm[key].items = {
+					enum : optionsForm[key].enum
+				};
+				
+			}
+		}
+		// radio
+		if (optionsForm[key].type == "radio" || optionsForm[key].type == "radios") {
+			optionsForm[key].type = "string"
+			thisData.type = "radios";
+		}
+		
+		// checkbox
+		if (optionsForm[key].inlinetitle) thisData.inlinetitle = optionsForm[key].inlinetitle
+		
+		form.push(thisData);
+	}	
+	var result = {
+		schema:optionsForm,
+		form:form
+	}
+	
+	console.info("result : ", result);
+	return result;
+}
+
+AddonsOption.prototype.renderCustomSchema = function(optionsForm, thisAddon) {
+	if (typeof optionsForm == 'undefined') return optionsForm;
+	if (typeof optionsForm.schema == 'undefined') return optionsForm;
+	console.log("before assigning default :", optionsForm);
+	for (var key in optionsForm.schema) {
+		var formKey = this.findForm(optionsForm, key);
+		var thisForm = optionsForm.form[formKey]
+		var onChangeAdd = [];
+		var onClickAdd = [];
+		
+		if (typeof optionsForm.schema[key] == 'undefined') continue;
+		//addon.optionsForm.schema[key]['default'] = addon[key];
+		
+		if (typeof optionsForm.schema[key]['default'] == "function") {
+			optionsForm.schema[key]['default'] = optionsForm.schema[key]['default'].call(thisAddon);
+		}
+
+
+		if (typeof thisForm.onInput == 'function') {
+			onChangeAdd.push('thisForm.onInput.call(thisAddon, $(evt.target))')	
+		}
+		
+		
+		if (typeof optionsForm.schema[key]['onChange'] == "function") {
+			console.warn("Rendering on change");
+			onChangeAdd.push("("+optionsForm.schema[key]['onChange'].toString()+").apply($(evt.target), arguments)");
+		}
+		
+		if (typeof optionsForm.schema[key]['HOOK'] == "undefined") {
+			optionsForm.schema[key]['HOOK'] = "thisAddon.config['"+key+"']";
+		}
+
+		if (typeof optionsForm.schema[key]['HOOK'] == "function") {
+			optionsForm.schema[key]['default'] = optionsForm.schema[key]['HOOK'].call(thisAddon);
+		} else if (typeof optionsForm.schema[key]['HOOK'] == "string") {
+			optionsForm.schema[key]['default'] = eval(optionsForm.schema[key]['HOOK']);
+			
+			console.log("assigning hook for", key);
+			if (optionsForm.schema[key].type == 'boolean') {
+				onChangeAdd.push('console.log("onChange boolean type")');
+				
+				onChangeAdd.push('var value = $(evt.target).prop("checked");')	
+				onChangeAdd.push(optionsForm.schema[key]['HOOK']+` = value;`)	
+
+			} else if (thisForm.type == 'radios') {
+				onChangeAdd.push('console.log("onChange radios type")');
+				onChangeAdd.push('var value = $(evt.target).closest(".controls").find("input[type=radio]:checked").val();')	
+				onChangeAdd.push(optionsForm.schema[key]['HOOK']+` = value;`)	
+				
+			} else if (optionsForm.schema[key].type == 'array') {
+				onChangeAdd.push('console.log("onChange array type")');
+				onChangeAdd.push('var value = $(evt.target).val();')	
+				onChangeAdd.push(optionsForm.schema[key]['HOOK']+` = value;`)
+				
+			} else {
+				onChangeAdd.push('console.log("onChange string type")');
+				
+				onChangeAdd.push(optionsForm.schema[key]['HOOK']+` = $(evt.target).val();`)	
+			}
+		} 
+	
+	
+		if (onChangeAdd.length > 0) {
+			thisForm.onChange = eval (` (evt) => {
+				var field = $(evt.target);
+				`+onChangeAdd.join("\n")+`}`);	
+			//console.log("generated onChange :", key, thisForm.onChange);
+		}
+		if (onClickAdd.length > 0) {
+			thisForm.onChange = eval (` (evt) => {
+				var field = $(evt.target);
+				`+onClickAdd.join("\n")+`}`);	
+			//console.log("generated onChange :", key, thisForm.onChange);
+		}
+		
+	}
+	console.info("%cafter assigning default :", "color:green", thisAddon.id, optionsForm);
+	return optionsForm;
+	
+}
+
+/**
+ * Assign default value of the JSONform
+ * @param {*} optionsForm 
+ * @param {*} thisAddon 
+ */
+AddonsOption.prototype.assignDefault = function(optionsForm, thisAddon) {
+	if (!optionsForm?.schema) return;
+	for (let key in optionsForm.schema) {
+		let thisConfig = thisAddon.getConfig(key);
+		if (typeof thisConfig == "undefined") continue;
+		if (optionsForm.schema[key].type == "array") {
+			console.log("%cassigning array", "color:aqua", key, thisConfig);
+		}
+		optionsForm.schema[key].default = thisConfig;
+	}
+}
+	
+AddonsOption.prototype.linkify = function(text) {
+    var urlRegex =/(\b(https?|ftp|file):\/\/[-A-Z0-9+&amp;@#/%?=~_|!:,.;]*[-A-Z0-9+&amp;@#/%=~_|])/ig;
+    return text.replace(urlRegex, function(url) {
+        return '&lt;a href="' + url + '", target="_system">' + url + '&lt;/a>';
+    });
+}
+	
+AddonsOption.prototype.init = function() {
+	if (Array.isArray(trans.translator) == false) return false;
+	
+	addonLoader = addonLoader || {};
+	addonLoader.addons = addonLoader.addons || {};
+	var that = this;
+
+
+	for (var addonId in addonLoader.addons) {
+		var addon = addonLoader.addons[addonId];
+		addon.package 			= addon.package || {};
+		addon.package.name 		= addon.package.name||"";
+		addon.package.title 	= addon.package.title||addon.package.name||"";
+		addon.package.description = addon.package.description||"";
+		addon.package.author 	= addon.package.author||{name:"Anonymous", email:""}
+		addon.package.version 	= addon.package.version||"1.0";
+		addon.optionsForm 		= addon.optionsForm||{}
+
+		var thisOptionForm = addon.optionsForm
+		if (typeof addon.optionsForm == "function") thisOptionForm = addon.optionsForm.call(addon, options)
+		addon.config = addon.config || {}
+		
+		if (addon.config.isDisabled) continue;
+
+		console.log("drawing option menu for addon : ", addon);
+		options.tab.insertAsChild(addonId, addon.package.title, $(".addonSetting"), {
+			icon:'box',
+			tabClass:'submenu addonOptionMember hidden',
+			tabContent:$("&lt;h1 class='pluginTitle'>"+addon.package.title+"&lt;/h1>\
+						&lt;div class='subtitle'>Add-on configuration&lt;/div>\
+						&lt;div class='authorBlock'>"+t("Add-on version.")+" &lt;span class='engineVersion'>"+addon.package.version+"&lt;/span>&lt;/div>\
+						&lt;div class='versionBlock'>"+t("By.")+" &lt;span class='author'>"+addon.package.author.name+"&lt;/span>&lt;/div>\
+						&lt;p class='description'>"+addon.package.description+"&lt;/p>\
+						&lt;div class='pluginOptions'>&lt;/div>")
+		});
+		
+		const $pluginOptions = $("#"+CSS.escape(addonId)+" .pluginOptions");
+		
+		console.log("addon", addonId, thisOptionForm, !Object.keys(thisOptionForm).length);
+		if (!Object.keys(thisOptionForm).length == false) {
+			console.log($pluginOptions);
+			if ($pluginOptions.length > 0) {
+				if (!thisOptionForm.form) {
+					thisOptionForm = this.generateFromMini(thisOptionForm);
+					this.renderCustomSchema(thisOptionForm, addon);
+				} else {
+					this.assignDefault(thisOptionForm, addon);
+				}
+
+				console.info("Creating form with option", thisOptionForm);
+				$pluginOptions.jsonForm(thisOptionForm);
+				
+				// open url to external browser
+				$pluginOptions.find(".help-block").each(function() {
+					$(this).html(that.linkify($(this).html()));
+					$(this).find("a[target=_system]").on("click", function(e) {
+						e.preventDefault();
+						nw.Shell.openExternal($(this).attr("href"));
+					})
+				});
+
+				// rendering custom attrribute : attr
+				console.log("rendering custom attr for:", thisOptionForm);
+				for (var key in thisOptionForm.schema) {
+					var thisForm = thisOptionForm.schema[key];
+					if (!thisForm.attr) continue;
+					console.log("rendering attr for:", key);
+					//var $thisField = $thisOptionSet.find(`[name="${key}"]`);
+					var $thisField = $pluginOptions.find(`[name="${key}"]`);
+					for (var attrKey in thisForm.attr) {
+						$thisField.attr(attrKey, thisForm.attr[attrKey]);
+					}
+				}
+
+				$pluginOptions.find("input[type=range]").each(function() {
+					var $this 		= $(this);
+					var $thisParent = $this.parent();
+					var $wrapper 	= $(`&lt;div class='fullWidth flex rangeWrapper'>&lt;output>&lt;/output>&lt;/div>`);
+					$wrapper.find("output").text($this.val());
+					$wrapper.prepend($this);
+					$thisParent.prepend($wrapper);
+					$this.on("input", function() {
+						console.log("on input listener");
+						$(this).next().html($(this).val());
+					})
+				});
+			}
+
+		}
+		
+		if (addon.optionsFormHtml) {
+			$pluginOptions.append(addon.optionsFormHtml);
+		}
+
+		if ($pluginOptions.children().length == 0) $pluginOptions.html(t("No option for this add-on"));
+	
+		
+	}
+	
+	this.drawList();
+}
+
+
+options.addonsOption = new AddonsOption();
+
+
+
+
+
+
+
+// ===================================================
+// Handling ABOUT
+// ===================================================
+options.about = {};
+options.about.init = function() {
+	let config = sys.app||nw.App.manifest
+	const version = config.version	
+	$("#about .version").text(version);
+	
+	$("#about .viewChangelog").on("click", async ()=> {
+		let changelog = fs.readFileSync('changelog.txt', 'utf8');
+		$("#about .changelog").text(changelog);
+	});
+	
+	$("#about .nwVersion").text(process.versions.nw);
+	$("#about .nodeVersion").text(process.versions.node);
+	$("#about .phpVersion").text(sys.phpVersion);
+	$("#about .archVersion").text(process.arch);
+	
+	//var rbVersion = "";
+	if (typeof window.spawn  == "undefined") {
+		window.spawn = require('child_process').spawn;
+	}
+	
+	var child = window.spawn(nw.App.manifest.localConfig.ruby, ['www\\rb\\getVersion.rb']);
+	//var child = spawn("ruby\\bin\\ruby.exe", ['www\\rb\\getVersion.rb']);
+	var outputBuffer = "";
+	child.stdout.on('data', function (data) {
+		console.log("data : ", data);
+		outputBuffer += data;
+	});	
+	child.on('close', function (code) {
+		console.log("closed");
+		$("#about .rubyVersion").text(outputBuffer);
+	});		
+	
+	$(".licenseLink").attr("href", "file://"+__dirname+"/LICENSE.txt")
+	
+}
+
+
+var Association = require("associate-ext");
+var thisOptions = {
+	iconIndex: nw.App.manifest.localConfig.iconIndex
+	,defaultIconIndex : nw.App.manifest.localConfig.defaultIconIndex
+}
+console.log("thisOptions", thisOptions);
+options.association = new Association(nw.App.manifest.localConfig.extensions,thisOptions);
+options.association.init = function() {
+	var thisAssoc = options.association.getAssociation();
+	$(".associateBtn.submit").off("click");
+	$(".associateBtn.setAll").off("click");
+	$(".associateBtn.unsetAll").off("click");
+	const $table = $(".extensionTable");
+	$table.empty();
+	$table.append("&lt;tr>&lt;th>Extension&lt;/th>&lt;th>Associate&lt;/th>&lt;/tr>");
+	for (var ext in thisAssoc) {
+		var $thisRow = $('&lt;tr>&lt;th>'+ext+'&lt;/th>&lt;td class="formFld">&lt;/td>&lt;/tr>');
+		var $checkBox = $('&lt;input type="checkbox" data-ext="'+ext+'" value="'+ext+'" class="flipSwitch associate ext_'+ext+'" name="associate['+ext+']" />');
+
+		$checkBox.prop("checked", thisAssoc[ext]);
+
+		$thisRow.find(".formFld").append($checkBox);
+		$table.append($thisRow);
+	}
+
+	$(".associateBtn.unsetAll").on("click", function() {
+		$(".extensionTable input.associate").prop("checked", false);
+	});
+	$(".associateBtn.setAll").on("click", function() {
+		$(".extensionTable input.associate").prop("checked", true)
+	});
+	
+	$(".associateBtn.submit").on("click", function() {
+		var $checkBox = $(".extensionTable input.associate");
+		var ext = [];
+		for (var i=0; i&lt;$checkBox.length; i++) {
+			if ($checkBox.eq(i).prop("checked")) {
+				ext.push($checkBox.eq(i).data("ext"));
+			}
+		}
+		
+		var conf = confirm(t("Translator++ will write Window's registry.\r\nAre you sure?"));
+		if (conf) options.association.setExtension(ext);
+	});
+
+	return $table;
+}
+
+
+options.initUiLanguageSelector = function() {
+	var docLocation = "www/lang/options.json";
+	var $wrapper = $("#uiLanguage");
+	$wrapper.off("input");
+	var langData = {};
+	fs.readFile(docLocation, (err, data)=> {
+		if (err) return console.info('unable to read ', docLocation);
+		
+		try {
+			langData = JSON.parse(data);
+		} catch (e) {
+			console.info("unable to parse lang options");
+		}
+		
+		for (var code in langData) {
+			let $option = $("&lt;option value='"+code+"'>"+langData[code].name+"&lt;/option>")
+			$wrapper.append($option);
+		}
+		
+		$wrapper.val(lt.getConfig("lang"))
+	
+	});	
+	$wrapper.on("input", function() {
+		var lang = $(this).val();
+		console.log("language selected", lang);
+		console.log("translation data : ", langData);
+		lt.save("lang", lang);
+		lt.from(langData[lang].location);
+		options.requestRestart();
+	})
+
+}
+
+
+options.initSpellCheckLanguage = async function() {
+	options.initLanguageList();
+	var $spellCheckLanguage = $("#spellCheckLanguage");
+	$spellCheckLanguage.val(sys.getConfig("spellCheckLang"));
+	$spellCheckLanguage.off("change");
+	$spellCheckLanguage.on("change", function() {
+		console.log("spellCheck changed", $(this).val());
+		window.opener.ui.changeEditorLanguage($(this).val());
+		sys.setConfig("spellCheckLang", $(this).val());
+	});
+}
+
+var EscaperPattern = function() {
+	sys.config.escaperPatterns = sys.config.escaperPatterns || [];
+	this.$elm = $("#customEscaper");
+	this.init();
+}
+
+EscaperPattern.prototype.reset = function() {
+	const defaultPattern = window.opener.HexPlaceholder.initDefaultPattern(true);
+	sys.config.escaperString = window.opener.HexPlaceholder.joinRenderedFormula(defaultPattern);
+	this.editor.setValue(sys.config.escaperString);
+	this.commit();
+}
+
+EscaperPattern.prototype.clear = function() {
+	window.opener.HexPlaceholder.setActiveFormulas([]);
+	sys.config.escaperString = "";
+	this.editor.setValue(sys.config.escaperString);
+	this.commit();
+}
+
+EscaperPattern.prototype.setValue = function(val) {
+	sys.config.escaperString = val;
+	var result = [];
+	try {
+		var rendered = window.opener.HexPlaceholder.parseStringTemplate(val);
+		console.log("rendered", rendered);
+		var pattern = window.opener.HexPlaceholder.renderedFormulaToStrings(rendered);
+		console.log("rendered to string", pattern);
+		for (var i in pattern) {
+			result.push({
+				value:pattern[i]
+			})
+		}
+		sys.config.escaperPatterns = result;
+	
+		window.opener.HexPlaceholder.renderedFormulas = []
+		// eslint-disable-next-line
+		MiniEditor.patterns = window.opener.HexPlaceholder.getActiveFormulas() || [];
+		//this.miniEditor.trigger();
+	} catch (e) {
+		console.warn(e);
+		var conf = confirm(t("Error parsing patterns:")+e.toString()+`\nDo you want to revert the pattern into default?`);
+		if (conf) {
+			this.reset();
+		}
+	}
+	return result;
+}
+
+EscaperPattern.prototype.toText = function() {
+	if (sys.config.escaperString) return sys.config.escaperString;
+
+	// initialize from sys.config.escaperPatterns
+	sys.config.escaperPatterns = sys.config.escaperPatterns || [];
+	var texts = [];
+	for (var i in sys.config.escaperPatterns) {
+		if (!sys.config.escaperPatterns[i].value) continue;
+		texts.push(sys.config.escaperPatterns[i].value);
+	}
+	console.log("pattern : ", texts);
+	return texts.join(",\n");
+}
+
+EscaperPattern.prototype.commit = function() {
+	var value = this.editor.getValue();
+	this.setValue(value);
+	this.renderHighlight(value, this.editor);
+}
+
+EscaperPattern.prototype.renderHighlight = (text, editor)=> {
+	editor 	= editor || this.testEditor;
+	if (!editor) return;
+	text	= text || editor.getValue();
+	var clearMarker = (editor) => {
+		const prevMarkers = editor.session.getMarkers();
+		if (prevMarkers) {
+			const prevMarkersArr = Object.keys(prevMarkers);
+			for (let item of prevMarkersArr) {
+				editor.session.removeMarker(prevMarkers[item].id);
+			}
+		}
+	}
+	var rules = window.opener.HexPlaceholder.getActiveFormulas();
+	var possitions = [];
+	for (var i=0; i&lt;rules.length; i++) {
+		if (!rules[i]) continue;
+		
+		if (typeof rules[i] == 'function') {
+			var arrayStrings = rules[i].call(this, text);
+			if (typeof arrayStrings == 'string') arrayStrings = [arrayStrings];
+			if (Array.isArray(arrayStrings) == false) continue;
+
+			for (var x in arrayStrings) {
+				text = text.replaceAll(arrayStrings[x], function(match) {
+					if (!match) return match;
+					var start 	= arguments[arguments.length-2];
+					var end 	= start + match.length;
+					possitions.push({
+						start:editor.session.doc.indexToPosition(start),
+						end  :editor.session.doc.indexToPosition(end)
+					});
+					return match;
+				});				
+			}
+			continue;            
+		}
+		
+		text = text.replaceAll(rules[i], function(match) {
+			if (!match) return match;
+			var start 	= arguments[arguments.length-2];
+			var end 	= start + match.length;
+			console.log("start", start, "end", end);
+			possitions.push({
+				start:editor.session.doc.indexToPosition(start),
+				end  :editor.session.doc.indexToPosition(end)
+			});
+			return match;
+		});
+
+	}
+	console.log("possitions:", possitions);
+	clearMarker(editor);
+	if (possitions.length > 0) {
+		for(var posIdx=0; posIdx&lt;possitions.length; posIdx++) {
+			var thisPos = possitions[posIdx];
+			editor.session.addMarker(
+				new window.ace.Range(thisPos.start.row, thisPos.start.column, thisPos.end.row, thisPos.end.column),
+				"testHighlight",
+				"text",
+				true
+			);
+		}
+	}
+
+}
+
+EscaperPattern.prototype.init = function() {
+	/*
+	this.miniEditor = new MiniEditor($('.dvEditor'));
+	MiniEditor.patterns = window.opener.HexPlaceholder.getActiveFormulas()
+	*/
+	//var that = this;
+	/*
+	$fld = $(".customEscaperFld");
+	$fld.val(this.toText());
+	$fld.on("change", function() {
+		that.setValue($(this).val());
+	})*/
+	//var Range = ace.require("ace/range").Range;
+
+	var editor = window.ace.edit($(".customEscaperFld")[0]);
+	editor.setTheme("ace/theme/monokai");
+	editor.session.setMode("ace/mode/javascript");
+	editor.setShowPrintMargin(false);
+	editor.session.on('changeMode', function(e, session){
+        if ("ace/mode/javascript" === session.getMode().$id) {
+            if (session.$worker) {
+                session.$worker.send("setOptions", [{
+                    "asi":true,
+					"expr":true
+                }]);
+            }
+        }
+    });
+	editor.setOptions({
+		fontSize: "12pt"
+	});
+	editor.on("blur", ()=> {
+		this.commit();
+	});
+	editor.setValue(this.toText() || "");
+	this.editor = editor;
+
+
+	var initTestEditor = ()=> {
+		var editor = window.ace.edit($("#patternTester")[0]);
+		editor.setTheme("ace/theme/monokai");
+		editor.session.setMode("ace/mode/text");
+		editor.setShowPrintMargin(false);
+		editor.setOptions({
+			fontSize: "12pt"
+		});
+		editor.lastSampleRender = 0;
+		editor.on("change", ()=> {
+			clearTimeout(editor.timeOutRender);
+			editor.timeOutRender = setTimeout(async ()=> {
+				this.renderHighlight(editor.getValue(), editor);
+			},300);
+			/*
+			if (Date.now() &lt; editor.lastSampleRender+1000) return;
+			renderHighlight(editor.getValue(), editor);
+			editor.lastSampleRender = Date.now();
+			*/
+		});
+		editor.on("blur", ()=> {
+			this.renderHighlight(editor.getValue(), editor);
+			localStorage.setItem("options.escaperPattern.sample", editor.getValue());
+		});
+		var defaultVal = localStorage.getItem("options.escaperPattern.sample") || ""
+		editor.setValue(defaultVal);
+		if (defaultVal) this.renderHighlight(defaultVal, editor);
+		this.testEditor = editor;
+		return editor;
+	}
+	this.testerEditor = initTestEditor();
+
+	this.$elm.find(".clearEscaper").off("click");
+	this.$elm.find(".clearEscaper").on("click", ()=> {
+		var conf = confirm(t(`Do you really want to clear the custom escaper?`));
+		if (!conf) return;
+		this.clear();
+	});
+
+	this.$elm.find(".resetEscaper").off("click");
+	this.$elm.find(".resetEscaper").on("click", ()=> {
+		var conf = confirm(t(`Do you really want to reset the custom escaper?`));
+		if (!conf) return;
+		this.reset();
+	});
+}
+
+// ===================================================
+// CLASS Autoset
+// ===================================================
+
+var Autoset = function() {
+	
+}
+Autoset.prototype.init = function() {
+	$(document).ready(function() {	
+		$("[data-autoset]").each(function() {
+			var $this = $(this);
+			//if ($this[0].tagName == "select")
+			try {
+				if ($this.attr("type") == "checkbox") {
+					$this.prop("checked", Boolean(common.varAsStringGet($this.attr('data-autoset'))));
+				} else if (["INPUT", "SELECT"].includes($this.prop("tagName")) == false) {
+					$this.text(common.varAsStringGet($this.attr('data-autoset')));
+				} else {
+					$this.val(common.varAsStringGet($this.attr('data-autoset')));
+				}
+			} catch (e) {
+				//do nothing
+			}
+		});
+		
+		$("[data-autoset]").on("change.autoset", function(e) {
+			console.log("Autoset triggered!");
+			var $this = $(this);
+			if ($this.data("autoset") == "") return;
+			
+			var autosetPath = $this.data('autoset').split(".")
+			if (autosetPath.length &lt; 1) return;
+			
+			console.log("autoset path : ", autosetPath);
+			var thisObj = window;
+			for (var i=0; i&lt;autosetPath.length-1; i++) {
+				thisObj = thisObj[autosetPath[i]];
+				console.log("accessing "+autosetPath[i], thisObj);
+				
+			}
+			console.log("setting up : "+autosetPath[autosetPath.length-1], $this.val());
+			
+			if ($this.attr("type") == "checkbox") {
+				thisObj[autosetPath[autosetPath.length-1]] = $this.prop("checked");
+			} else {
+				thisObj[autosetPath[autosetPath.length-1]] = $this.val();
+			}
+
+			// triggering onafterset
+			if ($this.data("onafterset")) {
+				let AsyncFunction = Object.getPrototypeOf(async function(){}).constructor
+				let thisFunc = new AsyncFunction($this.data("onafterset"));
+				thisFunc.call($this);
+			}
+
+		})
+	});
+}
+
+options.autoset = new Autoset();
+options.autoset.init();
+
+
+options.busy = function() {
+	options.isBusy = true;
+	return new Promise((resolve, reject) => {
+		$("#busyOverlay").fadeIn( 200, ()=>{
+			resolve();
+		})
+	});
+	
+}
+options.busyNot = function() {
+	options.isBusy = false;
+	return new Promise((resolve, reject) => {
+		$("#busyOverlay").fadeOut( 200, ()=>{
+			resolve();
+		})
+	});
+}
+
+
+options.UpdateUI = function() {
+	this.$baseElm = $();
+}
+options.UpdateUI.prototype.evalUpdateButton = function() {
+	this.$baseElm.find(".updateStatus > div").addClass("hidden");
+	if (sys.config.autoUpdateReinstall) {
+		this.$baseElm.find(".updateStatus .pendingUpdate").removeClass("hidden");
+	} else {
+		if (info.isUpToDate()) {
+			this.$baseElm.find(".updateStatus .upToDate").removeClass("hidden");
+		} else {
+			this.$baseElm.find(".updateStatus .pendingUpdate").removeClass("hidden");
+		}
+	}
+}
+
+options.UpdateUI.prototype.evalLastChecked = function() {
+	this.$baseElm.find(".updateLastChecked").html(common.formatDate(new Date(info.getLastCheckedUpdate())));
+}
+
+options.UpdateUI.prototype.onUpdateStart = function() {
+	this.$baseElm.find(".updateNow").prop("disabled", true);
+	
+	this.$baseElm.find(".updateNow > i").addClass("rotating-slow");
+	this.$baseElm.find(".updateNow > span").html("updating");
+	this.$baseElm.find(".updateProcess").removeClass("hidden");
+	this.$baseElm.find(".updateProcess").html("Updating...");
+	
+}
+
+options.UpdateUI.prototype.onUpdateEnd = function() {
+	this.$baseElm.find(".updateNow").prop("disabled", false);
+	
+	this.$baseElm.find(".updateProcess").html("");
+	this.$baseElm.find(".updateNow > span").html("Update now");
+	this.$baseElm.find(".updateNow > i").removeClass("rotating-slow");
+	this.$baseElm.find(".updateProcess").addClass("hidden");
+	this.evalUpdateButton();	
+}
+
+options.UpdateUI.prototype.setUserAvatar = function() {
+	if (!options.isUpdaterAvailable()) return;
+
+	console.warn("user loaded");
+	$("#userinfo .username").html(updater.getUser().display_name || "click to login");
+	$("#userinfo .userLevel").html(updater.getUser().level || "0");
+	$("#userinfo .userPoints").html(updater.getUser().points || "0");
+	
+	$("#userinfo .defaultUserPicture").removeClass("hasAvatar");		
+	if (updater.getUser().localAvatar) {
+		$("#userinfo .defaultUserPicture").addClass("hasAvatar");		
+	}
+	var imgPath = updater.getUser().localAvatar || "/www/img/transparent.png" ;
+	console.warn("setting avatar : ", imgPath);
+	$("#userinfo .userPicture").attr("src", imgPath);
+}
+options.UpdateUI.prototype.setUserName = function() {
+	if (!options.isUpdaterAvailable()) return;
+
+	if (!updater.user) return;
+	console.log("Set username", updater.getUser().display_name);
+	$("#userinfo .username").html(updater.getUser().display_name || "login");	
+
+	this.renderUserDetailedInfo();
+}
+
+options.UpdateUI.prototype.renderUserDetailedInfo = async function() {
+	console.log("%c rendering user detailed info:", "color:yellow;", JSON.stringify(updater.getUser()));
+	const $userInfoContent = $("#userinfocontent");
+
+	const userInfo = await updater.getUserInfo();
+
+	if (userInfo?.id) {
+		$userInfoContent.find(".notLoggedIn").addClass("hidden");
+		$userInfoContent.find(".loggedIn").removeClass("hidden");
+	} else {
+		$userInfoContent.find(".notLoggedIn").removeClass("hidden");
+		$userInfoContent.find(".loggedIn").addClass("hidden");
+	}
+
+	const $userFld = $userInfoContent.find("[data-fld]");
+	$userFld.each(function() {
+		const $this = $(this);
+		const fld = $this.data("fld");
+		if (fld == "avatar") {
+			$this.attr("src", userInfo.localAvatar || "www/img/transparent.png");
+		} else {
+			$this.text(userInfo[fld] || "");
+		}
+	});
+
+	if (userInfo?.declined) {
+		$userInfoContent.find(".declined").removeClass("hidden");
+		$userInfoContent.find(".success").addClass("hidden");
+	} else {
+		$userInfoContent.find(".declined").addClass("hidden");
+		$userInfoContent.find(".success").removeClass("hidden");
+	}
+
+}
+
+options.UpdateUI.prototype.init = function() {
+	if (!options.isUpdaterAvailable()) return;
+	$("#userinfo").removeClass("hidden");
+	this.$baseElm = $("#updaterBlock");
+	$("#userinfo .username").html(updater.getUser().display_name || "login");
+	$("#userinfo .loadingSymbol").addClass("hidden");
+	/*
+	updater.onAvatarReady((imgPath)=> {
+		imgPath = imgPath || "www/img/blank.png" ;
+		$("#userinfo .userPicture").attr("src", imgPath);
+	});
+	*/
+	this.setUserName();
+	this.setUserAvatar();
+	
+	updater.onBeforeLoginSuccessFunctions = updater.onBeforeLoginSuccessFunctions || [];
+	updater.onBeforeLoginSuccessFunctions[0] = () => {
+		console.log("Trigger on before login");
+		$("#userinfo .loadingSymbol").removeClass("hidden");
+	}
+
+	updater.onLoginSuccessFunctions = updater.onLoginSuccessFunctions || [];
+	updater.onLoginSuccessFunctions[0] = () => {
+		this.setUserAvatar();
+		this.setUserName();
+	}
+
+	
+	updater.onUserLoadedFunctions = updater.onUserLoadedFunctions || [];
+	updater.onUserLoadedFunctions[0] = () => {
+		this.setUserAvatar();
+		this.setUserName();
+		$("#userinfo .loadingSymbol").addClass("hidden");
+	}
+	updater.onUserLoadingFunctions = updater.onUserLoadingFunctions || [];
+	updater.onUserLoadingFunctions[0] = () => {
+		$("#userinfo .loadingSymbol").removeClass("hidden");
+	}
+	
+	if (updater.isUpdating) {
+		this.onUpdateStart();
+	}
+	
+	updater.onUpdateStart(()=> {
+		this.onUpdateStart();
+	})
+	updater.onUpdateEnd(()=> {
+		this.onUpdateEnd();
+	})
+	
+	this.$baseElm.find(".updateCheckNow").on("click", async () => {
+		const $this = this.$baseElm.find(".updateCheckNow");
+		$this.find("i").addClass("rotating-slow");
+		await window.top.info.updateNotification({force:true});
+		this.evalLastChecked();
+		this.evalUpdateButton();
+		$this.find("i").removeClass("rotating-slow");
+	});
+	
+	this.$baseElm.find(".updateNow").on("click", async () => {
+		if (this.$baseElm.find(".updateNow").prop("disabled")) return;
+		if (info.isUpToDate()) {
+			var conf = confirm(t("You are currently on the latest version.\nDo you still want to update?"));
+			if (!conf) return;
+		}
+		const updateIsSuccess = await updater.update({
+			type:"manual",
+			onStart : ()=> {
+				this.onUpdateStart();
+			},
+			onFetchUrl : ()=> {
+				this.$baseElm.find(".updateProcess").html("Fetching information...");
+			},			
+			downloadOptions: {
+				onProgress : (status) => {
+					this.$baseElm.find(".updateProcess").html("Downloading patch "+status.percent+"%");
+				},
+				onEnd : ()=> {
+					this.$baseElm.find(".updateProcess").html("Download completed");
+				}
+			},
+			onExtract : ()=> {
+				this.$baseElm.find(".updateProcess").html("Patching");
+			},
+			onEnd : ()=> {
+				this.onUpdateEnd();
+			},
+			onFail : (errorId, message)=> {
+				alert(`Update failed!\nReason:${message}\nPlease see console log(F12) for more information.`);
+			}
+			
+		});
+		options.busy();
+		await common.wait(2000);
+		options.busyNot();
+		if (updateIsSuccess) alert("Translator++ is successfully updated, please restart your Translator++.");
+	});
+	//this.$baseElm.find(".updateLastChecked").html(common.formatDate(new Date(info.getLastCheckedUpdate())));
+	this.evalLastChecked();
+	if (Updater.config.debugMode == false &amp;&amp; Boolean(info.debugVersion)==false) this.evalUpdateButton();
+
+	// add event listener for user info
+	const $userInfoContent = $("#userinfocontent");
+	$userInfoContent.off("beforeShown");
+	$userInfoContent.on("beforeShown", () => {
+		console.log("userinfo content shown");
+		this.renderUserDetailedInfo();
+
+	});
+
+
+	// listen to login button
+	$userInfoContent.find(".loginButton").off("click");
+	$userInfoContent.find(".loginButton").on("click", async () => {
+		if (!options.isUpdaterAvailable()) return;
+		options.busy();
+		try {	
+			await updater.login();
+		} catch (error) {
+			console.error("Login failed", error);
+		}
+		options.busyNot();
+
+	});
+
+	// login with browser
+	$userInfoContent.find(".loginWithBrowserButton").off("click");
+	$userInfoContent.find(".loginWithBrowserButton").on("click", async () => {
+		if (!options.isUpdaterAvailable()) return;
+		const conf = confirm(t("This option will open your default browser to login.\nDo you want to continue?"));
+		if (!conf) return;
+		options.busy();
+		updater.login({
+			tokenLogin:true
+		});
+		updater.one("avatarReady", () => {
+			options.busyNot();
+		});
+	});
+
+	// listen to logout button
+	$userInfoContent.find(".logoutButton").off("click");
+	$userInfoContent.find(".logoutButton").on("click", async () => {
+		if (!options.isUpdaterAvailable()) return;
+		const conf = confirm("Logout current user?");
+		if (!conf) return;
+		options.busy();
+		updater.one("avatarReady", () => {
+			options.busyNot();
+		});		
+		await updater.logout();
+		await this.renderUserDetailedInfo();
+		options.busyNot();
+	});
+
+	// run once for the first time
+	this.renderUserDetailedInfo();
+}
+options.updateUI = new options.UpdateUI();
+
+
+var ExpanderButton = function(elements) {
+	this.elements = elements || $(".panel-left .expanderButton");
+	this.init();
+}
+
+ExpanderButton.prototype.expandAll = function() {
+	if (this.allExpanded) return;
+	var that = this;
+	this.elements.each(function() {
+		that.toggle($(this), true);
+	});
+	this.allExpanded = true;
+}
+
+
+ExpanderButton.prototype.toggle = function($button, expand) {
+	if (typeof expand == 'undefined') {
+		// auto toggle
+		expand = !$button.hasClass('isExpanded');
+	}
+
+	var $targets;
+	try {
+		$targets = $($button.attr('data-expand'));
+	} catch (e) {
+		$targets = $();
+	}
+
+	if (expand) {
+		console.log("expanding child", $button.attr('data-expand'), $targets.length);
+		// expand child
+		$button.removeClass('icon-right-dir')
+		$button.addClass('icon-down-dir')
+		$button.addClass('isExpanded');
+		$targets.removeClass("hidden");
+	} else {
+		// collapse child
+		console.log("collapsing child", $button.attr('data-expand'),$targets.length);
+
+		$button.removeClass('icon-down-dir')
+		$button.addClass('icon-right-dir')
+		$button.removeClass('isExpanded');
+		$targets.addClass("hidden");
+		ExpanderButton.allExpanded = false;
+	}
+}
+
+ExpanderButton.prototype.init = function() {
+	var thisExpanderButton = this;
+	this.elements.each(function() {
+		const $this = $(this);
+		$this.addClass("expanderTogler");
+		$this.attr("title", "Click to expand/collapse");
+		if ($this.is(".rendered")) return;
+		
+		$this.on("click", function() {
+			console.log("expander button clicked");
+			thisExpanderButton.toggle($(this));
+		});
+		
+		$this.closest(".selectable").on("dblclick", function() {
+			console.log("expander button clicked");
+			thisExpanderButton.toggle($(this).find(".expanderTogler"));			
+		})
+
+		$this.addClass("rendered");
+	})
+}
+
+options.hasError = function() {
+	if ($("#sl").hasClass("error")) {
+		return "There is an error on Source Language field!\nPlease make sure that the field is not empty.";
+	}	
+	if ($("#tl").hasClass("error")) {
+		return "There is an error on Target Language field!\nPlease make sure that the field is not empty.";
+	}
+}
+
+options.drawListContent = function() {
+	var $lists = $(".tabMenu.list li[data-for]");
+	$lists.each(function() {
+		var $tabMenu = $(this);
+		if ($tabMenu.find(".contains").length > 0) return;
+		var target = $tabMenu.attr("data-for");
+		var $tabContent = $(`#${CSS.escape(target)}`);
+		if (!$tabContent.length) return;
+
+		var $contains = $(`&lt;span class="hidden contains">&lt;/span>`);
+		$contains.text($tabContent.text().replace(/\s+/g, ' '));
+
+		$tabMenu.append($contains);
+	})
+}
+
+options.initList = function() {
+	if (this.listIsInitialized) return;
+	this.busy();
+	console.log("Initializing list");
+	this.drawListContent();
+	window.commandOption = {
+		valueNames: [
+			'menuTitle',
+			'contains',
+			{ data: ['keyword'] }
+		]
+	};	
+	this.menus = new window.List('leftMenu', window.commandOption);
+	this.menus.reIndex();
+	this.menus.on("searchStart", function() {
+		console.log("Search start", arguments);
+		options.expanderButton.expandAll();
+	})
+
+	this.listIsInitialized = true;
+	this.busyNot()
+}
+
+options.init = async function() {
+	$(".logIntoFile").prop("checked", logger.getConfig("replaceConsole"));
+	$(".logTruncate").prop("checked", logger.getConfig("truncate"));
+
+	$(".logIntoFile").on("change", function() {
+		logger.setConfig("replaceConsole", $(this).prop("checked"))
+		options.requestRestart()
+	})
+	$(".logTruncate").on("change", function() {
+		logger.setConfig("truncate", $(this).prop("checked"))
+		options.requestRestart()
+	});
+
+	// set initial focus;
+	// consume optionWindowFocus localstorage
+	var focus = localStorage.getItem("optionWindowFocus");
+	localStorage.removeItem("optionWindowFocus");
+
+	console.log("focus", focus);
+	if (focus) {
+		focus = JSON.parse(focus);
+		// options.expanderButton.expandAll();
+
+		// select item
+		if (focus.menu) {
+			console.log("selecting menu", focus.menu);
+			options.tab.select(focus.menu, true);
+		}
+
+		if (focus.find) {
+			console.log("finding", focus.find);
+			options.tab.findInActiveContent(focus.find);
+		}
+	}
+
+}
+
+$(document).ready(function() {
+	try {
+		common.addEventHandler(options);
+		options.dvField = new DVField();
+		options.dvField.init();
+		options.initUiLanguageSelector()	
+		options.expanderButton = new ExpanderButton();	
+		options.escaperPatterns = new EscaperPattern()
+	} catch (e) {
+		console.warn("Error on initializing option window:", e);
+		alert("Error on initializing option window, please see the console log to view the detailed information.");
+		options.busyNot();
+	}
+
+	var thisTranslator = sys.config.translator||trans.project.options.translator;
+	if (Boolean(thisTranslator) == false) alert(t("There is no default translator selected.\nChange the default translator to Google!"));
+	
+	$("#commonReferenceFile").val(trans.getTemplatePath());
+	$("#stagingPath").val(sys.config.stagingPath);
+	$("#stagingPath").on("change", function() {
+		var conf = confirm(t("Change Stagging Path to :")+$(this).val());
+		if (!conf) {
+			$(this).val(sys.config.stagingPath);
+			return;
+		}
+		var oldStaggingPath = sys.config.stagingPath;
+		sys.config.stagingPath = $(this).val();
+		sys.saveConfig();
+
+		conf = confirm(t("Move the content of current Stagging Path into the new one?"));
+		if (!conf) return;
+		// moving the data
+		options.busy()
+		.then(()=>{
+			return common.copy(oldStaggingPath, sys.config.stagingPath, 
+			function(result){
+				console.log(result)
+				options.busyNot()
+			})	
+		});	
+		//sys.config.stagingPath = $(this).val();
+	})
+	
+	// render horizontal tabs
+	$(".horizTabMenu").each(function(e) {
+		var $tabMenu = $(this);
+		var $targetTabWrapper = $("[data-id='"+$tabMenu.data("for")+"']");
+		$tabMenu.children().each(function(e) {
+			var $tabButton = $(this);
+			
+			$tabButton.on('click', function() {
+				$tabMenu.trigger("tabChange");
+				$(this).trigger("tabSelected");
+				var $targetTabContent = $targetTabWrapper.find("[data-id='"+$(this).data("for")+"']");
+				$tabMenu.children().removeClass("selected");
+				$(this).addClass("selected");
+				$targetTabWrapper.children().addClass("hidden");
+				$targetTabContent.removeClass("hidden");
+			})
+		});
+		
+		$tabMenu.children().eq(0).trigger("click")
+	})
+	
+	$(".installAddonFrom").on("change", function() {
+		var files = $(this).val().split(";")
+		addonLoader.install(files)
+		.then(() => {
+			options.requestRestart();
+			alert(t("Addon(s) has been installed.\nTranslator++ is need to be restarted to take effect."));
+		});
+	})
+	
+	// $("#userinfo").on("click", function() {
+	// 	if (!options.isUpdaterAvailable()) return;
+	// 	var conf;
+	// 	if (updater.getUser().id) {
+	// 		conf = confirm("Logout current user?");
+	// 		if (!conf) return;
+	// 		updater.logout();
+	// 		return;
+	// 	}
+		
+	// 	conf = confirm("Do you want to login?");
+	// 	if (!conf) return;
+	// 	updater.login();
+	// });
+	
+	$(".horizTabMenu [data-for=online]").on("tabSelected", async function() {
+		console.log("online tab selected");
+		await options.addonsOption.drawOnlineList();
+	})
+
+	$(".menuPanelSearch").on("focus", function() {
+		console.log("field focused");
+		options.initList();
+	})
+
+	$("#clearAllSettings").on("click", function(e) {
+		var conf = confirm(t("Do you really want to clear all settings and reset Translator++ to default?\nPlese note that this action is irreversible.\nPlease backup your project before proceeding."));
+		if (!conf) return;
+		sys.hardReset();
+	});
+
+	
+	try {	
+		options.drawTranslatorSelector($("#defaultTransEngine"), thisTranslator);
+		options.translatorMenu.init();
+		options.addonsOption.init();
+		options.tab.init();
+		options.tab.select($(".tabMenu li.selectable").eq(0));
+		options.about.init();
+		options.association.init();
+		options.updateUI.init();
+		options.initSpellCheckLanguage();
+		options.init();
+		options.busyNot();
+	} catch (e) {
+		console.warn("Error on initializing option window:", e);
+		alert("Error on initializing option window, please see the console log to view the detailed information.");
+		options.busyNot();
+	}
+
+	console.log("initializing open external");
+
+	setTimeout(function() {
+		$("a.externalLink, a[external]").on("click", function(e) {
+			console.warn("clicked")
+			e.preventDefault();
+			nw.Shell.openExternal($(this).attr("href"));
+		})
+	}, 50)
+
+
+});
+
+
+win.on('close', async function() {
+	for (var i=0; i&lt;options.__onBeforeClose.length; i++){
+		var funct = options.__onBeforeClose.shift();
+		funct.call(options);
+	}
+	if (options.hasError()) {
+		var conf = confirm(options.hasError()+"\n"+t("Translator++ may not work normally if you don't fix the error.\nDo you want to close the options Window?"));
+		if (!conf) return;
+	}
+	options.isNeedRestart();
+
+
+	// Hide the window to give user the feeling of closing immediately
+	this.hide();
+	if (nw.process.versions["nw-flavor"] == "sdk") {
+		win.closeDevTools();
+		await common.wait(200);
+	}
+	//await sys.saveConfig();
+	//await common.wait(200);
+	// unregister this window on parent window.
+	// sending event to main window
+	
+	/**
+	 * Triggered when option window is closed
+	 * @event ui#optionsWindowClosed
+	 * @since 4.3.20
+	 */
+	window.opener.ui.trigger("optionsWindowClosed");
+	if (typeof window.opener.ui.windows.options !== 'undefined') window.opener.ui.windows.options = undefined;
+
+	this.close(true);
+
+});</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.0</a> using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <script src="fix.js"></script>
+    
+</body>
+</html>

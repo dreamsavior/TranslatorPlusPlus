@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>js/Thread.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://dreamsavior.net" target="_blank" class="menu-item" id="website_link" >Project Website</a></h2><h2><a href="https://discord.gg/6Dv97C87xt" target="_blank" class="menu-item" id="forum_link" >Discord</a></h2><h2><a href="https://dreamsavior.net/docs/translator-developers-guide/" target="_blank" class="menu-item" id="website_link" >Developer Guide</a></h2><h2><a href="https://dreamsavior.net/files/docs/tpp/fontello-f7017850/demo.html" target="_blank" class="menu-item" id="website_link" >Icon reference</a></h2><h3>Namespaces</h3><ul><li><a href="global.common.html">global.common</a></li><li><a href="global.html#trans">trans</a></li><li></li><li><a href="ui.html">ui</a><ul class='methods'><li data-type='method' style='display: none;'><a href="ui.html#.bumpGridScroll">bumpGridScroll</a></li><li data-type='method' style='display: none;'><a href="ui.html#.disableButtons">disableButtons</a></li><li data-type='method' style='display: none;'><a href="ui.html#.drawWordWrapByTagField">drawWordWrapByTagField</a></li><li data-type='method' style='display: none;'><a href="ui.html#.log">log</a></li><li data-type='method' style='display: none;'><a href="ui.html#.off">off</a></li><li data-type='method' style='display: none;'><a href="ui.html#.on">on</a></li><li data-type='method' style='display: none;'><a href="ui.html#.onDOMReady">onDOMReady</a></li><li data-type='method' style='display: none;'><a href="ui.html#.onReady">onReady</a></li><li data-type='method' style='display: none;'><a href="ui.html#.one">one</a></li><li data-type='method' style='display: none;'><a href="ui.html#.openImportTrans">openImportTrans</a></li><li data-type='method' style='display: none;'><a href="ui.html#.openOptionsWindow">openOptionsWindow</a></li><li data-type='method' style='display: none;'><a href="ui.html#.renderExternalLinks">renderExternalLinks</a></li><li data-type='method' style='display: none;'><a href="ui.html#.saveAs">saveAs</a></li><li data-type='method' style='display: none;'><a href="ui.html#.saveAsTPP">saveAsTPP</a></li><li data-type='method' style='display: none;'><a href="ui.html#.setCurrentCellText">setCurrentCellText</a></li><li data-type='method' style='display: none;'><a href="ui.html#.trigger">trigger</a></li></ul></li></ul><h3>Classes</h3><ul><li><a href="Addon.html">Addon</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Addon.html#.getPathRelativeToRoot#getPathRelativeToRoot">getPathRelativeToRoot</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.getRelativePath#getRelativePath">getRelativePath</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.globalizeNodeModules#globalizeNodeModules">globalizeNodeModules</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.require#require">require</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.resolvePath#resolvePath">resolvePath</a></li><li data-type='method' style='display: none;'><a href="Addon.html#.isExternalScript">isExternalScript</a></li></ul></li><li><a href="AddonLoader.html">AddonLoader</a><ul class='methods'><li data-type='method' style='display: none;'><a href="AddonLoader.html#.getAddon#getAddon">getAddon</a></li><li data-type='method' style='display: none;'><a href="AddonLoader.html#.getAddonByName#getAddonByName">getAddonByName</a></li><li data-type='method' style='display: none;'><a href="AddonLoader.html#.isActive#isActive">isActive</a></li><li data-type='method' style='display: none;'><a href="AddonLoader.html#.waitFor#waitFor">waitFor</a></li></ul></li><li><a href="AddonUtils.html">AddonUtils</a><ul class='methods'><li data-type='method' style='display: none;'><a href="AddonUtils.html#.createProject">createProject</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.createTransData">createTransData</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.exportAsZip">exportAsZip</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.exportToFolder">exportToFolder</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.getTransData">getTransData</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.handleExport">handleExport</a></li><li data-type='method' style='display: none;'><a href="AddonUtils.html#.writeFile">writeFile</a></li></ul></li><li><a href="Attachment.html">Attachment</a></li><li><a href="BC.html">BC</a></li><li><a href="BasicEventHandler.html">BasicEventHandler</a><ul class='methods'><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.processWith#processWith">processWith</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.processWith#processWith">processWith</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.rejectState#rejectState">rejectState</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.rejectState#rejectState">rejectState</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.resolveState#resolveState">resolveState</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.resolveState#resolveState">resolveState</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.until#until">until</a></li><li data-type='method' style='display: none;'><a href="BasicEventHandler.html#.until#until">until</a></li></ul></li><li></li><li></li><li><a href="BatchTranslate.html">BatchTranslate</a><ul class='members'><li data-type='member' style='display: none;'><a href="BatchTranslate.html#.procedures">procedures</a></li></ul><ul class='methods'><li data-type='method' style='display: none;'><a href="BatchTranslate.html#.getTranslationBatchData#getTranslationBatchData">getTranslationBatchData</a></li><li data-type='method' style='display: none;'><a href="BatchTranslate.html#.runProcedure#runProcedure">runProcedure</a></li><li data-type='method' style='display: none;'><a href="BatchTranslate.html#.translate#translate">translate</a></li><li data-type='method' style='display: none;'><a href="BatchTranslate.html#.defineProcedure">defineProcedure</a></li><li data-type='method' style='display: none;'><a href="BatchTranslate.html#.getActorGlossaryData">getActorGlossaryData</a></li></ul></li><li><a href="CodeEscape.html">CodeEscape</a><ul class='methods'><li data-type='method' style='display: none;'><a href="CodeEscape.html#.afterTranslation#afterTranslation">afterTranslation</a></li><li data-type='method' style='display: none;'><a href="CodeEscape.html#.processMatchRule#processMatchRule">processMatchRule</a></li></ul></li><li><a href="CustomFields.html">CustomFields</a><ul class='methods'><li data-type='method' style='display: none;'><a href="CustomFields.html#.addHTML#addHTML">addHTML</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.addJSONForm#addJSONForm">addJSONForm</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.getFormValues#getFormValues">getFormValues</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.getJsonFormTree#getJsonFormTree">getJsonFormTree</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.getValues#getValues">getValues</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.setValueByName#setValueByName">setValueByName</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.setValues#setValues">setValues</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.validate#validate">validate</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.isJsonForm">isJsonForm</a></li><li data-type='method' style='display: none;'><a href="CustomFields.html#.sanitize">sanitize</a></li></ul></li><li><a href="CustomParser.html">CustomParser</a><ul class='methods'><li data-type='method' style='display: none;'><a href="CustomParser.html#.assignTranslationPair#assignTranslationPair">assignTranslationPair</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.contextEnd#contextEnd">contextEnd</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.contextEnter#contextEnter">contextEnter</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.editLastWritableData#editLastWritableData">editLastWritableData</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.filterText#filterText">filterText</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.generateFileInfo#generateFileInfo">generateFileInfo</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.getModel#getModel">getModel</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.getText#getText">getText</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.importTransData#importTransData">importTransData</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.parse#parse">parse</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.parseCaptureGroup#parseCaptureGroup">parseCaptureGroup</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.processThispath#processThispath">processThispath</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.register#register">register</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.registerString#registerString">registerString</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.replaceLineBreak#replaceLineBreak">replaceLineBreak</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.setModel#setModel">setModel</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.setTranslationPair#setTranslationPair">setTranslationPair</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.toString#toString">toString</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.toTrans#toTrans">toTrans</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.translate#translate">translate</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.unfilterText#unfilterText">unfilterText</a></li><li data-type='method' style='display: none;'><a href="CustomParser.html#.isValidModel">isValidModel</a></li></ul></li><li><a href="DropFileToWindow.html">DropFileToWindow</a><ul class='methods'><li data-type='method' style='display: none;'><a href="DropFileToWindow.html#.addCss#addCss">addCss</a></li><li data-type='method' style='display: none;'><a href="DropFileToWindow.html#.preventDefault#preventDefault">preventDefault</a></li></ul></li><li><a href="Engine.html">Engine</a></li><li><a href="Engines.html">Engines</a></li><li><a href="LangTools.html">LangTools</a><ul class='methods'><li data-type='method' style='display: none;'><a href="LangTools.html#.compareWithDB#compareWithDB">compareWithDB</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.generateLangPairs#generateLangPairs">generateLangPairs</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.getDisplayName#getDisplayName">getDisplayName</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.getFullName#getFullName">getFullName</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.getLanguage#getLanguage">getLanguage</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.getLanguageList#getLanguageList">getLanguageList</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.getName#getName">getName</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.isCJK#isCJK">isCJK</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.lookupAlias#lookupAlias">lookupAlias</a></li><li data-type='method' style='display: none;'><a href="LangTools.html#.lookupDB#lookupDB">lookupDB</a></li></ul></li><li><a href="Logger.html">Logger</a></li><li><a href="ParserBase.html">ParserBase</a><ul class='methods'><li data-type='method' style='display: none;'><a href="ParserBase.html#.assignTranslationPair#assignTranslationPair">assignTranslationPair</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.contextEnd#contextEnd">contextEnd</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.contextEnter#contextEnter">contextEnter</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.editLastWritableData#editLastWritableData">editLastWritableData</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.filterText#filterText">filterText</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.generateFileInfo#generateFileInfo">generateFileInfo</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.getText#getText">getText</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.importTransData#importTransData">importTransData</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.parse#parse">parse</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.processThispath#processThispath">processThispath</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.register#register">register</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.registerString#registerString">registerString</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.replaceLineBreak#replaceLineBreak">replaceLineBreak</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.setTranslationPair#setTranslationPair">setTranslationPair</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.toString#toString">toString</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.toTrans#toTrans">toTrans</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.translate#translate">translate</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.unfilterText#unfilterText">unfilterText</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.appendTransData">appendTransData</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.detectEncoding">detectEncoding</a></li><li data-type='method' style='display: none;'><a href="ParserBase.html#.generateFileInfo">generateFileInfo</a></li></ul></li><li><a href="ParserFile.html">ParserFile</a><ul class='methods'><li data-type='method' style='display: none;'><a href="ParserFile.html#.readFile#readFile">readFile</a></li><li data-type='method' style='display: none;'><a href="ParserFile.html#.readTextFromFile#readTextFromFile">readTextFromFile</a></li><li data-type='method' style='display: none;'><a href="ParserFile.html#.write#write">write</a></li><li data-type='method' style='display: none;'><a href="ParserFile.html#.detectEncoding">detectEncoding</a></li></ul></li><li><a href="Python.html">Python</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Python.html#.checkAvailablePackageVersion#checkAvailablePackageVersion">checkAvailablePackageVersion</a></li><li data-type='method' style='display: none;'><a href="Python.html#.checkLatestPackageVersion#checkLatestPackageVersion">checkLatestPackageVersion</a></li><li data-type='method' style='display: none;'><a href="Python.html#.getConfig#getConfig">getConfig</a></li><li data-type='method' style='display: none;'><a href="Python.html#.getPackageInfo#getPackageInfo">getPackageInfo</a></li><li data-type='method' style='display: none;'><a href="Python.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="Python.html#.installPackage#installPackage">installPackage</a></li><li data-type='method' style='display: none;'><a href="Python.html#.installPython#installPython">installPython</a></li><li data-type='method' style='display: none;'><a href="Python.html#.installRequirements#installRequirements">installRequirements</a></li><li data-type='method' style='display: none;'><a href="Python.html#.isPackage#isPackage">isPackage</a></li><li data-type='method' style='display: none;'><a href="Python.html#.isScript#isScript">isScript</a></li><li data-type='method' style='display: none;'><a href="Python.html#.listPackages#listPackages">listPackages</a></li><li data-type='method' style='display: none;'><a href="Python.html#.loadConfig#loadConfig">loadConfig</a></li><li data-type='method' style='display: none;'><a href="Python.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="Python.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="Python.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="Python.html#.processWith#processWith">processWith</a></li><li data-type='method' style='display: none;'><a href="Python.html#.rejectState#rejectState">rejectState</a></li><li data-type='method' style='display: none;'><a href="Python.html#.requirementIsInstalled#requirementIsInstalled">requirementIsInstalled</a></li><li data-type='method' style='display: none;'><a href="Python.html#.resolveState#resolveState">resolveState</a></li><li data-type='method' style='display: none;'><a href="Python.html#.runPy#runPy">runPy</a></li><li data-type='method' style='display: none;'><a href="Python.html#.runPyDetached#runPyDetached">runPyDetached</a></li><li data-type='method' style='display: none;'><a href="Python.html#.saveConfig#saveConfig">saveConfig</a></li><li data-type='method' style='display: none;'><a href="Python.html#.setConfig#setConfig">setConfig</a></li><li data-type='method' style='display: none;'><a href="Python.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="Python.html#.uninstallPackage#uninstallPackage">uninstallPackage</a></li><li data-type='method' style='display: none;'><a href="Python.html#.uninstallRequirements#uninstallRequirements">uninstallRequirements</a></li><li data-type='method' style='display: none;'><a href="Python.html#.until#until">until</a></li><li data-type='method' style='display: none;'><a href="Python.html#.downloader">downloader</a></li></ul></li><li><a href="RawViewer.html">RawViewer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="RawViewer.html#.addContextMenu#addContextMenu">addContextMenu</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.addTextPreview#addTextPreview">addTextPreview</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.addTextPreviewFromFileOffset#addTextPreviewFromFileOffset">addTextPreviewFromFileOffset</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.addTextPreviewFromTextOffset#addTextPreviewFromTextOffset">addTextPreviewFromTextOffset</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.append#append">append</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.clear#clear">clear</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.commonHandleFile#commonHandleFile">commonHandleFile</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.getKeyString#getKeyString">getKeyString</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.getSnippetFromOffset#getSnippetFromOffset">getSnippetFromOffset</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.getStartingLineFromOffset#getStartingLineFromOffset">getStartingLineFromOffset</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.handleAttachment#handleAttachment">handleAttachment</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.isClear#isClear">isClear</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.loadPrism#loadPrism">loadPrism</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.openFile#openFile">openFile</a></li><li data-type='method' style='display: none;'><a href="RawViewer.html#.setListener#setListener">setListener</a></li></ul></li><li><a href="RibbonMenu.html">RibbonMenu</a><ul class='methods'><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.add#add">add</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.clear#clear">clear</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.defaultClickEvt#defaultClickEvt">defaultClickEvt</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.isExist#isExist">isExist</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.onReady#onReady">onReady</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.processWith#processWith">processWith</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.rejectState#rejectState">rejectState</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.remove#remove">remove</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.resolveState#resolveState">resolveState</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.select#select">select</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="RibbonMenu.html#.until#until">until</a></li></ul></li><li><a href="RowProperties.html">RowProperties</a><ul class='methods'><li data-type='method' style='display: none;'><a href="RowProperties.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="RowProperties.html#.setListener#setListener">setListener</a></li></ul></li><li><a href="ScriptParser.html">ScriptParser</a></li><li><a href="SubTab.html">SubTab</a></li><li></li><li><a href="Sys.html">Sys</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Sys.html#.getConfig#getConfig">getConfig</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.hardReset#hardReset">hardReset</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.off#off">off</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.on#on">on</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.one#one">one</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.setConfig#setConfig">setConfig</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.trigger#trigger">trigger</a></li><li data-type='method' style='display: none;'><a href="Sys.html#.restartApplication">restartApplication</a></li></ul></li><li><a href="TextReplacer.html">TextReplacer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="TextReplacer.html#.apply#apply">apply</a></li><li data-type='method' style='display: none;'><a href="TextReplacer.html#.parseRules#parseRules">parseRules</a></li></ul></li><li><a href="Thread.html">Thread</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Thread.html#.onReady#onReady">onReady</a></li><li data-type='method' style='display: none;'><a href="Thread.html#.onReady#onReady">onReady</a></li></ul></li><li></li><li></li><li><a href="ThreadHost.html">ThreadHost</a></li><li></li><li><a href="ThreadServer.html">ThreadServer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="ThreadServer.html#.addTask#addTask">addTask</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.addTask#addTask">addTask</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.addTask#addTask">addTask</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.getIddleThread#getIddleThread">getIddleThread</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.getIddleThread#getIddleThread">getIddleThread</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.getReadyState#getReadyState">getReadyState</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.getReadyState#getReadyState">getReadyState</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.startThread#startThread">startThread</a></li><li data-type='method' style='display: none;'><a href="ThreadServer.html#.startThread#startThread">startThread</a></li></ul></li><li></li><li></li><li><a href="Trans.html">Trans</a><ul class='members'><li data-type='member' style='display: none;'><a href="Trans.html#currentFile">currentFile</a></li><li data-type='member' style='display: none;'><a href="Trans.html#currentFile">currentFile</a></li><li data-type='member' style='display: none;'><a href="Trans.html#data">data</a></li><li data-type='member' style='display: none;'><a href="Trans.html#data">data</a></li><li data-type='member' style='display: none;'><a href="Trans.html#fileListLoaded">fileListLoaded</a></li><li data-type='member' style='display: none;'><a href="Trans.html#fileListLoaded">fileListLoaded</a></li><li data-type='member' style='display: none;'><a href="Trans.html#gameEngine">gameEngine</a></li><li data-type='member' style='display: none;'><a href="Trans.html#gameEngine">gameEngine</a></li><li data-type='member' style='display: none;'><a href="Trans.html#gameFolder">gameFolder</a></li><li data-type='member' style='display: none;'><a href="Trans.html#gameFolder">gameFolder</a></li><li data-type='member' style='display: none;'><a href="Trans.html#gameTitle">gameTitle</a></li><li data-type='member' style='display: none;'><a href="Trans.html#gameTitle">gameTitle</a></li><li data-type='member' style='display: none;'><a href="Trans.html#grid">grid</a></li><li data-type='member' style='display: none;'><a href="Trans.html#grid">grid</a></li><li data-type='member' style='display: none;'><a href="Trans.html#inProject">inProject</a></li><li data-type='member' style='display: none;'><a href="Trans.html#inProject">inProject</a></li><li data-type='member' style='display: none;'><a href="Trans.html#indexIds">indexIds</a></li><li data-type='member' style='display: none;'><a href="Trans.html#indexIds">indexIds</a></li><li data-type='member' style='display: none;'><a href="Trans.html#isFreeEditing">isFreeEditing</a></li><li data-type='member' style='display: none;'><a href="Trans.html#isFreeEditing">isFreeEditing</a></li><li data-type='member' style='display: none;'><a href="Trans.html#isLoadingFileList">isLoadingFileList</a></li><li data-type='member' style='display: none;'><a href="Trans.html#isLoadingFileList">isLoadingFileList</a></li><li data-type='member' style='display: none;'><a href="Trans.html#keyColumn">keyColumn</a></li><li data-type='member' style='display: none;'><a href="Trans.html#keyColumn">keyColumn</a></li><li data-type='member' style='display: none;'><a href="Trans.html#project">project</a></li><li data-type='member' style='display: none;'><a href="Trans.html#project">project</a></li><li data-type='member' style='display: none;'><a href="Trans.html#projectId">projectId</a></li><li data-type='member' style='display: none;'><a href="Trans.html#projectId">projectId</a></li><li data-type='member' style='display: none;'><a href="Trans.html#skipElement">skipElement</a></li><li data-type='member' style='display: none;'><a href="Trans.html#skipElement">skipElement</a></li><li data-type='member' style='display: none;'><a href="Trans.html#timers">timers</a></li><li data-type='member' style='display: none;'><a href="Trans.html#timers">timers</a></li><li data-type='member' style='display: none;'><a href="Trans.html#trans.gridContextMenu">trans.gridContextMenu</a></li><li data-type='member' style='display: none;'><a href="Trans.html#trans.gridContextMenu">trans.gridContextMenu</a></li><li data-type='member' style='display: none;'><a href="Trans.html#unsavedChange">unsavedChange</a></li><li data-type='member' style='display: none;'><a href="Trans.html#unsavedChange">unsavedChange</a></li><li data-type='member' style='display: none;'><a href="Trans.html#.maxCols">maxCols</a></li><li data-type='member' style='display: none;'><a href="Trans.html#.maxCols">maxCols</a></li></ul><ul class='methods'><li data-type='method' style='display: none;'><a href="Trans.html#.abortTranslation#abortTranslation">abortTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.abortTranslation#abortTranslation">abortTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addFileGroup#addFileGroup">addFileGroup</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addFileGroup#addFileGroup">addFileGroup</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addFileItem#addFileItem">addFileItem</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addFileItem#addFileItem">addFileItem</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addRow#addRow">addRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.addRow#addRow">addRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.alert#alert">alert</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.alert#alert">alert</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendRow#appendRow">appendRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendRow#appendRow">appendRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendTags#appendTags">appendTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendTags#appendTags">appendTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendTextToReference#appendTextToReference">appendTextToReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.appendTextToReference#appendTextToReference">appendTextToReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.applySaveData#applySaveData">applySaveData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.applySaveData#applySaveData">applySaveData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.applyTransTableToSelectedCell#applyTransTableToSelectedCell">applyTransTableToSelectedCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.applyTransTableToSelectedCell#applyTransTableToSelectedCell">applyTransTableToSelectedCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.autoSave#autoSave">autoSave</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.autoSave#autoSave">autoSave</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildContextFromParameter#buildContextFromParameter">buildContextFromParameter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildContextFromParameter#buildContextFromParameter">buildContextFromParameter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndex#buildIndex">buildIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndex#buildIndex">buildIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndexFromData#buildIndexFromData">buildIndexFromData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndexFromData#buildIndexFromData">buildIndexFromData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndexes#buildIndexes">buildIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.buildIndexes#buildIndexes">buildIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.calculateTableHeights#calculateTableHeights">calculateTableHeights</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.calculateTableHeights#calculateTableHeights">calculateTableHeights</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearCellInfo#clearCellInfo">clearCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearCellInfo#clearCellInfo">clearCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearEditor#clearEditor">clearEditor</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearEditor#clearEditor">clearEditor</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearFooter#clearFooter">clearFooter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearFooter#clearFooter">clearFooter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearRow#clearRow">clearRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearRow#clearRow">clearRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearSelection#clearSelection">clearSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearSelection#clearSelection">clearSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearTags#clearTags">clearTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearTags#clearTags">clearTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearTemporaryIndexes#clearTemporaryIndexes">clearTemporaryIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.clearTemporaryIndexes#clearTemporaryIndexes">clearTemporaryIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.closeProject#closeProject">closeProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.closeProject#closeProject">closeProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.collectContextKeyword#collectContextKeyword">collectContextKeyword</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.collectContextKeyword#collectContextKeyword">collectContextKeyword</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.compress#compress">compress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.compress#compress">compress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.connectData#connectData">connectData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.connectData#connectData">connectData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.copyCol#copyCol">copyCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.copyCol#copyCol">copyCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.copyTranslationToRow#copyTranslationToRow">copyTranslationToRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.copyTranslationToRow#copyTranslationToRow">copyTranslationToRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.countFilledCol#countFilledCol">countFilledCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.countFilledCol#countFilledCol">countFilledCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.countTranslated#countTranslated">countTranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.countTranslated#countTranslated">countTranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createBackup#createBackup">createBackup</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createBackup#createBackup">createBackup</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createFile#createFile">createFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createFile#createFile">createFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createProject#createProject">createProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.createProject#createProject">createProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.dataPadding#dataPadding">dataPadding</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.dataPadding#dataPadding">dataPadding</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.deleteFile#deleteFile">deleteFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.deleteFile#deleteFile">deleteFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.doAfterSelection#doAfterSelection">doAfterSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.doAfterSelection#doAfterSelection">doAfterSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawFileSelector#drawFileSelector">drawFileSelector</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawFileSelector#drawFileSelector">drawFileSelector</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawFileStatus#drawFileStatus">drawFileStatus</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawFileStatus#drawFileStatus">drawFileStatus</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawGridTranslatorMenu#drawGridTranslatorMenu">drawGridTranslatorMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.drawGridTranslatorMenu#drawGridTranslatorMenu">drawGridTranslatorMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.editNoteAtCell#editNoteAtCell">editNoteAtCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.editNoteAtCell#editNoteAtCell">editNoteAtCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.evalContextsQuery#evalContextsQuery">evalContextsQuery</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.evalContextsQuery#evalContextsQuery">evalContextsQuery</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.evalTranslationProgress#evalTranslationProgress">evalTranslationProgress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.evalTranslationProgress#evalTranslationProgress">evalTranslationProgress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.export#export">export</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.export#export">export</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.exportTPP#exportTPP">exportTPP</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.exportTPP#exportTPP">exportTPP</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fileItemExist#fileItemExist">fileItemExist</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fileItemExist#fileItemExist">fileItemExist</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fileSelectorContextMenuInit#fileSelectorContextMenuInit">fileSelectorContextMenuInit</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fileSelectorContextMenuInit#fileSelectorContextMenuInit">fileSelectorContextMenuInit</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fillEmptyLine#fillEmptyLine">fillEmptyLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.fillEmptyLine#fillEmptyLine">fillEmptyLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsert#findAndInsert">findAndInsert</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsert#findAndInsert">findAndInsert</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertByContext#findAndInsertByContext">findAndInsertByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertByContext#findAndInsertByContext">findAndInsertByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertLine#findAndInsertLine">findAndInsertLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertLine#findAndInsertLine">findAndInsertLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertWithIndexes#findAndInsertWithIndexes">findAndInsertWithIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findAndInsertWithIndexes#findAndInsertWithIndexes">findAndInsertWithIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findIdByIndex#findIdByIndex">findIdByIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findIdByIndex#findIdByIndex">findIdByIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findPut#findPut">findPut</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.findPut#findPut">findPut</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.from#from">from</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.from#from">from</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateCachePath#generateCachePath">generateCachePath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateCachePath#generateCachePath">generateCachePath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateContextTranslationPair#generateContextTranslationPair">generateContextTranslationPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateContextTranslationPair#generateContextTranslationPair">generateContextTranslationPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateHeader#generateHeader">generateHeader</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateHeader#generateHeader">generateHeader</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateNewDictionaryTable#generateNewDictionaryTable">generateNewDictionaryTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateNewDictionaryTable#generateNewDictionaryTable">generateNewDictionaryTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateSelectedTranslationTable#generateSelectedTranslationTable">generateSelectedTranslationTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateSelectedTranslationTable#generateSelectedTranslationTable">generateSelectedTranslationTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationPair#generateTranslationPair">generateTranslationPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationPair#generateTranslationPair">generateTranslationPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTable#generateTranslationTable">generateTranslationTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTable#generateTranslationTable">generateTranslationTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableFromResult#generateTranslationTableFromResult">generateTranslationTableFromResult</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableFromResult#generateTranslationTableFromResult">generateTranslationTableFromResult</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableFromStrings#generateTranslationTableFromStrings">generateTranslationTableFromStrings</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableFromStrings#generateTranslationTableFromStrings">generateTranslationTableFromStrings</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableLine#generateTranslationTableLine">generateTranslationTableLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.generateTranslationTableLine#generateTranslationTableLine">generateTranslationTableLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getActiveTranslator#getActiveTranslator">getActiveTranslator</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getActiveTranslator#getActiveTranslator">getActiveTranslator</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getActiveTranslatorEngine#getActiveTranslatorEngine">getActiveTranslatorEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getActiveTranslatorEngine#getActiveTranslatorEngine">getActiveTranslatorEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllCompletedFiles#getAllCompletedFiles">getAllCompletedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllCompletedFiles#getAllCompletedFiles">getAllCompletedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllFiles#getAllFiles">getAllFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllFiles#getAllFiles">getAllFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllFilesExcept#getAllFilesExcept">getAllFilesExcept</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllFilesExcept#getAllFilesExcept">getAllFilesExcept</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllIncompletedFiles#getAllIncompletedFiles">getAllIncompletedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllIncompletedFiles#getAllIncompletedFiles">getAllIncompletedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllMarkedAsCompleted#getAllMarkedAsCompleted">getAllMarkedAsCompleted</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAllMarkedAsCompleted#getAllMarkedAsCompleted">getAllMarkedAsCompleted</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAttachmentContent#getAttachmentContent">getAttachmentContent</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getAttachmentContent#getAttachmentContent">getAttachmentContent</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCellComment#getCellComment">getCellComment</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCellComment#getCellComment">getCellComment</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCheckedFiles#getCheckedFiles">getCheckedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCheckedFiles#getCheckedFiles">getCheckedFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCheckedObjects#getCheckedObjects">getCheckedObjects</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCheckedObjects#getCheckedObjects">getCheckedObjects</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getConfig#getConfig">getConfig</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getConfig#getConfig">getConfig</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getContext#getContext">getContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getContext#getContext">getContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCurrentData#getCurrentData">getCurrentData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getCurrentData#getCurrentData">getCurrentData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getData#getData">getData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getData#getData">getData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getFromIndexes#getFromIndexes">getFromIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getFromIndexes#getFromIndexes">getFromIndexes</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getGridContextMenu#getGridContextMenu">getGridContextMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getGridContextMenu#getGridContextMenu">getGridContextMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getIndexByKey#getIndexByKey">getIndexByKey</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getIndexByKey#getIndexByKey">getIndexByKey</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getIndexIds#getIndexIds">getIndexIds</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getIndexIds#getIndexIds">getIndexIds</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getLastSelectedCell#getLastSelectedCell">getLastSelectedCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getLastSelectedCell#getLastSelectedCell">getLastSelectedCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getObjectById#getObjectById">getObjectById</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getObjectById#getObjectById">getObjectById</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getOption#getOption">getOption</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getOption#getOption">getOption</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getParamatersByRow#getParamatersByRow">getParamatersByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getParamatersByRow#getParamatersByRow">getParamatersByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getProjectChecksum#getProjectChecksum">getProjectChecksum</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getProjectChecksum#getProjectChecksum">getProjectChecksum</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getReference#getReference">getReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getReference#getReference">getReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowIdByTextInsensitive#getRowIdByTextInsensitive">getRowIdByTextInsensitive</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowIdByTextInsensitive#getRowIdByTextInsensitive">getRowIdByTextInsensitive</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowInfoText#getRowInfoText">getRowInfoText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowInfoText#getRowInfoText">getRowInfoText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowInfoTexts#getRowInfoTexts">getRowInfoTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getRowInfoTexts#getRowInfoTexts">getRowInfoTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSaveData#getSaveData">getSaveData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSaveData#getSaveData">getSaveData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedCellsData#getSelectedCellsData">getSelectedCellsData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedCellsData#getSelectedCellsData">getSelectedCellsData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedContext#getSelectedContext">getSelectedContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedContext#getSelectedContext">getSelectedContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedId#getSelectedId">getSelectedId</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedId#getSelectedId">getSelectedId</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedKeyText#getSelectedKeyText">getSelectedKeyText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedKeyText#getSelectedKeyText">getSelectedKeyText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedObject#getSelectedObject">getSelectedObject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedObject#getSelectedObject">getSelectedObject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedOriginalTexts#getSelectedOriginalTexts">getSelectedOriginalTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedOriginalTexts#getSelectedOriginalTexts">getSelectedOriginalTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedOriginalTextsAsOneLine#getSelectedOriginalTextsAsOneLine">getSelectedOriginalTextsAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedOriginalTextsAsOneLine#getSelectedOriginalTextsAsOneLine">getSelectedOriginalTextsAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedParameters#getSelectedParameters">getSelectedParameters</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedParameters#getSelectedParameters">getSelectedParameters</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedTexts#getSelectedTexts">getSelectedTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedTexts#getSelectedTexts">getSelectedTexts</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedTextsAsOneLine#getSelectedTextsAsOneLine">getSelectedTextsAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getSelectedTextsAsOneLine#getSelectedTextsAsOneLine">getSelectedTextsAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingDataPath#getStagingDataPath">getStagingDataPath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingDataPath#getStagingDataPath">getStagingDataPath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingFile#getStagingFile">getStagingFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingFile#getStagingFile">getStagingFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingPath#getStagingPath">getStagingPath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStagingPath#getStagingPath">getStagingPath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStats#getStats">getStats</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getStats#getStats">getStats</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTemplatePath#getTemplatePath">getTemplatePath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTemplatePath#getTemplatePath">getTemplatePath</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getText#getText">getText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getText#getText">getText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTextFromLastSelected#getTextFromLastSelected">getTextFromLastSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTextFromLastSelected#getTextFromLastSelected">getTextFromLastSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationByIndex#getTranslationByIndex">getTranslationByIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationByIndex#getTranslationByIndex">getTranslationByIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationByLine#getTranslationByLine">getTranslationByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationByLine#getTranslationByLine">getTranslationByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationColFromRow#getTranslationColFromRow">getTranslationColFromRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationColFromRow#getTranslationColFromRow">getTranslationColFromRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationData#getTranslationData">getTranslationData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationData#getTranslationData">getTranslationData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationFromRow#getTranslationFromRow">getTranslationFromRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslationFromRow#getTranslationFromRow">getTranslationFromRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslatorEngine#getTranslatorEngine">getTranslatorEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.getTranslatorEngine#getTranslatorEngine">getTranslatorEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goTo#goTo">goTo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goTo#goTo">goTo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToNewKey#goToNewKey">goToNewKey</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToNewKey#goToNewKey">goToNewKey</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToNextUntranslated#goToNextUntranslated">goToNextUntranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToNextUntranslated#goToNextUntranslated">goToNextUntranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToPreviousUntranslated#goToPreviousUntranslated">goToPreviousUntranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.goToPreviousUntranslated#goToPreviousUntranslated">goToPreviousUntranslated</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.gridBodyContextMenu#gridBodyContextMenu">gridBodyContextMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.gridBodyContextMenu#gridBodyContextMenu">gridBodyContextMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.gridIsModified#gridIsModified">gridIsModified</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.gridIsModified#gridIsModified">gridIsModified</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.hasTags#hasTags">hasTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.hasTags#hasTags">hasTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importFromFile#importFromFile">importFromFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importFromFile#importFromFile">importFromFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importRPGMTrans#importRPGMTrans">importRPGMTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importRPGMTrans#importRPGMTrans">importRPGMTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importSheet#importSheet">importSheet</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importSheet#importSheet">importSheet</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importTpp#importTpp">importTpp</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importTpp#importTpp">importTpp</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importTranslation#importTranslation">importTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.importTranslation#importTranslation">importTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initFileNav#initFileNav">initFileNav</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initFileNav#initFileNav">initFileNav</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initProject#initProject">initProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initProject#initProject">initProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initTable#initTable">initTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.initTable#initTable">initTable</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.insertCell#insertCell">insertCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.insertCell#insertCell">insertCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.invertSelection#invertSelection">invertSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.invertSelection#invertSelection">invertSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isAllSelected#isAllSelected">isAllSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isAllSelected#isAllSelected">isAllSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isFileSupported#isFileSupported">isFileSupported</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isFileSupported#isFileSupported">isFileSupported</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isInContext#isInContext">isInContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isInContext#isInContext">isInContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isInProject#isInProject">isInProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isInProject#isInProject">isInProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isKeyExist#isKeyExist">isKeyExist</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isKeyExist#isKeyExist">isKeyExist</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isKeyExistOn#isKeyExistOn">isKeyExistOn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isKeyExistOn#isKeyExistOn">isKeyExistOn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isLastRow#isLastRow">isLastRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isLastRow#isLastRow">isLastRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isTranslatedRow#isTranslatedRow">isTranslatedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.isTranslatedRow#isTranslatedRow">isTranslatedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.legacyExport#legacyExport">legacyExport</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadComments#loadComments">loadComments</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadComments#loadComments">loadComments</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadJSON#loadJSON">loadJSON</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadJSON#loadJSON">loadJSON</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadJSONSync#loadJSONSync">loadJSONSync</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.loadJSONSync#loadJSONSync">loadJSONSync</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.mergeReference#mergeReference">mergeReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.mergeReference#mergeReference">mergeReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.mergeTrans#mergeTrans">mergeTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.mergeTrans#mergeTrans">mergeTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.moveColumn#moveColumn">moveColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.moveColumn#moveColumn">moveColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.normalizeHeader#normalizeHeader">normalizeHeader</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.normalizeHeader#normalizeHeader">normalizeHeader</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.onBatchTranslationDone#onBatchTranslationDone">onBatchTranslationDone</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.onBatchTranslationDone#onBatchTranslationDone">onBatchTranslationDone</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.openFile#openFile">openFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.openFile#openFile">openFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.paddingTranslation#paddingTranslation">paddingTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.paddingTranslation#paddingTranslation">paddingTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.refreshGrid#refreshGrid">refreshGrid</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.refreshGrid#refreshGrid">refreshGrid</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeAllTranslation#removeAllTranslation">removeAllTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeAllTranslation#removeAllTranslation">removeAllTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeColumn#removeColumn">removeColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeColumn#removeColumn">removeColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeDuplicates#removeDuplicates">removeDuplicates</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeDuplicates#removeDuplicates">removeDuplicates</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeNoteAtSelected#removeNoteAtSelected">removeNoteAtSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeNoteAtSelected#removeNoteAtSelected">removeNoteAtSelected</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeRow#removeRow">removeRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeRow#removeRow">removeRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeRowByContext#removeRowByContext">removeRowByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeRowByContext#removeRowByContext">removeRowByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeTagForSelectedRow#removeTagForSelectedRow">removeTagForSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeTagForSelectedRow#removeTagForSelectedRow">removeTagForSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeTags#removeTags">removeTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.removeTags#removeTags">removeTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.renameColumn#renameColumn">renameColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.renameColumn#renameColumn">renameColumn</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.replace#replace">replace</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.replace#replace">replace</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetCurentCellEditor#resetCurentCellEditor">resetCurentCellEditor</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetCurentCellEditor#resetCurentCellEditor">resetCurentCellEditor</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetIndex#resetIndex">resetIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetIndex#resetIndex">resetIndex</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetTags#resetTags">resetTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.resetTags#resetTags">resetTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.revertToOriginal#revertToOriginal">revertToOriginal</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.revertToOriginal#revertToOriginal">revertToOriginal</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.rowHasMultipleContext#rowHasMultipleContext">rowHasMultipleContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.rowHasMultipleContext#rowHasMultipleContext">rowHasMultipleContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.rowHasTranslation#rowHasTranslation">rowHasTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.rowHasTranslation#rowHasTranslation">rowHasTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.runCustomScript#runCustomScript">runCustomScript</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.sanitize#sanitize">sanitize</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.sanitize#sanitize">sanitize</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.save#save">save</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.save#save">save</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.saveAs#saveAs">saveAs</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.saveAs#saveAs">saveAs</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.scrollHToCol#scrollHToCol">scrollHToCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.scrollHToCol#scrollHToCol">scrollHToCol</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.search#search">search</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.search#search">search</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectAll#selectAll">selectAll</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectAll#selectAll">selectAll</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectCell#selectCell">selectCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectCell#selectCell">selectCell</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectFile#selectFile">selectFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectFile#selectFile">selectFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectObjectsByFilter#selectObjectsByFilter">selectObjectsByFilter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.selectObjectsByFilter#selectObjectsByFilter">selectObjectsByFilter</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setActiveTranslator#setActiveTranslator">setActiveTranslator</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setActiveTranslator#setActiveTranslator">setActiveTranslator</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setCellInfo#setCellInfo">setCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setCellInfo#setCellInfo">setCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setCellValueAt#setCellValueAt">setCellValueAt</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setCellValueAt#setCellValueAt">setCellValueAt</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setConfig#setConfig">setConfig</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setConfig#setConfig">setConfig</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setContext#setContext">setContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setContext#setContext">setContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setMarkAsComplete#setMarkAsComplete">setMarkAsComplete</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setMarkAsComplete#setMarkAsComplete">setMarkAsComplete</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setParametersByRow#setParametersByRow">setParametersByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setParametersByRow#setParametersByRow">setParametersByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setRowInfoText#setRowInfoText">setRowInfoText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setRowInfoText#setRowInfoText">setRowInfoText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setSl#setSl">setSl</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setSl#setSl">setSl</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarContext#setStatusBarContext">setStatusBarContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarContext#setStatusBarContext">setStatusBarContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarEngine#setStatusBarEngine">setStatusBarEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarEngine#setStatusBarEngine">setStatusBarEngine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarNumData#setStatusBarNumData">setStatusBarNumData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setStatusBarNumData#setStatusBarNumData">setStatusBarNumData</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTagForSelectedRow#setTagForSelectedRow">setTagForSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTagForSelectedRow#setTagForSelectedRow">setTagForSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTags#setTags">setTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTags#setTags">setTags</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTl#setTl">setTl</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTl#setTl">setTl</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTrayIcon#setTrayIcon">setTrayIcon</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.setTrayIcon#setTrayIcon">setTrayIcon</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.stagingFilesRemove#stagingFilesRemove">stagingFilesRemove</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.stagingFilesRemove#stagingFilesRemove">stagingFilesRemove</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.tagRowByContext#tagRowByContext">tagRowByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.tagRowByContext#tagRowByContext">tagRowByContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.textEditorSetValue#textEditorSetValue">textEditorSetValue</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.textEditorSetValue#textEditorSetValue">textEditorSetValue</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAll#translateAll">translateAll</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAll#translateAll">translateAll</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAllByLines#translateAllByLines">translateAllByLines</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAllByLines#translateAllByLines">translateAllByLines</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAllByRows#translateAllByRows">translateAllByRows</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateAllByRows#translateAllByRows">translateAllByRows</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateByReference#translateByReference">translateByReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateByReference#translateByReference">translateByReference</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateFromArray#translateFromArray">translateFromArray</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateFromArray#translateFromArray">translateFromArray</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateFromTrans#translateFromTrans">translateFromTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateFromTrans#translateFromTrans">translateFromTrans</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectedRow#translateSelectedRow">translateSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectedRow#translateSelectedRow">translateSelectedRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelection#translateSelection">translateSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelection#translateSelection">translateSelection</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionAsOneLine#translateSelectionAsOneLine">translateSelectionAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionAsOneLine#translateSelectionAsOneLine">translateSelectionAsOneLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionByLine#translateSelectionByLine">translateSelectionByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionByLine#translateSelectionByLine">translateSelectionByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionByRow#translateSelectionByRow">translateSelectionByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionByRow#translateSelectionByRow">translateSelectionByRow</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionIntoDef#translateSelectionIntoDef">translateSelectionIntoDef</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateSelectionIntoDef#translateSelectionIntoDef">translateSelectionIntoDef</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateStringByPair#translateStringByPair">translateStringByPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateStringByPair#translateStringByPair">translateStringByPair</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateTextByLine#translateTextByLine">translateTextByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.translateTextByLine#translateTextByLine">translateTextByLine</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.travelContext#travelContext">travelContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.travelContext#travelContext">travelContext</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.trimTranslation#trimTranslation">trimTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.trimTranslation#trimTranslation">trimTranslation</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.unInitFileNav#unInitFileNav">unInitFileNav</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.unInitFileNav#unInitFileNav">unInitFileNav</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.uncompress#uncompress">uncompress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.uncompress#uncompress">uncompress</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.updateProject#updateProject">updateProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.updateProject#updateProject">updateProject</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.updateRunScriptMenu#updateRunScriptMenu">updateRunScriptMenu</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.updateStagingInfo#updateStagingInfo">updateStagingInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.updateStagingInfo#updateStagingInfo">updateStagingInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.walkToAllFile#walkToAllFile">walkToAllFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.walkToAllFile#walkToAllFile">walkToAllFile</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.wordWrapFiles#wordWrapFiles">wordWrapFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.wordWrapFiles#wordWrapFiles">wordWrapFiles</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.wordWrapText#wordWrapText">wordWrapText</a></li><li data-type='method' style='display: none;'><a href="Trans.html#.wordWrapText#wordWrapText">wordWrapText</a></li></ul></li><li></li><li><a href="Trans.CellInfo.html">Trans.CellInfo</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.delete#delete">delete</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.delete#delete">delete</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.deleteRow#deleteRow">deleteRow</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.deleteRow#deleteRow">deleteRow</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.get#get">get</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.get#get">get</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getAll#getAll">getAll</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getAll#getAll">getAll</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getBestCellInfo#getBestCellInfo">getBestCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getBestCellInfo#getBestCellInfo">getBestCellInfo</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getCell#getCell">getCell</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getCell#getCell">getCell</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getRow#getRow">getRow</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.getRow#getRow">getRow</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.set#set">set</a></li><li data-type='method' style='display: none;'><a href="Trans.CellInfo.html#.set#set">set</a></li></ul></li><li></li><li><a href="TransProjectHook.html">TransProjectHook</a></li><li></li><li><a href="Translator.html">Translator</a></li><li><a href="TranslatorEngine.html">TranslatorEngine</a><ul class='members'><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#author">author</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#batchDelay">batchDelay</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#delimiter">delimiter</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#description">description</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#escapeAlgorithm">escapeAlgorithm</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#id">id</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#languages">languages</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#maxRequestLength">maxRequestLength</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#name">name</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#optionsForm">optionsForm</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#version">version</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#.escapeAlgorithms">escapeAlgorithms</a></li><li data-type='member' style='display: none;'><a href="TranslatorEngine.html#.translators">translators</a></li></ul><ul class='methods'><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.fetchTranslation#fetchTranslation">fetchTranslation</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getDefaultOptions#getDefaultOptions">getDefaultOptions</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getLanguageCode#getLanguageCode">getLanguageCode</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getOptions#getOptions">getOptions</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getUnsetRequiredOptions#getUnsetRequiredOptions">getUnsetRequiredOptions</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.init#init">init</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.preProcessText#preProcessText">preProcessText</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.resetOptions#resetOptions">resetOptions</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.setOptions#setOptions">setOptions</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.translate#translate">translate</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.translatePairs#translatePairs">translatePairs</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.update#update">update</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.addEscapeAlgorithm">addEscapeAlgorithm</a></li><li data-type='method' style='display: none;'><a href="TranslatorEngine.html#.getEngine">getEngine</a></li></ul></li><li><a href="common.SimpleDB.html">common.SimpleDB</a><ul class='methods'><li data-type='method' style='display: none;'><a href="common.SimpleDB.html#.clear#clear">clear</a></li><li data-type='method' style='display: none;'><a href="common.SimpleDB.html#.delete#delete">delete</a></li><li data-type='method' style='display: none;'><a href="common.SimpleDB.html#.get#get">get</a></li><li data-type='method' style='display: none;'><a href="common.SimpleDB.html#.set#set">set</a></li></ul></li><li><a href="ui.CellInfoTab.html">ui.CellInfoTab</a></li><li><a href="window.Attachment.html">window.Attachment</a></li><li></li></ul><h3>Externals</h3><ul><li><a href="external-Icon%2520reference.html">external:Icon reference</a></li></ul><h3>Events</h3><ul><li><a href="Addon.html#event:loaded">Addon#loaded</a></li><li><a href="Addon.html#event:onLoaded">Addon#onLoaded</a></li><li><a href="RibbonMenu.html#event:active">RibbonMenu#active</a></li><li><a href="RibbonMenu.html#event:beforeSelect">RibbonMenu#beforeSelect</a></li><li><a href="RibbonMenu.html#event:ready">RibbonMenu#ready</a></li><li><a href="RibbonMenu.html#event:select">RibbonMenu#select</a></li><li><a href="Sys.html#event:beforeSaveConfig">Sys#beforeSaveConfig</a></li><li><a href="Sys.html#event:loadConfig">Sys#loadConfig</a></li><li><a href="Sys.html#event:saveConfig">Sys#saveConfig</a></li><li><a href="Trans.html#event:afterRemoveRow">Trans#afterRemoveRow</a></li><li></li><li><a href="Trans.html#event:beforeProcessSelection">Trans#beforeProcessSelection</a></li><li></li><li><a href="Trans.html#event:clearContextTranslationByRow">Trans#clearContextTranslationByRow</a></li><li></li><li><a href="Trans.html#event:documentModifiedStateChange">Trans#documentModifiedStateChange</a></li><li></li><li><a href="Trans.html#event:languageChange">Trans#languageChange</a></li><li><a href="Trans.html#event:onAfterSelectCell">Trans#onAfterSelectCell</a></li><li></li><li><a href="Trans.html#event:onGenerateTranslationData">Trans#onGenerateTranslationData</a></li><li></li><li><a href="Trans.html#event:onLoadTrans">Trans#onLoadTrans</a></li><li></li><li><a href="Trans.html#event:onUnloadTrans">Trans#onUnloadTrans</a></li><li></li><li><a href="Trans.html#event:projectCreated">Trans#projectCreated</a></li><li></li><li><a href="Trans.html#event:removeAllTranslation">Trans#removeAllTranslation</a></li><li></li><li><a href="Trans.html#event:transLoaded">Trans#transLoaded</a></li><li></li><li></li><li></li><li><a href="Trans.html#event:translatorIsChanged">Trans#translatorIsChanged</a></li><li><a href="ui.html#event:busyOverlayClosed">ui#busyOverlayClosed</a></li><li><a href="ui.html#event:busyOverlayOpened">ui#busyOverlayOpened</a></li><li><a href="ui.html#event:dialogRowPropertiesOpened">ui#dialogRowPropertiesOpened</a></li><li><a href="ui.html#event:loadingScreenIsClosed">ui#loadingScreenIsClosed</a></li><li></li><li><a href="ui.html#event:optionsWindowClosed">ui#optionsWindowClosed</a></li><li></li><li><a href="ui.html#event:optionsWindowOpened">ui#optionsWindowOpened</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">js/Thread.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**=====LICENSE STATEMENT START=====
+    Translator++ 
+    CAT (Computer-Assisted Translation) tools and framework to create quality
+    translations and localizations efficiently.
+        
+    Copyright (C) 2018  Dreamsavior&lt;dreamsavior@gmail.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see &lt;https://www.gnu.org/licenses/>.
+=====LICENSE STATEMENT END=====*/
+/**
+ * Main thread handler for each child threads
+ * This class will be called from Main Thread
+ * @class
+ */
+class Thread {
+    constructor(options) {
+        this.options            = options || {};
+        this.id                 = this.options.id || "tr"+common.getAutoIncrement("thread");
+        Thread.list[this.id]    = this;
+        this.status             = "closed"
+        this.lastActivity       = Date.now();
+        this.debugLevel         = 1;
+        this.$elm = $("&lt;s>&lt;/s>");
+    }
+}
+Thread.list = [];
+Thread.sessions = {};
+Thread.saveSession = async function(sessionName, content) {
+    await common.mkDir(nwPath.join(__dirname, "data/session"));
+    await common.filePutContents(nwPath.join(__dirname, "data/session", sessionName+".ses"), JSON.stringify(content), "utf8");
+}
+
+Thread.loadSession = async function(sessionName, force) {
+    if (!force) {
+        if (Thread.sessions[sessionName]) return Thread.sessions[sessionName];
+    }
+    try {
+        Thread.sessions[sessionName] = JSON.parse(await common.fileGetContents(nwPath.join(__dirname, "data/session", sessionName+".ses"), "utf8"));
+        return Thread.sessions[sessionName];
+    } catch (e) {
+        return "";
+    }
+}
+
+Thread.removeSession = async function(sessionName) {
+    delete Thread.sessions[sessionName];
+    await common.unlink(nwPath.join(__dirname, "data/session", sessionName+".ses"));
+}
+
+Thread.prototype.bump = function() {
+    this.lastActivity       = Date.now();
+    return this.lastActivity;
+}
+
+Thread.prototype.close = async function(noConfirm) {
+    try {
+        if (!noConfirm) await threadServer.send(this.ws, "close");
+    } catch (e) {
+        
+    }
+    delete Thread.list[this.id];
+}
+
+Thread.prototype.on = function(evt, fn) {
+    this.$elm.on(evt, fn)
+}
+
+Thread.prototype.off = function(evt, fn) {
+    this.$elm.off(evt, fn)
+}
+
+Thread.prototype.one = function(evt, fn) {
+    this.$elm.one(evt, fn)
+}
+
+Thread.prototype.trigger = function(evt, param) {
+    this.$elm.trigger(evt, param)
+}
+/**
+ * Execute immidiately or wait until the thread is ready
+ * todo : should wait until all libraries are loaded
+ * @param  {} fn
+ */
+Thread.prototype.onReady = async function(fn) {
+    fn = fn || async function(){};
+    if (this.isReady()) {
+        return await fn()
+    } else {
+        return new Promise(async (resolve, reject) => {
+            this.one("ready", async function(e, param) {
+                resolve(await fn());
+            });        
+        });
+    }
+}
+
+Thread.prototype.openThreadWindow = async function(options={}) {
+    if (this.isWindowOpened) return console.warn("Window with ID:"+this.id+" is already opened!");
+    this.on("statusChange", (e, status) => {
+        console.log("Status of the client is:", status);
+    });
+    this.on("close", (e) => {
+        console.log("Client closed");
+        this.close(true);
+    });
+    this.on("activity", (e) => {
+        this.bump();
+    });
+    this.on("log", (e, data) => {
+        data.msg[0] = `&lt;span class='threadId'>${this.id} &amp;gt;&lt;/span> `+data.msg[0]
+        ui.log.apply(this, data.msg)
+    });
+
+    var params = new URLSearchParams({
+        id      : this.id,
+        port    : threadServer.port,
+        addons  : options.addons || [],
+    });
+
+    return new Promise((resolve, reject) => {
+        //var showWindow = false;
+        //if (this.debugLevel) showWindow = true;
+        var options = {
+            new_instance    : true, 
+            show            : false,
+            show_in_taskbar : false
+        }
+        if (this.debugLevel) {
+            options.show = true;
+            options.show_in_taskbar = true;
+        }
+        nw.Window.open(`www/thread.html?${params.toString()}`, options, (win) => {
+            console.log("Thread window is opened!");
+            this.isWindowOpened = true;
+        }); 
+
+        this.one("ready", function(e, param) {
+            console.log("client is connected:", param);
+            resolve();
+        });        
+    });
+}
+
+Thread.prototype.isReady = function() {
+    if (this.status == "ready") return true;
+    return false;
+}
+
+Thread.prototype.setStatus = function(status) {
+    this.status = status;
+    return status;
+}
+
+Thread.prototype.sendWhenReady = async function(command, msg, options) {
+    return new Promise(async (resolve, reject) => {
+        var processResult = async (resultBody) => {
+            console.log("Processed result:", resultBody);
+            var result = resultBody.msg;
+            if (resultBody.type == "object") {
+                if (common.isJSON(result)) result = JSON.parse(result);
+            }
+            resolve(result);
+        }
+
+        if (this.isReady()) {
+            await threadServer.send(this.ws, command, msg, options);
+            this.one("result", async (e, resultBody) => {
+                await processResult(resultBody);
+            })            
+        } else {
+            this.one("ready", async (e) => {
+                await threadServer.send(this.ws, command, msg, options);
+                this.one("result", async (e, resultBody) => {
+                    await processResult(resultBody);
+                })
+            });
+        }
+    })
+}
+
+
+
+
+
+
+
+/**
+ * Handle socket as a server
+ * @class
+ */
+var ThreadServer = function() {
+    this.threadList = Thread.list;
+    this.$elm = $("&lt;s>&lt;/s>");
+    this.queue = [];
+}
+ThreadServer.getNumberOfCPU = function() {
+    var os = require('os');
+    return os.cpus().length;
+}
+ThreadServer.getRecomendedMaxThread = function() {
+    var os = require('os');
+    return os.cpus().length - 1;
+}
+
+ThreadServer.prototype.on = function(evt, fn) {
+    this.$elm.on(evt, fn)
+}
+
+ThreadServer.prototype.off = function(evt, fn) {
+    this.$elm.off(evt, fn)
+}
+
+ThreadServer.prototype.one = function(evt, fn) {
+    this.$elm.one(evt, fn)
+}
+
+ThreadServer.prototype.trigger = function(evt, param) {
+    this.$elm.trigger(evt, param)
+}
+
+ThreadServer.prototype.distributeTask = async function(tasks=[]) {
+    if (Array.isArray(tasks) == false) tasks = [tasks]
+}
+
+ThreadServer.shuffle = function(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+}
+
+/**
+ * Get random iddle task
+ */
+ThreadServer.prototype.getIddleThread = function() {
+    var keys = Object.keys(this.threadList);
+    ThreadServer.shuffle(keys);
+    for (var i in keys) {
+        if (this.threadList[keys[i]].isReady()) return this.threadList[keys[i]];
+    }
+}
+
+ThreadServer.prototype.waitForIddleThread = async function() {
+    var iddleThread = this.getIddleThread();
+    if (iddleThread) return iddleThread;
+    return new Promise((resolve, reject)=> {
+        this.one("threadReady", (evt, thread) => {
+            if (thread.isReady()) {
+                resolve(thread);
+            } else {
+                resolve(this.waitForIddleThread());
+            }
+        })
+    })
+}
+
+ThreadServer.prototype.appendQueue = async function(queue) {
+    if (!Array.isArray(queue)) queue = [queue];
+    this.queue = this.queue.concat(queue);
+}
+
+ThreadServer.prototype.processQueue = async function(queue) {
+    queue = queue || this.queue
+    if (!Array.isArray(queue)) queue = [queue];
+    var results     = [];
+    var promises    = [];
+
+    while (queue.length > 0) {
+        var thread = await this.waitForIddleThread();
+
+        var thisProcess = queue.shift();
+        promises.push(
+            new Promise((resolve, reject) => {
+                thread.sendWhenReady("run", thisProcess).then((result)=>{
+                    resolve(result);
+                    results.push(result)
+                })
+            })
+        )
+    }
+    
+    return new Promise((resolve, reject) => {
+        Promise.all(promises).then(()=> {
+            resolve(results);
+        })
+    })
+}
+
+/**
+ * Add task to the iddle process.
+ * If none is iddle, will wait until there is iddle process
+ */
+ThreadServer.prototype.addTask = async function() {
+    
+}
+ThreadServer.prototype.getThreadById = function(id) {
+    if (!this.threadList[id]) console.warn("No thread with id", id);
+    return this.threadList[id];
+}
+
+ThreadServer.actions = {
+    echo: async function(data, ws, req) {
+        console.log("response back:", data.msg);
+        ws.send(data.msg);
+    },
+    close: async function(data, ws, req) {
+        this.threadList[ws.id].status = "closing";
+        await this.threadList[ws.id].close();
+    },
+    setStatus: function(data, ws, req) {
+        this.threadList[ws.id].status = data.msg;
+        this.threadList[ws.id].trigger("statusChange", data.msg);
+        if (data.msg == "ready") {
+            this.threadList[ws.id].trigger("ready", data.msg);
+            this.trigger("threadReady", this.threadList[ws.id]);
+        } else if (data.msg == "close") {
+            this.threadList[ws.id].trigger("close", data.msg);
+            this.trigger("threadClose", this.threadList[ws.id]);
+        }
+    },
+    result: function(data, ws, req) {
+        this.threadList[ws.id].trigger("result", data);
+    },
+    log: function(data, ws, req) {
+        this.threadList[ws.id].trigger("log", data);
+    }
+}
+
+ThreadServer.prototype.action = async function(action, data, ws, req) {
+    if (!ThreadServer.actions[action]) return;
+    return await ThreadServer.actions[action].call(this, data, ws, req)
+}
+
+ThreadServer.prototype.send = async function(ws, command, msg, options) {
+    var thread = this.getThreadById(ws.id);
+    thread.setStatus("processing");
+    options         = options || {};
+    options.command = command || options.command;
+    options.msg     = msg || options.msg || "";
+    options.type    = typeof options.msg;
+    options.time    = options.time || Date.now();
+    if (options.type == "function") {
+        options.msg =  options.msg.toString();
+    }
+    return new Promise((resolve, reject) => {
+        ws.send(JSON.stringify(options), ()=> {
+            resolve();
+        });
+    })
+}
+
+ThreadServer.prototype.closeThreads = async function() {
+    ui.log("Closing threads");
+    for (var i in this.threadList) {
+        await this.threadList[i].close();
+    }
+}
+
+ThreadServer.prototype.close = async function() {
+    await this.closeThreads();
+    return new Promise((resolve, reject) => {
+        this.wss.close(()=> {
+            resolve();
+        })
+    })
+}
+
+/**
+ * Open n number of thread
+ * If some thread are already opened, will make sure that the opened thread not less then the number 
+ * @param  {} num=1
+ * @param  {Object} options
+ * @param  {Boolean} [options.force=false]
+ * @param  {String[]} [options.addons]
+ */
+ThreadServer.prototype.startThread = async function(num=1, options={}) {
+    ui.log(`Starting ${num} thread(s)`);
+    if (!num) return;
+    var num = num || 1;
+    var promises = [];
+    if (!options.force) num = num - this.threadList.length;
+    for (var i=0; i&lt;num; i++) {
+        var thisThread = new Thread();
+        promises.push(thisThread.openThreadWindow(options));
+    }
+
+    return Promise.all(promises);
+}
+
+ThreadServer.prototype.processMessage = async function(message, ws, req) {
+    try {
+        if (!this.threadList[ws.id]) return;
+        var str = message.toString();
+        console.log(`received from ${ws.id}: `, str);
+    
+        if (common.isJSON(str)) {
+            var data = JSON.parse(str);
+            data = data || {};
+            if (data.command) await this.action(data.command, data, ws, req);
+        }
+    } catch (e) {
+        console.warn("Error processing message ", e);
+        console.log("ProcessMessage", message.toString());
+    }
+}
+
+ThreadServer.prototype.onServerStart = function() {
+    console.log("Thread server started on port "+this.port);
+
+    $(document).off("close.ts");
+    $(document).on("close.ts", ()=>{
+        this.close();
+    });
+    this.isReady = true;
+}
+
+/**
+ * Return true if the server is ready
+ */
+ThreadServer.prototype.getReadyState = async function() {
+    if (this.isReady) return "ready";
+}
+
+ThreadServer.prototype.start = function() {
+    var { WebSocketServer } = require('ws');
+    this.port = common.rand(40000, 45000);
+    this.wss = new WebSocketServer({ port: this.port });
+
+    this.wss.on('error', (err) => {
+        console.warn("Error occured", err);
+    })
+
+    this.wss.on('listening', async () => {
+        this.onServerStart();
+    });
+
+    this.wss.on('connection',  (ws, req) => {
+        var thisId = nwPath.basename(req.url);
+        this.threadList[thisId]     = this.threadList[thisId] || {};
+        this.threadList[thisId].ws  = ws;
+        this.threadList[thisId].req = req;
+        ws.id = thisId;
+        console.log(thisId+" is connected:", ws, req);
+
+        ws.on('message', async (message, arg) => {
+            // message is buffer
+            //console.log("Message received from ", thisId, message, arg);
+            if (!this.threadList[thisId]) return console.warn("No thread with id ", thisId, "when trying to process message :", message);
+            this.threadList[thisId].trigger("activity");
+            await this.processMessage(message, ws, req);
+        });
+        ws.on('ping', async (message) => {
+            //console.log("ping from "+thisId, message);
+            this.threadList[thisId].trigger("activity");
+            ws.pong();
+        });
+        ws.on('pong', async (message) => {
+            //console.log("pong from "+thisId, message);
+            this.threadList[thisId].trigger("activity");
+        });
+
+        ws.send('Welcome to the Translator++ server');
+    });
+}
+
+
+
+
+
+
+class ThreadHost {
+    constructor(options) {
+        this.$elm = $("&lt;s>&lt;/s>");
+        this.init()
+    }
+}
+
+ThreadHost.prototype.on = function(evt, fn) {
+    this.$elm.on(evt, fn)
+}
+
+ThreadHost.prototype.off = function(evt, fn) {
+    this.$elm.off(evt, fn)
+}
+
+ThreadHost.prototype.one = function(evt, fn) {
+    this.$elm.one(evt, fn)
+}
+
+ThreadHost.prototype.trigger = function(evt, param) {
+    this.$elm.trigger(evt, param)
+}
+ThreadHost.prototype.setStatus = async function(status) {
+    this.status = status;
+    await this.send("setStatus", status);
+    return this.status;
+}
+ThreadHost.prototype.getStatus = async function() {
+    return this.status;
+}
+
+ThreadHost.actions = {
+    echo: async function(data) {
+        console.log("response back:", data.msg);
+        this.ws.send(data.msg);
+    },
+    close: async function(data) {
+        await this.setStatus("closed");
+        await this.close();
+    },
+    run: async function(data) {
+        this.displayStatus("busy");
+        await this.setStatus("busy");
+        try {
+            //if (data.type == "function") data.msg = `return (${data.msg})()`
+            data.msg = `return (${data.msg})()`
+            let AsyncFunction = Object.getPrototypeOf(async function(){}).constructor;
+            var thisVal = new AsyncFunction(data.msg);
+            var result = await thisVal() || ""
+            await this.send("result", result);
+        } catch (e) {
+            console.warn(e);
+            await this.send("result", "Error executing "+data.msg+"\n"+e.toString(), {error:true});
+            console.error(`Error executing\n`+ `return (${data.msg})()\n`+e.toString());
+        }
+        this.displayStatus("ready");
+        await this.setStatus("ready");
+    }
+}
+
+ThreadHost.prototype.action = async function(action, data) {
+    if (!ThreadHost.actions[action]) return;
+    return await ThreadHost.actions[action].call(this, data)
+}
+
+ThreadHost.prototype.send = async function(command, msg, options) {
+    options         = options || {};
+    options.command = command || options.command;
+    options.msg     = msg || options.msg;
+    options.type    = typeof options.msg;
+    options.time    = options.time || Date.now();
+    if (options.type == "function") {
+        options.msg =  options.msg.toString();
+    }
+    return new Promise((resolve, reject) => {
+        this.ws.send(JSON.stringify(options), ()=> {
+            console.log("resolve")
+            resolve();
+        });
+    })
+}
+
+ThreadHost.prototype.processMessage = async function(message) {
+    var str = message.toString();
+    console.log('received: ', str);
+
+    if (common.isJSON(str)) {
+        var data = JSON.parse(str);
+        data = data || {};
+        if (data.command) await this.action(data.command, data);
+    }
+}
+
+ThreadHost.prototype.ping = async function(timeout) {
+    timeout = timeout || 30000;
+    return new Promise((resolve, reject) => {
+        var tout = setTimeout(()=>{
+            reject(`Timeout after no reply for ${timeout} ms`);
+        }, timeout);
+        this.one("pong", ()=>{
+            console.log("Server is active");
+            clearTimeout(tout);
+            resolve();
+        })
+        this.ws.ping();
+    })
+}
+
+ThreadHost.prototype.pingWithInterval = function() {
+    var timeOutLooper = () => {
+        var pingInterval = setTimeout(async ()=>{
+            try {
+                await this.ping();
+                timeOutLooper();
+            } catch (e) {
+                clearTimeout(pingInterval);
+                this.close();
+            }
+        }, 15000)
+    }
+
+    timeOutLooper();
+}
+
+ThreadHost.prototype.connect = async function(port) {
+    return new Promise((resolve, reject) => {
+        var WS = require("ws");
+        var socket = new WS(`ws://127.0.0.1:${port}/thread/`+this.id);
+        //var socket = new WebSocket(`ws://127.0.0.1:${port}/thread/`+this.id);
+        this.ws = socket;
+
+        // Listen for messages
+        socket.addEventListener('message', async (event) => {
+            await this.processMessage(event.data);
+        });
+
+        // error
+        socket.addEventListener('error', (event) => {
+            console.log("error", event);
+        });
+
+        // close
+        socket.addEventListener('close', (event) => {
+            this.displayStatus("Disconnected!");
+        });
+
+        socket.addEventListener('ping', (event) => {
+            //console.log("received ping", event);
+            socket.pong();
+        });
+
+        socket.on('pong', (msg) => {
+            this.trigger("pong");
+            //console.log("received pong", msg);
+        });
+
+        // Connection opened
+        socket.addEventListener('open', (event) => {
+            this.displayStatus(`Thread ID ${this.id} is Connected to server!`);
+            this.setStatus('ready');
+            this.pingWithInterval();
+            resolve();
+        });
+    })
+}
+
+ThreadHost.prototype.init = async function() {
+    this.query = window.location.search.substr(1)
+    var searchparam = new URLSearchParams(this.query);
+    this.id = searchparam.get("id");
+
+
+    // wait until loadMonitor is loaded;
+    //await LoadMonitor.waitUntilLoaded();
+    await addonLoader.untilCompleted();
+    await this.connect(searchparam.get("port"));
+
+    // replace the original behavior of ui.log
+    ui.log = function() {
+        threadHost.send("log", Array.from(arguments))
+    }
+}
+
+ThreadHost.prototype.close = async function() {
+    try {
+        await this.send("close");
+    } catch (e) {
+
+    }
+    this.ws.terminate();
+    //win.close(true);
+}
+
+ThreadHost.prototype.displayStatus = function(str) {
+    $('[data-window="thread"] .status').html(str);
+    console.log(str);
+}
+
+
+$(document).ready(function() {
+	if ($('body').is('[data-window="thread"]'))  {
+        window.threadHost = new ThreadHost();
+        var win = nw.Window.get();
+        win.on('close', function () {
+            window.threadHost.close();
+            this.hide(); // Pretend to be closed already
+            console.log("We're closing...");
+            this.close(true); // then close it forcefully
+        });
+    } else if ($('body').is('[data-window="trans"]')) {
+        window.threadServer = new ThreadServer();
+        threadServer.start();
+    }
+
+})</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.0</a> using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <script src="fix.js"></script>
+    
+</body>
+</html>
