@@ -119,10 +119,13 @@ Translator++ features native parsers and extraction workflows for many popular g
 | **Ren'Py** | Parses `.rpy` scripts, handles dialogue blocks, screen files, menus, and localization templates. |
 | **TyranoScript / TyranoBuilder** | Extracts scene files (`.ks`), script commands, and UI strings with export validation. |
 | **Unity (Mono / IL2CPP)** | Parses supported game assemblies, text assets, RPG Maker Unite structures, and XUnity tables. |
-| **Unreal Engine** | Extracts supported localization text manifests and cooked string assets. |
-| **Godot Engine** | Extracts CSV/PO localization files and project string resources. |
+| **Unreal Engine** | Extracts supported localization text and cooked string assets, then builds a drop-in override PAK. |
+| **Godot Engine** | Extracts translatable GDScript, scene/resource, and Dialogic timeline text; exports a verified drop-in override PCK. |
+| **GameMaker** | Extracts indexed strings from supported `data.win` archives and rebuilds a translated archive in a copied game folder. |
+| **Pixel Game Maker MV / Action Game Maker MV** | Decrypts supported project JSON, extracts translatable strings, and writes a safe plaintext override to the export folder. |
 | **KiriKiri / KAG (`.ks`)** | Decodes and rebuilds KiriKiri Adventure Game system files and scenario data. |
-| **Visual Novel Engines** | Native/community support for Artemis, NScripter/ONScripter, SRPG Studio, Bakin, Action Editor 4, LiveMaker, YU-RIS, Light.vn, Ethornell, CatSystem2, Qlie, and SystemNNN. |
+| **Touhou Danmakufu** | Parses loose `.dnh` and `.txt` scripts and writes translated scripts to a copied game folder; optional OCR can include referenced UI images. |
+| **Visual Novel Engines** | Native/community support for Artemis, NScripter/ONScripter, SRPG Studio, RPG Developer Bakin, Action Editor 4, LiveMaker, YU-RIS, Light.vn, Ethornell, CatSystem2, Qlie, and SystemNNN. |
 
 > [!NOTE]
 > Custom game-specific encryption, binary packers, or deeply altered plugins may require pre-unpacking or a [Custom Parser script](#extend-translator).
